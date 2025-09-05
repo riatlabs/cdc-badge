@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "_M1_FP_lib")(type "KiCad")(uri "${KIPRJMOD}/Sipeed-M1-v1-backups/_M1_FP_lib.pretty")(options "")(descr ""))
+)
