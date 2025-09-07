@@ -226,7 +226,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|2971800|1943100|d74fe7c5-e6d9-4d4e-a667-6dcf31a2f04d|00000000-0000-0000-0000-000000000000|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|812800|1943100|d74fe7c5-e6d9-4d4e-a667-6dcf31a2f04d|00000000-0000-0000-0000-000000000000|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -430,7 +439,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
