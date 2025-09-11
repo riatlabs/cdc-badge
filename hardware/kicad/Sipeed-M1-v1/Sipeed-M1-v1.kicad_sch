@@ -10040,25 +10040,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 16.24 0)
+			(property "Reference" "U4"
+				(at 0.508 -17.018 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "TPS63070RNMR"
-				(at -12.7 -19.24 0)
+				(at 0.508 -19.558 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "TPS63070RNMR:VREG_TPS63070RNMR"
+			(property "Footprint" "_M1_FP_lib:TPS63070RNMR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10340,7 +10338,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 17.78 5.08 180)
 					(length 5.08)
 					(name "VOUT"
@@ -12963,6 +12961,12 @@
 		(uuid "c15a674c-86cf-42c3-baa8-7c0db2390713")
 	)
 	(junction
+		(at 59.69 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2204068-1bb0-43db-ac66-e0425314e05f")
+	)
+	(junction
 		(at 77.47 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13864,7 +13868,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 193.04) (xy 87.63 193.04)
+			(xy 85.09 193.04) (xy 87.63 193.04)
 		)
 		(stroke
 			(width 0)
@@ -13884,7 +13888,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 193.04) (xy 81.28 194.31)
+			(xy 85.09 193.04) (xy 85.09 194.31)
 		)
 		(stroke
 			(width 0)
@@ -17184,7 +17188,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 82.55) (xy 60.96 82.55)
+			(xy 57.15 82.55) (xy 59.69 82.55)
 		)
 		(stroke
 			(width 0)
@@ -18451,6 +18455,16 @@
 			(type default)
 		)
 		(uuid "e4e40473-a07d-4996-8219-e7047b124d65")
+	)
+	(wire
+		(pts
+			(xy 59.69 82.55) (xy 60.96 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e51dafe0-8201-4dc0-b34d-5bcd699bea87")
 	)
 	(wire
 		(pts
@@ -23898,72 +23912,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 454.66 382.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bc383ab-1c14-4356-87a8-3cf8b9dab534")
-		(property "Reference" "#FLG03"
-			(at 454.66 380.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 454.66 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 454.66 382.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 454.66 382.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 454.66 382.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "914fb5e8-203b-455e-b348-4d4ead14fa7c")
-		)
-		(instances
-			(project ""
-				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged123")
 		(at 205.74 351.79 90)
 		(unit 1)
@@ -24452,6 +24400,71 @@
 			(project ""
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 59.69 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37df3328-6d01-46df-9020-6ed30c35119d")
+		(property "Reference" "#FLG03"
+			(at 59.69 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 63.5 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "004ccd72-b7fd-4067-bc22-99e01e4fcf9e")
+		)
+		(instances
+			(project "Sipeed-M1-v1"
+				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -29817,72 +29830,6 @@
 			(project "Sipeed-M1-v1"
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 454.66 382.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "752ec51d-ab7f-4dd3-ad86-c067bc8dcded")
-		(property "Reference" "#PWR057"
-			(at 454.66 388.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 454.66 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 454.66 382.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 454.66 382.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 454.66 382.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1bbe867f-1b8a-47dd-b1b0-1ed50362f744")
-		)
-		(instances
-			(project ""
-				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
