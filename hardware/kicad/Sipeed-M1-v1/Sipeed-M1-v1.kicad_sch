@@ -12972,7 +12972,7 @@
 		)
 		(uuid fb7d769a-1f6a-4fe3-809a-8a031e853728)
 	)
-	(text "MCU - S3"
+	(text "MCU\nESP32-S3\n"
 		(exclude_from_sim no)
 		(at 259.588 281.178 0)
 		(effects
@@ -13012,7 +13012,7 @@
 		)
 		(uuid "19f11228-5625-404d-9a44-f12f27611fbe")
 	)
-	(text "Buck-Boost-Converter \n(generates 3.3V for MCUs)"
+	(text "BUCK-BOOST-CONVERTER"
 		(exclude_from_sim no)
 		(at 488.442 49.276 0)
 		(effects
@@ -13022,7 +13022,7 @@
 		)
 		(uuid "1b5930b1-7280-4bac-9e64-8a75d8474802")
 	)
-	(text "Connector for LiPo (DNP?)"
+	(text "LIPO"
 		(exclude_from_sim no)
 		(at 381.508 366.268 0)
 		(effects
@@ -13052,7 +13052,7 @@
 		)
 		(uuid "5c043164-5859-4463-9a8a-69b4339365bb")
 	)
-	(text "USB_C Connector \n"
+	(text "USB_C CONNECTOR \n"
 		(exclude_from_sim no)
 		(at 82.042 27.178 0)
 		(effects
@@ -13092,7 +13092,7 @@
 		)
 		(uuid "65339267-3999-48e1-8689-d95dbeb89f7e")
 	)
-	(text "Battery Protection IC"
+	(text "BATTERY PROTECTION IC"
 		(exclude_from_sim no)
 		(at 336.296 50.8 0)
 		(effects
@@ -13122,7 +13122,7 @@
 		)
 		(uuid "784e315a-079f-4b94-a838-711209185b54")
 	)
-	(text "GPIO Expander"
+	(text "GPIO EXPANDER"
 		(exclude_from_sim no)
 		(at 208.28 169.418 0)
 		(effects
@@ -13232,7 +13232,7 @@
 		)
 		(uuid "c55e72d5-d12e-46da-9f32-af2db1c7ef88")
 	)
-	(text "5V Boost Converter"
+	(text "5V BOOST CONVERTER"
 		(exclude_from_sim no)
 		(at 81.28 101.854 0)
 		(effects
