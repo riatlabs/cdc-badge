@@ -27263,7 +27263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_M1_FP_lib:XCVR_ESP32-S3-WROOM-1U-N8R8-NU"
+		(property "Footprint" "_M1_FP_lib:ESP32-S3-WROOM-1U"
 			(at 294.64 349.25 0)
 			(effects
 				(font
@@ -29200,7 +29200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "_M1_FP_lib:TROPIC01 QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm"
+		(property "Footprint" "_M1_FP_lib:TROPIC_QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm"
 			(at 88.9 252.73 0)
 			(effects
 				(font
@@ -29209,7 +29209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://github.com/tropicsquare/tropic01/blob/main/doc/datasheet/ODD_TR01_datasheet_revA9.pdf"
 			(at 88.9 224.79 0)
 			(effects
 				(font
@@ -30782,7 +30782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_M1_FP_lib:SON45P300X300X63-13N PAM2401"
+		(property "Footprint" "_M1_FP_lib:PAM2401_SON45P300X300X63-13N"
 			(at 82.55 134.62 0)
 			(effects
 				(font
@@ -32218,7 +32218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x30_P2.54mm_Vertical"
 			(at 172.72 341.63 0)
 			(effects
 				(font
@@ -34933,7 +34933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_M1_FP_lib:BQ29700DSER SON50P150X150X80-6N"
+		(property "Footprint" "_M1_FP_lib:BQ29700_SON50P150X150X80-6N"
 			(at 341.63 86.36 0)
 			(effects
 				(font
