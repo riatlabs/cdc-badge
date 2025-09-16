@@ -13292,10 +13292,6 @@
 		(uuid "6886619a-b42f-4a4a-a6f8-862d3281999d")
 	)
 	(no_connect
-		(at 87.63 74.93)
-		(uuid "7c5fabae-70a0-42b3-9f4f-e15976597779")
-	)
-	(no_connect
 		(at 191.77 214.63)
 		(uuid "7f119e30-dbb2-44d7-bc16-f4b444b6ac3e")
 	)
@@ -13330,10 +13326,6 @@
 	(no_connect
 		(at 92.71 335.28)
 		(uuid "921b133b-38e2-4eaa-ab43-dcdaf14412a8")
-	)
-	(no_connect
-		(at 92.71 80.01)
-		(uuid "956aa5c6-dd00-4bf1-b31f-5278abb695b9")
 	)
 	(no_connect
 		(at 62.23 317.5)
@@ -13382,10 +13374,6 @@
 	(no_connect
 		(at 62.23 332.74)
 		(uuid "df557200-a6b5-4392-94dc-d29e8ca8bbe6")
-	)
-	(no_connect
-		(at 92.71 82.55)
-		(uuid "f75e79c3-59de-4d7f-a874-af1998e5ebde")
 	)
 	(no_connect
 		(at 62.23 307.34)
@@ -13967,7 +13955,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 72.39) (xy 71.12 82.55)
+			(xy 71.12 72.39) (xy 71.12 86.36)
 		)
 		(stroke
 			(width 0)
@@ -16877,7 +16865,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 67.31) (xy 73.66 80.01)
+			(xy 73.66 67.31) (xy 73.66 83.82)
 		)
 		(stroke
 			(width 0)
@@ -16937,7 +16925,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 80.01) (xy 82.55 80.01)
+			(xy 73.66 83.82) (xy 82.55 83.82)
 		)
 		(stroke
 			(width 0)
@@ -18177,7 +18165,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 82.55) (xy 82.55 82.55)
+			(xy 71.12 86.36) (xy 82.55 86.36)
 		)
 		(stroke
 			(width 0)
@@ -18314,6 +18302,16 @@
 			(type default)
 		)
 		(uuid "d73c0723-91f5-4403-a9df-de7da5431d8b")
+	)
+	(wire
+		(pts
+			(xy 87.63 77.47) (xy 87.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d853e1a6-5e96-49dc-bae2-50c24647416d")
 	)
 	(wire
 		(pts
@@ -19187,16 +19185,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 87.63) (xy 87.63 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f40545f0-8485-4b4f-a8aa-b27ba8b71dbf")
-	)
-	(wire
-		(pts
 			(xy 229.87 316.23) (xy 243.84 316.23)
 		)
 		(stroke
@@ -19865,6 +19853,16 @@
 		)
 		(uuid "2c062aac-0bb1-45dd-a277-43cae6008b81")
 	)
+	(label "USB_D-"
+		(at 92.71 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2dd12b78-4009-4a61-b2ab-15cb193d9d18")
+	)
 	(label "M1_MIC_DAT3"
 		(at 152.4 336.55 0)
 		(effects
@@ -20176,7 +20174,7 @@
 		(uuid "571443e0-8a9d-4284-bc3a-b96b893dc49d")
 	)
 	(label "USB_D-"
-		(at 73.66 80.01 0)
+		(at 73.66 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20335,6 +20333,16 @@
 		)
 		(uuid "6d29d0f4-f675-44e2-86b9-5633549a161c")
 	)
+	(label "USB_D+"
+		(at 92.71 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f377a96-6ae4-46d9-87e8-23fb7ce248af")
+	)
 	(label "M1_MIC_DAT1"
 		(at 152.4 341.63 0)
 		(effects
@@ -20404,6 +20412,16 @@
 			(justify left bottom)
 		)
 		(uuid "740966a1-dced-4645-afa4-ace6a2d28248")
+	)
+	(label "VBUS_UP"
+		(at 87.63 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "743ee5be-d247-4818-b76e-326e9c6d6089")
 	)
 	(label "SPI_MISO"
 		(at 152.4 349.25 0)
@@ -20584,6 +20602,16 @@
 			(justify left bottom)
 		)
 		(uuid "890ee340-bb81-42f9-ba9b-9cf134775a16")
+	)
+	(label "VBUS_UP"
+		(at 69.85 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8933ba30-d007-4bd1-ba92-681f47a3c2fe")
 	)
 	(label "BTN_6"
 		(at 317.5 189.23 0)
@@ -21006,7 +21034,7 @@
 		(uuid "c69a43c6-4e43-44b4-bfdb-3c11cf9fee27")
 	)
 	(label "USB_D+"
-		(at 73.66 82.55 0)
+		(at 73.66 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28151,7 +28179,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 88.9 0)
+		(at 87.63 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28159,7 +28187,7 @@
 		(dnp no)
 		(uuid "582c7f9e-1304-4a6a-94fd-cea6a9d0f125")
 		(property "Reference" "#PWR011"
-			(at 87.63 95.25 0)
+			(at 87.63 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28168,7 +28196,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.678 92.71 0)
+			(at 90.678 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28177,7 +28205,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 88.9 0)
+			(at 87.63 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28186,7 +28214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 88.9 0)
+			(at 87.63 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28195,7 +28223,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 88.9 0)
+			(at 87.63 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29459,7 +29487,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 87.63 80.01 0)
+		(at 87.63 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29467,7 +29495,7 @@
 		(dnp no)
 		(uuid "674ffd25-3485-4a8c-8d46-9310c25e982e")
 		(property "Reference" "U7"
-			(at 89.408 75.692 0)
+			(at 89.408 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29476,7 +29504,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 88.646 86.868 0)
+			(at 88.646 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29485,7 +29513,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 88.9 86.36 0)
+			(at 88.9 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29496,7 +29524,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 88.9 88.265 0)
+			(at 88.9 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29506,7 +29534,16 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 87.63 80.01 0)
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C7519"
+			(at 87.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
