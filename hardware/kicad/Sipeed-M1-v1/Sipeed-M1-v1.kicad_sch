@@ -38864,8 +38864,8 @@
 				)
 			)
 		)
-		(property "Value" "SMF6V0A"
-			(at 86.868 54.864 90)
+		(property "Value" "SMF5V0A-E3-08"
+			(at 91.44 54.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38892,6 +38892,15 @@
 		)
 		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 6Vrwm, SMF"
 			(at 81.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C1972946"
+			(at 81.28 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
