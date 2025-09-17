@@ -12926,12 +12926,6 @@
 		(uuid "837bfb1c-c8ff-4a92-82b2-b424b7e7cbdd")
 	)
 	(junction
-		(at 309.88 377.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8492050d-0a9e-4158-bdb9-45f8250a39e2")
-	)
-	(junction
 		(at 312.42 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25686,7 +25680,7 @@
 				)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-1U-N8R8"
+		(property "Value" "ESP32-S3-WROOM-1-N4R8"
 			(at 294.64 316.484 0)
 			(effects
 				(font
@@ -25694,7 +25688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_M1_FP_lib:XCVR_ESP32-S3-WROOM-1U-N8R8-NU"
+		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
 			(at 294.64 349.25 0)
 			(effects
 				(font
@@ -26629,7 +26623,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 82.55 72.898 90)
 			(effects
 				(font
@@ -33396,7 +33390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 82.55 67.818 90)
 			(effects
 				(font
