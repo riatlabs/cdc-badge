@@ -12,8 +12,6 @@ This board is built for **functional development across multiple applications**,
 
 Planned/targeted peripherals include **LoRa modules**, **encryption modules** (e.g., **Tropic Square TROPIC01**), and—on future revisions—**microphones**, **cameras**, and **analog sticks**.
 
----
-
 ## Why ESP32-S3 (vs. C3 / C6)
 
 We evaluated ESP32-C3, ESP32-C6, and ESP32-S3.
@@ -28,8 +26,6 @@ We evaluated ESP32-C3, ESP32-C6, and ESP32-S3.
 **Notes on alternatives**
 - **ESP32-C6** (RISC-V, Wi-Fi 6 + 802.15.4): interesting for open-ISA enthusiasts, but **USB is Device-only** (no Host) and GPIO headroom is tighter than S3.
 - **ESP32-C3** (RISC-V): lowest cost, but **GPIO-limited** and **no USB-OTG** → would push us toward expanders/hubs.
-
----
 
 ## Hardware Overview (v1)
 
@@ -48,8 +44,6 @@ We evaluated ESP32-C3, ESP32-C6, and ESP32-S3.
 
 > We intentionally **do not** route HV booster for raw panels. The badge exports the **8 logic lines** only and expects a **module** that integrates the booster.
 
----
-
 ## Connectors & Expansion
 
 ### E-paper Module Header (8-wire, module with booster)
@@ -67,14 +61,13 @@ We evaluated ESP32-C3, ESP32-C6, and ESP32-S3.
 - Rails/groups for **3V3**, **GND**, **I²C** (SDA/SCL), **SPI** (SCK/MOSI/MISO + extra CS), **UART**, **I²S**, and **GPIO**.
 - For hand-wiring via dupont leads or pin headers; breadboard-friendly spacing where possible.
 
----
-
 ## Proposed S3 Pin Map (Draft)
 
 > Based on ESP32-S3-WROOM-1U; may shift slightly in PCB layout. We avoid USB pins (IO19/IO20) for other roles and keep strap/input-only pins in mind.
 
 **USB (native)**
-- `USB_D−` = **IO19**, `USB_D+` = **IO20** (ESD array + 22 Ω series resistors; CC resistors on USB-C for UFP/Device)
+- `USB_D−` = **IO19**
+- `USB_D+` = **IO20** (ESD array + 22 Ω series resistors; CC resistors on USB-C for UFP/Device)
 
 **SPI (shared bus)**
 - `SCK` = **IO36**
@@ -108,8 +101,6 @@ We evaluated ESP32-C3, ESP32-C6, and ESP32-S3.
 
 > Notes: IO45/IO46 are input-only—good candidates for buttons if we reshuffle later. Keep IO0 strap safe. The above mapping is a **starting point** and can be changed anytime.
 
----
-
 ## Developer Workflow
 
 **USB topology (v1):** **No hub.** S3 enumerates as **USB-Device**. The **M1** is optional and **not** a separate USB device.
@@ -133,8 +124,6 @@ We evaluated ESP32-C3, ESP32-C6, and ESP32-S3.
 5. Connect USB-C; board enumerates as **USB-CDC** (S3).
 6. Flash **S3** with ESP-IDF or Arduino.
 7. (If using bridge) Select **“M1-Bridge”** COM port in the M1 flashtool; the S3 firmware handles **BOOT/RESET** sequencing.
-
----
 
 ## Repository Structure (proposed)
 
@@ -163,8 +152,6 @@ We evaluated ESP32-C3, ESP32-C6, and ESP32-S3.
 - **Breakout rails:** 3V3/GND/I²C/I²S/GPIO/UART/SPI
 - **Buttons:** footprints for **S3 BOOT/RESET**, **M1 BOOT/RESET**, and **4× user buttons (optional, with PCB pull-ups)**
 - **Decoupling:** per datasheets; **100 µF + 100 nF** near the e-paper header
-
----
 
 ## Open Items / TBD
 
