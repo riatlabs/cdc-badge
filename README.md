@@ -153,6 +153,21 @@ We evaluated ESP32-C3, ESP32-C6, and ESP32-S3.
 - **Buttons:** footprints for **S3 BOOT/RESET**, **M1 BOOT/RESET**, and **4× user buttons (optional, with PCB pull-ups)**
 - **Decoupling:** per datasheets; **100 µF + 100 nF** near the e-paper header
 
+## Peak Power Requirements
+
+- [ESP32-S3](https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/schematic-checklist.html#power-supply) `0.5A*3.3V=1.65W`
+- [Sipeed M1](https://wiki.sipeed.com/hardware/maixface/en/core_modules/k210_core_modules.html) `1.5W`
+- [TROPIC01](https://github.com/tropicsquare/tropic01/blob/main/doc/TR01-C2P-T101/ODD_TR01_datasheet_vA_10.pdf) `0.025A*3.3V=0.0825W`
+- [GDEY029Z95](https://www.good-display.com/companyfile/1386.html) e-paper display `0.0083A*3.3V=0.02739W`
+
+Sub-total: 3.18564W @ 5V = 0.63A
+
+- [MCP73871 battery charger](https://www.mouser.com/ds/2/268/22090a-52174.pdf) max charging rate `1A*5V=5W`
+
+TOTAL: 8.18564W @ 5V = 1.64A
+
+MCP73871 can handle up to 1.8A (charging + system).
+
 ## Open Items / TBD
 
 1. **E-paper module** model/size: **TBD** (pin **names** fixed; exact pin **order** will follow the chosen module).
