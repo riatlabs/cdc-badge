@@ -472,7 +472,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "CDC Badge"
+      "CDC_Badge"
     ],
     "pinned_symbol_libs": [
       "CDC_Badge"
