@@ -175,3 +175,8 @@ MCP73871 can handle up to 1.8A (charging + system).
 3. **TROPIC01** secure-element: **Reserved footprint or external SPI header** (shared SPI + dedicated CS + optional IRQ) — **undecided** for v1.
 4. **Bridge UX:** If the S3↔M1 flashing workflow proves awkward/problematic, we may revisit USB topology in a later revision.
 
+## License and authorship
+
+Copyright © 2025 RIAT Institute
+
+Licensed under [CERN Open Hardware Licence Version 2 - Permissive](/LICENSE).

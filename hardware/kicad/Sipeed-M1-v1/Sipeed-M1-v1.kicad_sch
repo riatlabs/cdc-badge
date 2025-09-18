@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "2cec4f7a-7b92-4a21-be0b-2bac184578cb")
 	(paper "A2")
+	(title_block
+		(date "2025")
+		(company "Copyright © 2025 RIAT Institute")
+		(comment 1 "This source describes Open Hardware and is licensed under the CERN-OHL-P v2")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
