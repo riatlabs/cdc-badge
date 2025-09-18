@@ -1,4 +1,4 @@
-(footprint "SHOUHAN_TYPE-C_16PIN_2MD__073_"
+(footprint "SHOUHAN_TYPE-C_16PIN_2MD_073"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "SHOUHAN_TYPE-C_16PIN_2MD__073_"
+	(property "Value" "SHOUHAN_TYPE-C_16PIN_2MD_073"
 		(at 14.025 -5.74 0)
 		(layer "F.Fab")
 		(uuid "ba1f0d24-5bcb-46e6-931a-88ddf3db4fc9")
@@ -524,7 +524,7 @@
 		(uuid "7422f429-05d1-417d-92a8-2454ad825546")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/cdc-badge.3dshapes/TYPE-C_16PIN_2MD__073_.step"
+	(model "${KIPRJMOD}/cdc-badge.3dshapes/SHOUHAN_TYPE-C_16PIN_2MD_073.step"
 		(offset
 			(xyz 0 3.65 0)
 		)

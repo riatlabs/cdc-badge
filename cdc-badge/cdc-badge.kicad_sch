@@ -505,7 +505,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ESP32-S3-WROOM-1U-N8R8:XCVR_ESP32-S3-WROOM-1U-N8R8"
+			(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -533,130 +533,10 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Espressif Systems"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "3.35mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "SMD-41 Espressif Systems"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/ESP32-S3-WROOM-1U-N8R8/Espressif+Systems/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "v1.1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-S3-WROOM-1U-N8R8/Espressif+Systems/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "ESP32-S3-WROOM-1U-N8R8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz Antenna Not Included, U.FL Surface Mount"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Espressif Systems"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
 			(symbol "ESP32-S3-WROOM-1_0_0"
 				(rectangle
-					(start -10.16 -30.48)
-					(end 10.16 30.48)
+					(start -10.16 30.48)
+					(end 10.16 -30.48)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1623,136 +1503,6 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Diodes Zetex"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.63mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/PAM2401YPADJ/Diodes+Inc./view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "1-2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PAM2401YPADJ/Diodes+Inc./view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "PAM2401YPADJ"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Boost Switching Regulator IC Positive Adjustable 2.5V 1 Output 1A 12-UFDFN Exposed Pad"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Diodes Incorporated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_PN" "PAM2401YPADJ"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
 			(symbol "PAM2401YPADJ_0_0"
 				(rectangle
 					(start -10.16 -12.7)
@@ -2055,86 +1805,6 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Wide input voltage (2V-16V) buck-boost converter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "VQFN-HR-15 Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS63070RNMR/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "TPS63070RNMR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TPS63070RNMR/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
 			(symbol "TPS63070RNMR_0_0"
 				(rectangle
 					(start -12.7 -15.24)
@@ -2407,7 +2077,7 @@
 					)
 				)
 			)
-			(property "Footprint" "tropic01_chip:QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm"
+			(property "Footprint" "CDC_Badge:TROPIC01_chip"
 				(at 0 -27.94 0)
 				(effects
 					(font
@@ -2416,7 +2086,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://github.com/tropicsquare/tropic01/blob/main/doc/TR01-C2P-T101/ODD_TR01_datasheet_vA_10.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -22654,7 +22324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDC_Badge:TPS63070RNMR"
+		(property "Footprint" "TPS63070RNMR:VREG_TPS63070RNMR"
 			(at 340.36 87.63 0)
 			(effects
 				(font
@@ -25604,7 +25274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-S3-WROOM-1U-N8R8:XCVR_ESP32-S3-WROOM-1U-N8R8"
+		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
 			(at 294.64 349.25 0)
 			(effects
 				(font
@@ -27412,7 +27082,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TROPIC01_chip"
+		(property "Value" "TROPIC01"
 			(at 81.788 221.996 0)
 			(effects
 				(font
@@ -27421,7 +27091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CDC_Badge:TROPIC_QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm"
+		(property "Footprint" "CDC_Badge:TROPIC01_chip"
 			(at 88.9 252.73 0)
 			(effects
 				(font
@@ -27430,7 +27100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://github.com/tropicsquare/tropic01/blob/main/doc/datasheet/ODD_TR01_datasheet_revA9.pdf"
+		(property "Datasheet" "https://github.com/tropicsquare/tropic01/blob/main/doc/TR01-C2P-T101/ODD_TR01_datasheet_vA_10.pdf"
 			(at 88.9 224.79 0)
 			(effects
 				(font
@@ -29003,7 +28673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDC_Badge:PAM2401_SON45P300X300X63-13N"
+		(property "Footprint" "PAM2401YPADJ:SON45P300X300X63-13N"
 			(at 488.95 90.17 0)
 			(effects
 				(font

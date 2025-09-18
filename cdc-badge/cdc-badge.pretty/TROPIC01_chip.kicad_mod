@@ -1,4 +1,4 @@
-(footprint "TROPIC_QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm"
+(footprint "TROPIC01_chip"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "TROPIC01_chip"
+	(property "Value" "TROPIC01"
 		(at 1.08 -6.58 0)
 		(layer "F.Fab")
 		(uuid "9f252990-4a20-4bd1-ae59-76166bab0726")
