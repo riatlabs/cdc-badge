@@ -524,7 +524,7 @@
 		(uuid "7422f429-05d1-417d-92a8-2454ad825546")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/_M1_FP_lib.3dshapes/TYPE-C_16PIN_2MD__073_.step"
+	(model "${KIPRJMOD}/cdc-badge.3dshapes/TYPE-C_16PIN_2MD__073_.step"
 		(offset
 			(xyz 0 3.65 0)
 		)

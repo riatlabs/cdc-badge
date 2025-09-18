@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CDC_Badge")(type "KiCad")(uri "${KIPRJMOD}/cdc-badge.pretty")(options "")(descr ""))
+)

@@ -5,9 +5,10 @@
 	(uuid "2cec4f7a-7b92-4a21-be0b-2bac184578cb")
 	(paper "A2")
 	(title_block
+		(title "CDC Badge")
 		(date "2025")
 		(company "Copyright © 2025 RIAT Institute")
-		(comment 1 "This source describes Open Hardware and is licensed under the CERN-OHL-P v2")
+		(comment 2 "This source describes Open Hardware and is licensed under the CERN-OHL-P v2")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -7385,7 +7386,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "_M1_symbols:ESP32-S3-WROOM-1U-N8R8-NU41"
+		(symbol "CDC_Badge:ESP32-S3-WROOM-1U-N8R8-NU41"
 			(pin_names
 				(offset 1.016)
 			)
@@ -8475,7 +8476,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "_M1_symbols:MCP73871"
+		(symbol "CDC_Badge:MCP73871"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8944,7 +8945,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "_M1_symbols:PAM2401YPADJ"
+		(symbol "CDC_Badge:PAM2401YPADJ"
 			(pin_names
 				(offset 1.016)
 			)
@@ -9376,7 +9377,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "_M1_symbols:Sipeed-M1"
+		(symbol "CDC_Badge:Sipeed-M1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -10768,7 +10769,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "_M1_symbols:TPS63070RNMR"
+		(symbol "CDC_Badge:TPS63070RNMR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -11152,7 +11153,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "_M1_symbols:TROPIC01"
+		(symbol "CDC_Badge:TROPIC01"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -12308,16 +12309,6 @@
 			)
 		)
 		(uuid "65339267-3999-48e1-8689-d95dbeb89f7e")
-	)
-	(text "CDC Badge Test "
-		(exclude_from_sim no)
-		(at 496.062 384.048 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-			)
-		)
-		(uuid "68b739b9-072c-4707-8533-74ef202f61fa")
 	)
 	(text "LOW/Default = PFM, HIGH = PWM-only"
 		(exclude_from_sim no)
@@ -22639,7 +22630,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_M1_symbols:TPS63070RNMR")
+		(lib_id "CDC_Badge:TPS63070RNMR")
 		(at 340.36 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22663,7 +22654,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_M1_FP_lib:TPS63070RNMR"
+		(property "Footprint" "CDC_Badge:TPS63070RNMR"
 			(at 340.36 87.63 0)
 			(effects
 				(font
@@ -25669,7 +25660,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_M1_symbols:ESP32-S3-WROOM-1U-N8R8-NU41")
+		(lib_id "CDC_Badge:ESP32-S3-WROOM-1U-N8R8-NU41")
 		(at 294.64 349.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27604,7 +27595,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_M1_symbols:TROPIC01")
+		(lib_id "CDC_Badge:TROPIC01")
 		(at 88.9 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27630,7 +27621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "_M1_FP_lib:TROPIC_QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm"
+		(property "Footprint" "CDC_Badge:TROPIC_QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm"
 			(at 88.9 252.73 0)
 			(effects
 				(font
@@ -29187,7 +29178,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_M1_symbols:PAM2401YPADJ")
+		(lib_id "CDC_Badge:PAM2401YPADJ")
 		(at 488.95 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29212,7 +29203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_M1_FP_lib:PAM2401_SON45P300X300X63-13N"
+		(property "Footprint" "CDC_Badge:PAM2401_SON45P300X300X63-13N"
 			(at 488.95 90.17 0)
 			(effects
 				(font
@@ -29805,7 +29796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_M1_FP_lib:SHOUHAN_TYPE-C_16PIN_2MD__073_"
+		(property "Footprint" "CDC_Badge:SHOUHAN_TYPE-C_16PIN_2MD__073_"
 			(at 58.42 67.31 0)
 			(effects
 				(font
@@ -30867,7 +30858,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_M1_symbols:MCP73871")
+		(lib_id "CDC_Badge:MCP73871")
 		(at 189.23 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38499,7 +38490,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_M1_symbols:Sipeed-M1")
+		(lib_id "CDC_Badge:Sipeed-M1")
 		(at 77.47 342.9 0)
 		(unit 1)
 		(exclude_from_sim no)

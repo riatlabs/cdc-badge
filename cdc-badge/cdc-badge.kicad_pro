@@ -471,11 +471,15 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "CDC Badge"
+    ],
+    "pinned_symbol_libs": [
+      "CDC_Badge"
+    ]
   },
   "meta": {
-    "filename": "Sipeed-M1-v1.kicad_pro",
+    "filename": "cdc-badge.kicad_pro",
     "version": 3
   },
   "net_settings": {

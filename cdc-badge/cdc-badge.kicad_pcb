@@ -8,9 +8,10 @@
 	)
 	(paper "A4")
 	(title_block
+		(title "CDC Badge")
 		(date "2025")
 		(company "Copyright © 2025 RIAT Institute")
-		(comment 1 "This source describes Open Hardware and is licensed under the CERN-OHL-P v2")
+		(comment 2 "This source describes Open Hardware and is licensed under the CERN-OHL-P v2")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -15966,7 +15967,7 @@
 			)
 		)
 	)
-	(footprint "_M1_FP_lib:TROPIC_QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm"
+	(footprint "CDC_Badge:TROPIC_QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm"
 		(layer "F.Cu")
 		(uuid "5af41d59-0922-46a6-9530-14265e4acf11")
 		(at 130.9 40.05 -90)
@@ -19548,7 +19549,7 @@
 			)
 		)
 	)
-	(footprint "_M1_FP_lib:TPS63070RNMR"
+	(footprint "CDC_Badge:TPS63070RNMR"
 		(layer "F.Cu")
 		(uuid "716ab504-c1a9-4309-94f7-6643f65785f9")
 		(at 121.1156 96.015)
@@ -22747,7 +22748,7 @@
 			)
 		)
 	)
-	(footprint "_M1_FP_lib:PAM2401_SON45P300X300X63-13N"
+	(footprint "CDC_Badge:PAM2401_SON45P300X300X63-13N"
 		(layer "F.Cu")
 		(uuid "84e9a977-9096-4245-9a8e-8e6f9885413c")
 		(at 63.25 138.5)
@@ -33360,7 +33361,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "_M1_FP_lib:SHOUHAN_TYPE-C_16PIN_2MD__073_"
+	(footprint "CDC_Badge:SHOUHAN_TYPE-C_16PIN_2MD__073_"
 		(layer "F.Cu")
 		(uuid "d62977e4-7ab6-47d9-a31a-dd79af79e54a")
 		(at 110.371 84.226 -90)
@@ -33962,7 +33963,7 @@
 			(uuid "3945e84c-a298-4a89-b24c-136768b90c38")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/_M1_FP_lib.3dshapes/TYPE-C_16PIN_2MD__073_.step"
+		(model "${KIPRJMOD}/cdc-badge.3dshapes/TYPE-C_16PIN_2MD__073_.step"
 			(offset
 				(xyz 0 3.65 0)
 			)
