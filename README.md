@@ -180,3 +180,5 @@ MCP73871 can handle up to 1.8A (charging + system).
 Copyright © 2025 RIAT Institute
 
 Licensed under [CERN Open Hardware Licence Version 2 - Permissive](/LICENSE).
+
+Third-party resources' authorship and license information in [AUTHORS.md](/AUTHORS.md)
