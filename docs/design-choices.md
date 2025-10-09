@@ -57,6 +57,14 @@ the [BQ24295](https://www.ti.com/product/BQ24295) ($0.67), plus the cheapest
 battery gauge [BQ27220](https://www.ti.com/product/BQ27220) ($0.54) would total
 $1.21 and require more passive components.
 
+The BQ25895 is able to reverse it's operation mode, using the inductor for boost
+power conversion. With this it can up the battery voltage to 5V and power
+external USB devices (USB On-The-Go).\
+This feature is not in use, but noted down for future reference.\
+Unfortunately, as there's only one inductor, the BQ25895 cannot do buck and
+boost at the same time. It is unable to supply 5V and charge the battery in
+parallel.
+
 If the BQ25895 becomes unavailable it can be easily replaced with the
 [BQ25890](https://www.ti.com/product/BQ25890).
 
@@ -72,3 +80,20 @@ converter (can handle 1.8A).
 
 #### Battery Gauge
 Not needed. BQ25895 includes an ADC capable of measuring battery voltage.
+
+## USB On-The-Go
+Currently unsupported.
+
+The ESP32-S3 has [poorly documented](https://danielmangum.com/posts/usb-otg-esp32s3/)
+USB On-The-Go (OTG) functionally.
+
+The current badge design uses fixed 5.1 kΩ resistors pulling the USB-C CC1 and
+CC2 pins down to ground. This makes the badge always appear as a USB device, aka
+upstream-facing port (UFP), to other devices connected via USB-C. In other to
+have it appear as a USB host, aka downstream-facing port (DFP),
+[a different resistor configuration](https://electronics.stackexchange.com/a/588163/307867)
+would be required.
+
+Such resistor configuration change would have to be handled by the ESP32
+alongside configuring the battery charging IC to work as a power source
+(boost/OTG mode).
