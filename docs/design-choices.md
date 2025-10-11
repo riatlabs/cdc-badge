@@ -30,7 +30,7 @@ Options:
 ## Power Sub-System Requirements
 - Lithium-ion polymer battery (LiPo)
 - LiPo charging controller (nice to have: power path management, D+/D- USB detection).
-- Boost-Buck converter (to 3.3V) for ESP32-S3 and header.
+- Buck converter (to 3.3V) for ESP32-S3 and header.
 - Boost converter (to 5V) for header (and Sipeed M1).
 - Battery gauge.
 
@@ -48,6 +48,16 @@ Total: 3.18564W @ 5V = 0.63A
 ### LiPo
 Opting for the common [PKCELL LP503562](https://www.adafruit.com/product/258)
 3.7V 1200 mAh battery which comes with a 2-pin JST-PH connector.
+
+As with other common LiPos it's voltage range is:
+- full (100%): 4.2V
+- mid-charge (50%): 3.7V
+- low (10%): 3.3V
+- depleted (0%): 3.0V
+
+In order to slow battery degradation we will set the cut-off voltage to 3.3V.
+This pairs well with our power needs. A simple buck converter will suffice to
+power the ESP32-S3.
 
 ### Power Chips Selection
 Opted for Texas Instruments (TI) ICs due to the detailed documentation.
@@ -73,9 +83,9 @@ parallel.
 If the BQ25895 becomes unavailable it can be easily replaced with the
 [BQ25890](https://www.ti.com/product/BQ25890).
 
-#### 3.3V Boost-Buck Converter
+#### 3.3V Buck Converter
 A buck converter is sufficient. No need for boost as the BQ25895 keeps system
-voltage always over 3.5V (we can even set it to 3.3V).
+voltage always over 3.5V by default (we will set it to 3.3V).
 Opted for the super common [TLV62569](https://www.ti.com/product/TLV62569)
 adjustable buck converter which can handle 2A.
 
