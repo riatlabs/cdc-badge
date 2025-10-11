@@ -28,7 +28,8 @@ Options:
 2. Direct UART (breakouts available). Possible to use an external USB-UART dongle.
 
 ## Power Sub-System Requirements
-- Li-Po battery charging (nice to have: power path management, D+/D- USB detection).
+- Lithium-ion polymer battery (LiPo)
+- LiPo charging controller (nice to have: power path management, D+/D- USB detection).
 - Boost-Buck converter (to 3.3V) for ESP32-S3 and header.
 - Boost converter (to 5V) for header (and Sipeed M1).
 - Battery gauge.
@@ -43,6 +44,10 @@ the batteries.
 - [GDEY029Z95](https://www.good-display.com/companyfile/1386.html) e-paper display `0.0083A*3.3V=0.02739W`
 
 Total: 3.18564W @ 5V = 0.63A
+
+### LiPo
+Opting for the common [PKCELL LP503562](https://www.adafruit.com/product/258)
+3.7V 1200 mAh battery which comes with a 2-pin JST-PH connector.
 
 ### Power Chips Selection
 Opted for Texas Instruments (TI) ICs due to the detailed documentation.
