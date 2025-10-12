@@ -507,8 +507,7 @@
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "wire_width": 12
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
