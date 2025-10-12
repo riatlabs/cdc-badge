@@ -83,6 +83,19 @@ parallel.
 If the BQ25895 becomes unavailable it can be easily replaced with the
 [BQ25890](https://www.ti.com/product/BQ25890).
 
+#### Inductor Selection
+As per section 9.2.2.1 on BQ25895 datasheet, the minimum inductor saturation
+current needed for our design is **1.38A**. This was calculated based on:
+- maximum charging current ($I_{CHG}$) = 1.2A (1C for our 1200 mAh LiPo)
+- bus voltage ($V_{BUS}$) = 5V
+- battery voltage ($V_{BAT}$) = 3V (the lowest we will allow is 3.3V, but
+  calculating with 3V in case we start with a depleted battery)
+
+The cheapest and most available 2.2 mH inductor within this specification turned
+out to be the [SL0420-2R2M](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/C22463806.pdf).
+It actually has a 5A saturation current. This affords us a big safety margin and
+allows testing higher capacity LiPos.
+
 #### 3.3V Buck Converter
 A buck converter is sufficient. No need for boost as the BQ25895 keeps system
 voltage always over 3.5V by default (we will set it to 3.3V).
