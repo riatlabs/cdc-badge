@@ -124,4 +124,5 @@ would be required.
 
 Such resistor configuration change would have to be handled by the ESP32
 alongside configuring the battery charging IC to work as a power source
-(boost/OTG mode).
+(boost/OTG mode). A proper bulk capacitor would have to be added to the charging
+IC PMID pin.
