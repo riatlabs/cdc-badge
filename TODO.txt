@@ -1,1 +1,2 @@
 - connect DSEL, SCL, SDA and INT from charging IC to ESP32-S3
+- Decide whether to XY multiplex or charlipex the keypad. Or use a keypad driver?
