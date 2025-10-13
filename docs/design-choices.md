@@ -83,12 +83,12 @@ parallel.
 If the BQ25895 becomes unavailable it can be easily replaced with the
 [BQ25890](https://www.ti.com/product/BQ25890).
 
-#### Inductor Selection
+##### Inductor Selection
 As per section 9.2.2.1 on BQ25895 datasheet, the minimum inductor saturation
 current needed for our design is **1.38A**. This was calculated based on:
-- maximum charging current ($I_{CHG}$) = 1.2A (1C for our 1200 mAh LiPo)
-- bus voltage ($V_{BUS}$) = 5V
-- battery voltage ($V_{BAT}$) = 3V (the lowest we will allow is 3.3V, but
+- maximum charging current (I<sub>CHG</sub>) = 1.2A (1C for our 1200 mAh LiPo)
+- bus voltage (V<sub>BUS</sub>) = 5V
+- battery voltage (V<sub>BAT</sub>) = 3V (the lowest we will allow is 3.3V, but
   calculating with 3V in case we start with a depleted battery)
 
 The cheapest and most available 2.2 mH inductor within this specification turned
@@ -101,6 +101,18 @@ A buck converter is sufficient. No need for boost as the BQ25895 keeps system
 voltage always over 3.5V by default (we will set it to 3.3V).
 Opted for the super common [TLV62569](https://www.ti.com/product/TLV62569)
 adjustable buck converter which can handle 2A.
+
+##### Inductor Selection
+As per section 8.2.2.4 off the TLV62569 datasheet, the minimum inductor
+saturation current needed for our desing is **2.032A**. Calculated based on:
+- V<sub>OUT</sub> = 3.3 V
+- V<sub>IN</sub> = 4.2 V
+- L = 2.2 µH
+- f<sub>SW</sub> = 1.5 MHz
+- I<sub>OUT,MAX</sub> = 2 A
+
+As for the battery charger inductor, the best fitting choice in the market was
+the [SL0420-2R2M](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/C22463806.pdf).
 
 #### 5V Boost Converter
 Opted for the [TPS613222A](https://www.ti.com/product/TPS61322) fixed (5V) boost
