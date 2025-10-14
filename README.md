@@ -6,8 +6,7 @@ element with an [ESP32-S3](https://www.espressif.com/en/products/socs/esp32-s3/)
 
 Meant to be used for workshops and prototyping. It can also be worn as a mobile
 badge. Features a dual color e-ink display, a JST connector for single-cell
-LiPo batteries and a keypad with 12 buttons (for direct PIN input into the
-TROPIC01).
+LiPo batteries and a 12-button keypad.
 
 The [cdc-badge](/cdc-badge) directory contains the KiCAD project with schematics
 and PCB layout.
@@ -18,10 +17,10 @@ The badge has 2 expansion ports:
 - [SAO](https://badge.team/docs/standards/sao/) ~~Shitty~~ Standardized Add-On
   port to connect small PCBs with blinky LEDs, speakers, and other bling.
 
-The CDC is designing an HAT with the [Sipeed M1](https://wiki.sipeed.com/soft/maixpy/en/develop_kit_board/core_module.html)
-module for more demanding applications. It is based on the [Kendryte K210 SoC](https://www.kendryte.com/en/proDetail/210)
+We already designed an [HAT with the Sipeed M1](https://github.com/riatlabs/sipeed-m1-hat)
+for more demanding applications. It is based on the [Kendryte K210 SoC](https://www.kendryte.com/en/proDetail/210)
 which has 2 RISC-V 64 bit cores and many custom accelerators (AI/NPU/CNN,
-audio, FFT, etc.).
+audio, FFT, AES, SHA256).
 
 ## Example applications
 - Interactive name tag
