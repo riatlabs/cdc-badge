@@ -104,7 +104,7 @@ adjustable buck converter which can handle 2A.
 
 ##### Inductor Selection
 As per section 8.2.2.4 off the TLV62569 datasheet, the minimum inductor
-saturation current needed for our desing is **2.032A**. Calculated based on:
+saturation current needed for our design is **2.032A**. Calculated based on:
 - V<sub>OUT</sub> = 3.3 V
 - V<sub>IN</sub> = 4.2 V
 - L = 2.2 µH
@@ -117,6 +117,64 @@ the [SL0420-2R2M](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/C22463806.pdf).
 #### 5V Boost Converter
 Opted for the [TPS613222A](https://www.ti.com/product/TPS61322) fixed (5V) boost
 converter (can handle 1.8A).
+
+##### Inductor Selection
+As per section 8.2.1.2.3 off the TPS613222A datasheet, the minimum inductor
+saturation current needed for our design is **3.18A**. Calculated based on:
+- V<sub>OUT</sub> = 5.0 V
+- V<sub>IN</sub> = 3.3 V
+- L = 2.2 µH
+- η = 93%
+- I<sub>OUT</sub> = 1.8 A
+- I<sub>LH</sub> = 0.5 A
+
+With equation (3) it is clear that the TPS613222A will work in Continuous
+Current Mode (CCM). Thus with equation (4) we got the peak current.
+
+Again the best option was the [SL0420-2R2M](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/C22463806.pdf).
+
+##### Schottky Diode Selection
+In order to support output currents over 0.5 A the TPS613222A needs a schottky
+diode in parallel with it's internal high-side MOSFET. Section 8.2.2.2.2 of the
+datasheet recommends selecting a diode with an average current rating greater
+than the output current (1.8A) and greater than the inductor peal current
+(3.18A).
+
+The [MDD SS54](https://www.mdddiodes.com/product/schottky-diode-sma-series-ss54/)
+is the most suitable fit. It can handle 5A at the cost of a high junction
+capacitance (C<sub>j</sub> = 500 pF).
+
+Based on C<sub>j</sub> and the series resistance (R) seen by the diode we can
+get an approximation of the it's maximum operating frequency.\
+$$f_{max} = \frac{1}{2\pi RC_j}$$\
+R is roughly the sum of the source resistance (11 mΩ for the BQ25895 when
+running from the battery) plus the inductor's series resistance (58 mΩ), thus 69
+mΩ. To be on the safe side we can up it by 1 order of magnitude and calculate
+with R = 1 Ω, which results in f<sub>max</sub> ≃ **318 MHz**.
+
+Section 7.3.1 of the TPS613222A datasheets mentions a 1.6 MHz startup switching
+frequency. With equation (2) from section 8.2.1.2.3 we get a runtime switching
+frequency of 1.15 MHz. Both are safely within what the SS54 can do.
+
+##### Snubber Circuit
+Section 8.2.2.2.2 recommends adding a RC snubber circuit in parallel with the
+schottky diode.\
+The snubber capacitance (C<sub>s</sub>) should be greater than 3×C<sub>j</sub>.
+We opted for 2.2 nF, the next common value.\
+Typical snubber resistance (R<sub>s</sub>) is 5 Ω according to the datasheet.
+We opted for 4.7 Ω.
+
+As we are dealing with a capacitance 1 order of magnitude higher than the
+typical application it's better to double check if it works.
+
+[AN11160 from Nexperia](https://assets.nexperia.com/documents/application-note/AN11160.pdf)
+suggests selecting a RC time constant at least 1/10th smaller than the on time.\
+$$R_sC_s < \frac{t_{ON}}{10}$$\
+With a 1.6 MHz switching frequency $\frac{t_{ON}}{10} = 62.5$ ns.\
+The X7R capacitor we are using has a ±10% tolerance. With that we get a RC time
+constant in the interval [9.9, 12.1] ns, which is well under 62.5 ns. This
+makes sure the capacitor is able to fully discharge while the diode is
+conducting, and thus be ready to accept charge on the next off event.
 
 #### Battery Gauge
 Not needed. BQ25895 includes an ADC capable of measuring battery voltage.
