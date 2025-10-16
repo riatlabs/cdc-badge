@@ -552,34 +552,24 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "IC1"
-			(at 14.478 22.86 0)
+		(property "Reference" "U"
+			(at -12.192 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TROPIC01"
-			(at 0 0 0)
+			(at 11.684 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "CDC_Badge:TROPIC01_chip"
-			(at 0 -27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://github.com/tropicsquare/tropic01/blob/main/doc/TR01-C2P-T101/ODD_TR01_datasheet_vA_10.pdf"
-			(at 0 0 0)
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm"
+			(at 0.762 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -587,8 +577,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Cryptographic coprocessor and MAC"
-			(at -22.86 26.162 0)
+		(property "Datasheet" "https://github.com/tropicsquare/tropic01/blob/main/doc/TR01-C2P-T301/ODD_TR01_datasheet_vA_10.pdf"
+			(at 0.762 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -596,8 +586,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 0 0 0)
+		(property "Description" "Tropicsquare secure cryptographic coprocessor with SPI interface"
+			(at 0.762 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -605,7 +595,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "MAC Secure Storage"
+		(property "ki_keywords" "TROPIC01 Tropicsquare cryptoprocessor secure element SPI"
 			(at 0 0 0)
 			(effects
 				(font
@@ -614,24 +604,31 @@
 				(hide yes)
 			)
 		)
-		(symbol "TROPIC01_0_1"
+		(property "ki_fp_filters" "QFN*32*1EP*4x4mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TROPIC01_1_1"
 			(rectangle
-				(start -17.78 21.59)
-				(end 17.78 -21.59)
+				(start -12.7 10.16)
+				(end 12.7 -10.16)
 				(stroke
-					(width 0.1524)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type background)
 				)
 			)
-		)
-		(symbol "TROPIC01_1_1"
 			(pin output line
-				(at -20.32 12.7 0)
+				(at -15.24 7.62 0)
 				(length 2.54)
-				(name "GPO"
+				(name "GPO/IRQ"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -647,7 +644,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 3.81 0)
+				(at -15.24 2.54 0)
 				(length 2.54)
 				(name "SDI"
 					(effects
@@ -665,7 +662,7 @@
 				)
 			)
 			(pin output line
-				(at -20.32 1.27 0)
+				(at -15.24 0 0)
 				(length 2.54)
 				(name "SDO"
 					(effects
@@ -682,8 +679,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -20.32 -1.27 0)
+			(pin input clock
+				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "SCK"
 					(effects
@@ -701,9 +698,9 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -3.81 0)
+				(at -15.24 -5.08 0)
 				(length 2.54)
-				(name "CSN"
+				(name "~{CSN}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -718,17 +715,113 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -10.16 -24.13 90)
+			(pin no_connect line
+				(at -10.16 12.7 270)
 				(length 2.54)
-				(name "GND"
+				(hide yes)
+				(name "NU"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -7.62 12.7 270)
+				(length 2.54)
+				(hide yes)
+				(name "NU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -5.08 12.7 270)
+				(length 2.54)
+				(hide yes)
+				(name "NU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -5.08 -12.7 90)
+				(length 2.54)
+				(hide yes)
+				(name "NU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -2.54 12.7 270)
+				(length 2.54)
+				(hide yes)
+				(name "NU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -2.54 -12.7 90)
+				(length 2.54)
+				(hide yes)
+				(name "NU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -737,43 +830,7 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 -24.13 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -5.08 -24.13 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 24.13 270)
+				(at 0 12.7 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -790,27 +847,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 -24.13 90)
+			(pin passive line
+				(at 0 12.7 270)
 				(length 2.54)
-				(name "PULLDN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 24.13 270)
-				(length 2.54)
+				(hide yes)
 				(name "VCC"
 					(effects
 						(font
@@ -826,27 +866,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 0 -24.13 90)
+			(pin passive line
+				(at 0 12.7 270)
 				(length 2.54)
-				(name "PULLDN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 2.54 24.13 270)
-				(length 2.54)
+				(hide yes)
 				(name "VCC"
 					(effects
 						(font
@@ -862,17 +885,131 @@
 					)
 				)
 			)
-			(pin input line
-				(at 2.54 -24.13 90)
+			(pin passive line
+				(at 0 -12.7 90)
 				(length 2.54)
-				(name "PULLDN"
+				(hide yes)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "30"
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -12.7 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 2.54 -12.7 90)
+				(length 2.54)
+				(hide yes)
+				(name "NU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 5.08 -12.7 90)
+				(length 2.54)
+				(hide yes)
+				(name "NU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 7.62 -12.7 90)
+				(length 2.54)
+				(hide yes)
+				(name "NU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 -12.7 90)
+				(length 2.54)
+				(hide yes)
+				(name "NU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -881,7 +1018,7 @@
 				)
 			)
 			(pin input line
-				(at 5.08 24.13 270)
+				(at 15.24 7.62 180)
 				(length 2.54)
 				(name "PULLUP"
 					(effects
@@ -898,244 +1035,11 @@
 					)
 				)
 			)
-			(pin input line
-				(at 5.08 -24.13 90)
-				(length 2.54)
-				(name "PULLDN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -24.13 90)
-				(length 2.54)
-				(name "PULLDN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 11.43 -24.13 90)
-				(length 2.54)
-				(name "TP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin no_connect line
-				(at 20.32 17.78 180)
+				(at 15.24 5.08 180)
 				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 20.32 15.24 180)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 20.32 12.7 180)
-				(length 2.54)
-				(name "DNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 20.32 10.16 180)
-				(length 2.54)
-				(name "DNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 20.32 7.62 180)
-				(length 2.54)
-				(name "DNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 20.32 5.08 180)
-				(length 2.54)
-				(name "DNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 20.32 2.54 180)
-				(length 2.54)
-				(name "DNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 20.32 0 180)
-				(length 2.54)
-				(name "DNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 20.32 -2.54 180)
-				(length 2.54)
-				(name "DNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 20.32 -5.08 180)
-				(length 2.54)
-				(name "DNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 20.32 -7.62 180)
-				(length 2.54)
-				(name "DNC"
+				(hide yes)
+				(name "NU"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1151,16 +1055,17 @@
 				)
 			)
 			(pin no_connect line
-				(at 20.32 -10.16 180)
+				(at 15.24 2.54 180)
 				(length 2.54)
-				(name "DNC"
+				(hide yes)
+				(name "NU"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1169,16 +1074,17 @@
 				)
 			)
 			(pin no_connect line
-				(at 20.32 -12.7 180)
+				(at 15.24 0 180)
 				(length 2.54)
-				(name "DNC"
+				(hide yes)
+				(name "NU"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1187,16 +1093,17 @@
 				)
 			)
 			(pin no_connect line
-				(at 20.32 -15.24 180)
+				(at 15.24 -2.54 180)
 				(length 2.54)
-				(name "NC"
+				(hide yes)
+				(name "NU"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "15"
+				(number "20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1205,16 +1112,111 @@
 				)
 			)
 			(pin no_connect line
-				(at 20.32 -17.78 180)
+				(at 15.24 -5.08 180)
 				(length 2.54)
-				(name "NC"
+				(hide yes)
+				(name "NU"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "16"
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "PULLDN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 -7.62 180)
+				(length 2.54)
+				(name "PULLDN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "PULLDN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "PULLDN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "PULLDN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
