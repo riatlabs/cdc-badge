@@ -179,6 +179,54 @@ conducting, and thus be ready to accept charge on the next off event.
 #### Battery Gauge
 Not needed. BQ25895 includes an ADC capable of measuring battery voltage.
 
+## Keypad and I/O Expander
+The badge needs a 12-button keypad (0-9, yes, no) for PIN input into the
+TROPIC01. In order to streamline production we opted for 12 SMD tactile push
+buttons, which is also both cheaper and smaller than adding an external keypad.
+
+Our ESP32-S3 lacks enough IO pins to connect these 12 buttons plus all the other
+IOs from the chips and headers on the badge. Applying XY multiplexing or even
+Charlieplexing would not solve it. We thus opted for an I²C I/O Expander, the
+[TCA9535](https://www.ti.com/lit/ds/symlink/tca9535.pdf). It has 16 IOs, enough
+to connect all buttons individually and avoid the complexities of multiplexing
+(expanders with lower pin count are not meaningfully cheaper).
+
+## I²C Buses
+The badge makes full use of the two I²C buses on the ESP32-S3:
+- bus 0 connects the ESP32 to the on-board chips: charging IC and IO expander.\
+  Operates in standard mode (100 kbit/s) as both chips are low bandwidth.
+- bus 1 is broken out to the Raspberry Pi header and to the SAO port.\
+  Prepared to operate in fast mode (400 kbit/s), the ESP32-S3 maximum.
+
+### Pull-up Resistors
+Per equation (1) on [SLVA689](https://www.ti.com/lit/an/slva689/slva689.pdf) the
+minimum pull-up resistance should be 966 Ω.\
+Calculated based on:
+- V<sub>CC</sub> = 3.3 V
+- V<sub>OL(max)</sub> = 0.4 V
+- I<sub>OL</sub> = 3 mA
+
+#### Bus 0
+With equation (6) we get a maximum pull-up resistance of 118 kΩ.\
+Based on:
+- tr = 1000 ns (standard mode)
+- C<sub>b</sub> = 2 pF (ESP32-S3 inputs) + 3 pF (TCA9535) + 3 pF (BQ25895,
+guessed) + 2 pF (10 cm [PCB trace](https://voltage-drop-calculator.com/pcb-trace-capacitance-calculator.php))
+= 10 pF
+
+A conservative value of **10 kΩ** was chosen as it's power consumption is low
+enough (0.33 mA).
+
+#### Bus 1
+With the same equation (6) we get a maximum pull-up resistance of 29.5 kΩ.\
+Based on:
+- tr = 300 ns (fast mode)
+- C<sub>b</sub> = 2 pF (ESP32) + 3 pF (hypothetical target) + 7 pF (hypothetical
+15 cm long [24 AWG cable](https://www.weicowire.com/24-awg-1751.html)) = 12 pF
+
+**10 kΩ** was also chosen as a safe value. If needed, the target device can
+lower the resistance by connecting another pull-up resistor in parallel.
+
 ## USB On-The-Go
 Currently unsupported.
 
