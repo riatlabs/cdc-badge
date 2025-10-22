@@ -191,6 +191,19 @@ Charlieplexing would not solve it. We thus opted for an I²C I/O Expander, the
 to connect all buttons individually and avoid the complexities of multiplexing
 (expanders with lower pin count are not meaningfully cheaper).
 
+### Debouncing
+Opted for hardware debouncing to ease software development and avoid busy
+waits. Using a basic circuit composed of a capacitor in parallel with each
+keypad button (alongside its pull-up resistor). This [only debounces the rising
+edge](https://www.ti.com/video/5840441551001) (switch opened). There's no
+debouncing when the switch is closed (falling edge). This is acceptable as we
+are just interested in switch activation. A [more complex RC network](https://www.digikey.com/en/articles/how-to-implement-hardware-debounce-for-switches-and-relays)
+can be implemented if switch deactivation becomes relevant.
+
+Using 4.7 kΩ resistor and 100 nF capacitor. RC time constant is thus 4.7 ms.
+The tactile push buttons we are using should have a bounce duration of 1 ms,
+which is well within this RC time.
+
 ## I²C Buses
 The badge makes full use of the two I²C buses on the ESP32-S3:
 - bus 0 connects the ESP32 to the on-board chips: charging IC and IO expander.\
