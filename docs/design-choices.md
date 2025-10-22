@@ -240,6 +240,37 @@ Based on:
 **10 kΩ** was also chosen as a safe value. If needed, the target device can
 lower the resistance by connecting another pull-up resistor in parallel.
 
+## E-Paper Display
+Opted for the Good Display [GDEY029T94-FL03](https://www.good-display.com/product/346.html)
+which comes bonded with a backlight (nice for the low light environments at
+hacker's events). This display is readily available and has good documentation
+and driver libraries.
+
+### Backlight LED driver
+Using the ESP32-S3 LED PWM controller to adjust brightness. The maximum current
+output on the S3 pins cannot exceed 40 mA. As the 4 LEDs in the backlight draw
+a total of 60 mA (I<sub>f</sub>) we opted to drive them through a BJT.
+
+The chosen transistor, a [Hottech S8050](https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586188326566547456)
+has, in the worst case:
+- h<sub>FE</sub> = 50
+- V<sub>BE</sub> = 1.2 V
+
+Plugging these values along with our V<sub>CC</sub> (3.3 V) into the [base bias
+resistor calculation for a common emitter configuration](https://www.allaboutcircuits.com/textbook/semiconductors/chpt-4/biasing-calculations/)
+we get a 1750 Ω resistance. We opted for the common **1.8 kΩ** resistor. In the
+typical case (h<sub>FE</sub> = 120, V<sub>BE</sub> = 0.7 V), it will draw just
+1.4 mA from the S3 while allowing 173 mA to go through the transistor.
+
+The Hottech S8050 has a minimum transition frequency of 150 MHz, which is well
+above the typical PWM frequencies used on the S3 (1-10 kHz) and thus fit for the
+purpose.
+
+Although the backlight LEDs are rated for a maximum forward voltage of 3.3 V we
+still opted to place a current limiting resistor (5.1 Ω). This limits voltage to
+3 V, getting it closer to the typical V<sub>f</sub> (2.8 V) listed in the
+datasheet.
+
 ## USB On-The-Go
 Currently unsupported.
 
