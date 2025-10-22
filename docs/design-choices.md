@@ -38,12 +38,12 @@ Battery protection chip and MOSFETs are unnecessary as they are integrated in
 the batteries.
 
 ### Peak Power Requirements
-- [ESP32-S3](https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/schematic-checklist.html#power-supply) `0.5A*3.3V=1.65W`
-- [Sipeed M1](https://wiki.sipeed.com/hardware/maixface/en/core_modules/k210_core_modules.html) `1.5W`
-- [TROPIC01](https://github.com/tropicsquare/tropic01/blob/main/doc/TR01-C2P-T101/ODD_TR01_datasheet_vA_10.pdf) `0.025A*3.3V=0.0825W`
-- [GDEY029Z95](https://www.good-display.com/companyfile/1386.html) e-paper display `0.0083A*3.3V=0.02739W`
+- [ESP32-S3](https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/schematic-checklist.html#power-supply) 0.5 A × 3.3 V = 1.65 W
+- [Sipeed M1](https://wiki.sipeed.com/hardware/maixface/en/core_modules/k210_core_modules.html) 1.5 W
+- [TROPIC01](https://github.com/tropicsquare/tropic01/blob/main/doc/TR01-C2P-T101/ODD_TR01_datasheet_vA_10.pdf) 0.025 A × 3.3 V = 0.0825 W
+- [GDEY029T94-FL03](https://www.good-display.com/product/346.html) 0.003 A (display) + 0.06 A (backlight) × 3.3 V = 0.2079 W
 
-Total: 3.18564W @ 5V = 0.63A
+Total: 3.4404 W @ 5 V ≃ 0.69 A
 
 ### LiPo
 Opting for the common [PKCELL LP503562](https://www.adafruit.com/product/258)
