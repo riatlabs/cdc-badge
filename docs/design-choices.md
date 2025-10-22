@@ -91,8 +91,8 @@ current needed for our design is **1.38A**. This was calculated based on:
 - battery voltage (V<sub>BAT</sub>) = 3V (the lowest we will allow is 3.3V, but
   calculating with 3V in case we start with a depleted battery)
 
-The cheapest and most available 2.2 mH inductor within this specification turned
-out to be the [SL0420-2R2M](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/C22463806.pdf).
+One of cheapest and most available 2.2 uH inductors within this specification
+turned out to be the [TECHFUSE SL0420-2R2M](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/C22463806.pdf).
 It actually has a 5A saturation current. This affords us a big safety margin and
 allows testing higher capacity LiPos.
 
@@ -111,8 +111,7 @@ saturation current needed for our design is **2.032A**. Calculated based on:
 - f<sub>SW</sub> = 1.5 MHz
 - I<sub>OUT,MAX</sub> = 2 A
 
-As for the battery charger inductor, the best fitting choice in the market was
-the [SL0420-2R2M](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/C22463806.pdf).
+We opted for SL0420-2R2M. It is within the specs and keeps our BOM small.
 
 #### 5V Boost Converter
 Opted for the [TPS613222A](https://www.ti.com/product/TPS61322) fixed (5V) boost
@@ -131,13 +130,13 @@ saturation current needed for our design is **3.18A**. Calculated based on:
 With equation (3) it is clear that the TPS613222A will work in Continuous
 Current Mode (CCM). Thus with equation (4) we got the peak current.
 
-Again the best option was the [SL0420-2R2M](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/C22463806.pdf).
+We again opted for the SL0420-2R2M.
 
 ##### Schottky Diode Selection
 In order to support output currents over 0.5 A the TPS613222A needs a schottky
 diode in parallel with it's internal high-side MOSFET. Section 8.2.2.2.2 of the
 datasheet recommends selecting a diode with an average current rating greater
-than the output current (1.8A) and greater than the inductor peal current
+than the output current (1.8A) and greater than the inductor peak current
 (3.18A).
 
 The [MDD SS54](https://www.mdddiodes.com/product/schottky-diode-sma-series-ss54/)
