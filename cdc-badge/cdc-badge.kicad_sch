@@ -12919,16 +12919,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 157.48) (xy 175.26 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f139053-2bd8-4f82-a918-2d842bd1f3ae")
-	)
-	(wire
-		(pts
 			(xy 287.02 182.88) (xy 297.18 182.88)
 		)
 		(stroke
@@ -15987,6 +15977,16 @@
 		)
 		(uuid "7a28b660-8226-42c7-9df5-8b04b76521d7")
 	)
+	(label "CHG_DSEL"
+		(at 105.41 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a7775c6-91d9-41b1-a54f-9a708b516bac")
+	)
 	(label "USB_D-"
 		(at 116.84 53.34 0)
 		(effects
@@ -16097,16 +16097,6 @@
 		)
 		(uuid "944de1ca-b1a5-456a-9523-10bf2c7d3b56")
 	)
-	(label "MCU_IO21"
-		(at 105.41 158.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9595da6e-7e42-4cc4-af21-cc13d3f7bc7e")
-	)
 	(label "SPI_MOSI"
 		(at 45.72 176.53 0)
 		(effects
@@ -16176,16 +16166,6 @@
 			(justify left bottom)
 		)
 		(uuid "ab853661-1f96-45f7-b3c5-56c216f9fcb2")
-	)
-	(label "MCU_IO21"
-		(at 175.26 157.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ac8135f9-27fc-44fc-9dd3-16b25b6ae7bd")
 	)
 	(label "PCM_CLK"
 		(at 175.26 144.78 180)
@@ -19983,15 +19963,15 @@
 		(dnp no)
 		(uuid "322c1560-d48a-4427-bc17-8017daaa297c")
 		(property "Reference" "SW14"
-			(at 30.734 151.13 0)
+			(at 23.876 151.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "flash"
-			(at 38.1 151.13 0)
+		(property "Value" "flash/power off"
+			(at 35.306 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28176,15 +28156,15 @@
 		(dnp no)
 		(uuid "a8298234-42c0-4494-9115-1ae47f11e785")
 		(property "Reference" "SW12"
-			(at 105.918 71.882 0)
+			(at 106.172 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "power reset"
-			(at 108.966 73.66 0)
+		(property "Value" "power on/reset"
+			(at 110.998 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
