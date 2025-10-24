@@ -239,6 +239,24 @@ Based on:
 **10 kΩ** was also chosen as a safe value. If needed, the target device can
 lower the resistance by connecting another pull-up resistor in parallel.
 
+## Grove
+The Grove connector's pins 1 and 2 are wired to the ESP32-S3 IO1 and IO2. These
+ESP32 pins can double as analog or digital IOs, and thus provide all the
+flexibility needed by the Grove connector. Under the [Grove
+specification](https://wiki.seeedstudio.com/Grove_System/#interface-of-grove-modules)
+these pins should work as either digital IOs, analog IOs, or even as UART or I²C
+communication pins.\
+For I²C usage the pull-up resistors must be provided by the peripheral
+connecting to the badge. We did not include them as that would hinder the other
+functions.
+
+The [Grove connector is
+proprietary](https://arduino.stackexchange.com/questions/9030/what-type-of-connector-does-the-grove-system-use)
+and difficult to source anywhere outside of Seed Studio stores. We are
+therefore experimenting with the [Boom Precision Electronics
+HY-4P](https://jlcpcb.com/partdetail/172569-HY_4PVerticalwelding/C161188) as a
+replacement.
+
 ## E-Paper Display
 Opted for the Good Display [GDEY029T94-FL03](https://www.good-display.com/product/346.html)
 which comes bonded with a backlight (nice for the low light environments at

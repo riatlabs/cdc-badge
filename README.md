@@ -12,10 +12,12 @@ The [cdc-badge](/cdc-badge) directory contains the KiCAD project with schematics
 and PCB layout.
 
 ## Expansions
-The badge has 2 expansion ports:
+The badge has 3 expansion ports:
 - Raspberry Pi [40 pin GPIO header](https://pinout.xyz) ready to take any [HAT or pHAT](https://pinout.xyz/boards)
 - [SAO](https://badge.team/docs/standards/sao/) ~~Shitty~~ Standardized Add-On
   port to connect small PCBs with blinky LEDs, speakers, and other bling.
+- [Grove](https://wiki.seeedstudio.com/Grove_System) compatible connector to
+  interface with any Grove sensor or network module.
 
 We already designed an [HAT with the Sipeed M1](https://github.com/riatlabs/sipeed-m1-hat)
 for more demanding applications. It is based on the [Kendryte K210 SoC](https://www.kendryte.com/en/proDetail/210)
