@@ -1,0 +1,173 @@
+(footprint "GDEY029T94-FL03"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "2.9 inch e-paper with front light from Dalian Good Display")
+	(tags "e-paper e-ink electronic display")
+	(property "Reference" "REF**"
+		(at 0.7 -19.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1f8e2e4b-3b44-4211-8588-7ebb973d68a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "GDEY029T94-FL03"
+		(at 0 20.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "615a7761-10db-4e67-b032-151a8ce0b59e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://v4.cecdn.yun300.cn/100001_1909185148/GDEY029T94-FL03.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63e58337-ee82-4cad-8ceb-4ffc0e243c72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "713ba832-56f7-4fd7-abed-68bad6520fc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -39.8 -18.7)
+		(end -39.8 -8.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ba49d9b0-5919-4901-b294-bb69b11d3f9e")
+	)
+	(fp_line
+		(start -39.8 -18.7)
+		(end -29.8 -18.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "34e3a6ac-ff6c-4632-9a04-a17b366ef965")
+	)
+	(fp_line
+		(start -39.8 18.7)
+		(end -39.8 8.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7b76cc11-6834-4fda-8c78-ce3400126f8d")
+	)
+	(fp_line
+		(start -39.8 18.7)
+		(end -29.8 18.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f32433e7-0a68-4667-85cb-e461b86cb86e")
+	)
+	(fp_line
+		(start 39.8 18.6)
+		(end 29.8 18.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ee678dba-4253-471c-adb5-598ea3062c18")
+	)
+	(fp_line
+		(start 39.8 18.6)
+		(end 39.8 10.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9df5208-aa9d-42d4-964d-3ae4127818ce")
+	)
+	(fp_line
+		(start 42.5 -18.7)
+		(end 26.5 -18.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a616c78d-77a7-446b-9b3c-a24ef05832fe")
+	)
+	(fp_line
+		(start 42.8 10.6)
+		(end 39.8 10.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96239422-43fc-4957-9a17-541f39853428")
+	)
+	(fp_rect
+		(start -42.5 -21.35)
+		(end 44.5 21.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c02a8263-0906-42fb-9fcb-90907ee5f7ac")
+	)
+	(fp_rect
+		(start -39.5 -18.35)
+		(end 39.5 18.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b21df3bd-6427-42b2-be9b-f94c6f8d05c4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e64058ba-4a8c-4f7f-885d-ebf0cde7d281")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
