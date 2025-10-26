@@ -83,16 +83,6 @@
 		(uuid "4cc16adb-e266-4b9a-9916-806c56e52df7")
 	)
 	(fp_line
-		(start -3.86 -2.69)
-		(end -3.86 -4.4)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "7ae7f36c-b3ac-4f67-b8ba-0781ab46df37")
-	)
-	(fp_line
 		(start 3.81 -2.69)
 		(end 6.11 -2.69)
 		(stroke
@@ -143,8 +133,8 @@
 		(uuid "ffb9c455-4879-4866-a7eb-04ef099b18a8")
 	)
 	(fp_line
-		(start -4 -4.9)
-		(end -4 -3.05)
+		(start -5 -4.9)
+		(end -5 -3.05)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -153,7 +143,7 @@
 		(uuid "98b28968-4c72-4e9a-9bdc-03091a305ec1")
 	)
 	(fp_line
-		(start -4 -3.05)
+		(start -5 -3.05)
 		(end -6.5 -3.05)
 		(stroke
 			(width 0.05)
@@ -164,7 +154,7 @@
 	)
 	(fp_line
 		(start 4 -4.9)
-		(end -4 -4.9)
+		(end -5 -4.9)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -311,6 +301,19 @@
 		)
 		(layer "F.Fab")
 		(uuid "6a4ecec6-09a3-4020-8e30-0d90dfcad074")
+	)
+	(fp_text user "▶"
+		(at -4.7 -3.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e5f701ef-14d8-4a1e-a631-f392a3e9203d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at -0.1 1 0)

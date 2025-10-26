@@ -24,6 +24,17 @@ for more demanding applications. It is based on the [Kendryte K210 SoC](https://
 which has 2 RISC-V 64 bit cores and many custom accelerators (AI/NPU/CNN,
 audio, FFT, AES, SHA256).
 
+### SPI to internal devices
+It is possible to interface via SPI from the Raspberry Pi header to the e-paper
+display and the TROPIC01. There are 2 mechanical sliding switches which you can
+use to connect pin 24 and pin 26 to the chip select (CS) of these devices.
+
+The auxiliary signals from the e-paper display (DC, RST, BUSY) are available on
+pins 29, 31 and 36. The interrupt signal from TROPIC01 is available on pin 37.
+
+This allows an external microcontroller, for instance the Sipeed M1, to display
+graphics on the screen and use the secure element.
+
 ## Example applications
 - Interactive name tag
 - Social networking games

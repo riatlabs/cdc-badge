@@ -1,0 +1,217 @@
+(footprint "SW_SPDT_Shouhan_MST-22D18G2_3J"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Single Pole Double Throw (SPDT) SMD 9.1x3.5mm slide switch")
+	(property "Reference" "REF**"
+		(at 0.34 -4.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "331755ed-3b85-4b4c-9dd0-e4ad9c550e2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SW_SPDT_Shouhan_MST-22D18G2_3J"
+		(at 0.88 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3bc3e72e-17b4-4376-afff-199429f1b7be")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588941174559657984"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ebe819f-0e75-4913-897e-fe9a875eded6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d52895f7-8cbd-4ccb-86c5-501b169c1dd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.7 -1.9)
+		(end -3.4 -1.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6eb2b7c1-cb26-4725-9970-c3e7005d3b7e")
+	)
+	(fp_line
+		(start -4.7 -0.6)
+		(end -4.7 -1.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b9c178a-3e54-4fe3-b5dd-31264eb642df")
+	)
+	(fp_line
+		(start -4.7 1.95)
+		(end -4.7 0.65)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8ed0fed2-7628-4f07-8903-98a9077d2c25")
+	)
+	(fp_line
+		(start -1.6 -1.9)
+		(end 1.6 -1.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cdf7d940-1753-4f15-ac6d-1d1190763b82")
+	)
+	(fp_line
+		(start -0.9 1.95)
+		(end -4.7 1.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00daa088-1311-49c2-bbc9-fb3657bd99a9")
+	)
+	(fp_line
+		(start 3.4 -1.9)
+		(end 4.7 -1.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b41532c-cb8d-46d8-967b-b5245ada1f5d")
+	)
+	(fp_line
+		(start 4.7 -1.9)
+		(end 4.7 -0.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "57a42f6a-0d92-462b-8fda-69c6ceb7f53a")
+	)
+	(fp_line
+		(start 4.7 0.65)
+		(end 4.7 1.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b12bd6ce-99e9-4a49-a3c3-027ea1beb9b8")
+	)
+	(fp_line
+		(start 4.7 1.95)
+		(end 0.9 1.95)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "76e17ebe-c2dc-421c-a9eb-40e496a15f62")
+	)
+	(fp_rect
+		(start -4.955 -4.16)
+		(end 4.955 4.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "38159f69-8d15-460b-8d8b-5936c887c577")
+	)
+	(fp_rect
+		(start -4.525 -1.75)
+		(end 4.525 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "48ee80af-297b-41ce-a787-b94f3f27f8f8")
+	)
+	(fp_text user "▶"
+		(at -4.4 -2.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4f25f676-eb36-488c-a927-320f2dca2257")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d7229246-d3d4-4674-8305-b190731dfe5b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.5 -2.975)
+		(size 1.2 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "049185c1-7862-4c6f-abbf-d3b09b48e09d")
+	)
+	(pad "2" smd roundrect
+		(at 0 2.975)
+		(size 1.2 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "68c14e90-9046-4848-b0eb-ef143e1a6104")
+	)
+	(pad "3" smd roundrect
+		(at 2.5 -2.975)
+		(size 1.2 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "93897a05-fbea-4c25-ac0f-55e34f3657d2")
+	)
+	(embedded_fonts no)
+)
