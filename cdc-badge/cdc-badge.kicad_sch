@@ -4948,6 +4948,157 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED_Small"
 			(pin_numbers
 				(hide yes)
@@ -10898,12 +11049,6 @@
 		(uuid "0d80a924-f0c7-445f-87e8-19d20b433bd5")
 	)
 	(junction
-		(at 267.97 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e42ccc8-67f8-4871-a4e4-4037aa05c3aa")
-	)
-	(junction
 		(at 90.17 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10998,6 +11143,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "349fa3e5-960f-44e1-9a74-a1592d01c49d")
+	)
+	(junction
+		(at 78.74 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3639b982-443d-4da9-80f9-8df804dbedb6")
 	)
 	(junction
 		(at 374.65 182.88)
@@ -11102,6 +11253,12 @@
 		(uuid "603892aa-5106-4d10-b0bc-8c7b54400311")
 	)
 	(junction
+		(at 78.74 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "609a114a-27e1-4d33-8e7b-da2111d183bd")
+	)
+	(junction
 		(at 347.98 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11184,12 +11341,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89aa9d2f-b71f-40ef-98aa-b880736c03f6")
-	)
-	(junction
-		(at 373.38 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a64147e-4bcb-40d5-8260-d48c4eb39b54")
 	)
 	(junction
 		(at 55.88 238.76)
@@ -11658,6 +11809,16 @@
 			(type default)
 		)
 		(uuid "02f470b8-0d63-496b-a009-2598ce67b99d")
+	)
+	(wire
+		(pts
+			(xy 45.72 92.71) (xy 45.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031c6881-c38a-44a3-bc7e-edbff65f23c3")
 	)
 	(wire
 		(pts
@@ -12251,6 +12412,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 85.09) (xy 88.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8e6216-e45d-4c2e-94db-dcd5a6af4a49")
+	)
+	(wire
+		(pts
 			(xy 44.45 148.59) (xy 44.45 153.67)
 		)
 		(stroke
@@ -12268,6 +12439,16 @@
 			(type default)
 		)
 		(uuid "2ea51f26-20ba-4117-b8bd-6356feb57edb")
+	)
+	(wire
+		(pts
+			(xy 45.72 86.36) (xy 36.83 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ed93db7-91a7-4497-a76f-15e7b8f438b6")
 	)
 	(wire
 		(pts
@@ -12551,6 +12732,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 82.55) (xy 88.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fff5904-4b7b-4446-a04a-344ec553d7c1")
+	)
+	(wire
+		(pts
 			(xy 340.36 110.49) (xy 335.28 110.49)
 		)
 		(stroke
@@ -12801,7 +12992,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 60.96) (xy 373.38 60.96)
+			(xy 365.76 60.96) (xy 374.65 60.96)
 		)
 		(stroke
 			(width 0)
@@ -13241,16 +13432,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 60.96) (xy 382.27 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62dff818-ab4a-4cae-a713-7916af920eaf")
-	)
-	(wire
-		(pts
 			(xy 166.37 60.96) (xy 171.45 60.96)
 		)
 		(stroke
@@ -13631,7 +13812,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 36.83) (xy 72.39 36.83)
+			(xy 63.5 36.83) (xy 68.58 36.83)
 		)
 		(stroke
 			(width 0)
@@ -14681,16 +14862,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 86.36) (xy 40.64 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b41fc858-7ccb-4ef0-9569-c8654e3152c9")
-	)
-	(wire
-		(pts
 			(xy 248.92 250.19) (xy 259.08 250.19)
 		)
 		(stroke
@@ -15191,6 +15362,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 36.83) (xy 81.28 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc639971-f4ff-44bf-adab-93ce7bad8ed5")
+	)
+	(wire
+		(pts
 			(xy 347.98 133.35) (xy 347.98 137.16)
 		)
 		(stroke
@@ -15541,7 +15722,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 82.55) (xy 85.09 82.55)
+			(xy 74.93 82.55) (xy 78.74 82.55)
 		)
 		(stroke
 			(width 0)
@@ -16221,7 +16402,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 85.09) (xy 85.09 85.09)
+			(xy 74.93 85.09) (xy 78.74 85.09)
 		)
 		(stroke
 			(width 0)
@@ -16580,7 +16761,7 @@
 		(uuid "2cfecb43-5f9d-4f59-84ed-aca70ed30def")
 	)
 	(label "USB_D-"
-		(at 85.09 82.55 180)
+		(at 88.9 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16840,7 +17021,7 @@
 		(uuid "6cfe11a8-f04b-462d-9e4a-a7ff5fbe1787")
 	)
 	(label "USB_D+"
-		(at 85.09 85.09 180)
+		(at 88.9 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20823,6 +21004,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 78.74 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2feeb6cc-fca0-4829-953f-602bbb187a25")
+		(property "Reference" "TP2"
+			(at 78.486 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_USB_D-"
+			(at 85.852 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 73.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point, route in fly-by configuration"
+			(at 78.74 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4978a971-9bfa-4b68-b579-5e8d99289a60")
+		)
+		(instances
+			(project "cdc-badge"
+				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 44.45 245.11 0)
 		(unit 1)
@@ -23372,7 +23620,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 86.36 0)
+		(at 45.72 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23380,7 +23628,7 @@
 		(dnp no)
 		(uuid "50b0edf0-7af9-4293-a2f2-1bd86520141b")
 		(property "Reference" "#PWR021"
-			(at 40.64 92.71 0)
+			(at 45.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23389,7 +23637,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 90.678 0)
+			(at 45.72 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23397,7 +23645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 86.36 0)
+			(at 45.72 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23406,7 +23654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 86.36 0)
+			(at 45.72 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23415,7 +23663,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 86.36 0)
+			(at 45.72 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23940,7 +24188,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 382.27 60.96 0)
+		(at 374.65 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23949,7 +24197,7 @@
 		(fields_autoplaced yes)
 		(uuid "5acf614a-1b9d-475e-8ba1-6b2c96fa3f6c")
 		(property "Reference" "#PWR015"
-			(at 382.27 64.77 0)
+			(at 374.65 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23958,7 +24206,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 382.27 55.88 0)
+			(at 374.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23966,7 +24214,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 382.27 60.96 0)
+			(at 374.65 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23975,7 +24223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 382.27 60.96 0)
+			(at 374.65 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23984,7 +24232,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 382.27 60.96 0)
+			(at 374.65 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25186,7 +25434,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 70.866 89.408 0)
+			(at 52.578 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25463,6 +25711,93 @@
 			(project "cdc-badge"
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 71.12 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6980256e-7809-4ac5-9aee-136ba92f9eaf")
+		(property "Reference" "FB2"
+			(at 66.548 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "120Ω@100MHz"
+			(at 77.216 33.782 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 71.12 35.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120Ω@100MHz 20mΩ 5A ±25% Ferrite bead"
+			(at 71.12 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HCB2012KF-121T50"
+			(at 71.12 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C304323"
+			(at 71.12 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49f15642-0a8d-47c8-873a-6d2817fc8ffe")
+		)
+		(pin "2"
+			(uuid "2f33383c-3f75-4206-9d80-56b2642db32b")
+		)
+		(instances
+			(project "cdc-badge"
+				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -27398,72 +27733,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 373.38 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "86c344f5-45ba-4169-9215-f278054797b9")
-		(property "Reference" "TP3"
-			(at 374.396 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_5V"
-			(at 370.84 55.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 378.46 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 378.46 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 373.38 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7cd38d54-43fe-471c-be0e-39d4121e1bf3")
-		)
-		(instances
-			(project "cdc-badge"
-				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 190.5 166.37 0)
 		(unit 1)
@@ -27861,7 +28130,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 72.39 36.83 0)
+		(at 81.28 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27869,7 +28138,7 @@
 		(dnp no)
 		(uuid "89d388a7-e3f9-407f-8cd8-9d6fc9b8217b")
 		(property "Reference" "#PWR02"
-			(at 72.39 40.64 0)
+			(at 81.28 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27878,7 +28147,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 72.39 33.274 0)
+			(at 81.28 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27886,7 +28155,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 36.83 0)
+			(at 81.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27895,7 +28164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 36.83 0)
+			(at 81.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27904,7 +28173,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 72.39 36.83 0)
+			(at 81.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31607,6 +31876,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 45.72 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c672c8c7-1a8e-4c27-b7ce-60a379b7d427")
+		(property "Reference" "FB1"
+			(at 39.624 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "30Ω@100MHz"
+			(at 31.242 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 47.498 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "14mΩ 30Ω@100MHz 4A ±25% Ferrite bead"
+			(at 45.72 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BLM21PG300SN1D"
+			(at 45.72 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C16903"
+			(at 45.72 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83428910-5c7a-4209-8f43-d2cfd92079cf")
+		)
+		(pin "2"
+			(uuid "499333f7-3c05-47c8-a56c-5f591f9e49bd")
+		)
+		(instances
+			(project ""
+				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 304.8 133.35 0)
 		(unit 1)
@@ -33204,6 +33560,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 78.74 85.09 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db2c6fa3-1537-48b5-84b7-fe6493154f0a")
+		(property "Reference" "TP3"
+			(at 77.216 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_USB_D+"
+			(at 77.47 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 83.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point, route in fly-by configuration"
+			(at 78.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e215f499-0c66-4695-9f11-6658a3181cc7")
+		)
+		(instances
+			(project "cdc-badge"
+				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 297.18 179.07 0)
 		(unit 1)
@@ -33680,72 +34103,6 @@
 			(project "cdc-badge"
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 267.97 44.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee400398-740c-40b3-9c3d-352d1b121e18")
-		(property "Reference" "TP2"
-			(at 269.494 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TP_3V3"
-			(at 269.24 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 262.89 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 262.89 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 267.97 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1208e924-9956-4435-a577-44ad8d1c0dd8")
-		)
-		(instances
-			(project "cdc-badge"
-				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
