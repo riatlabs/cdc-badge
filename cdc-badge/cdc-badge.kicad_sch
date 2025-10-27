@@ -11588,6 +11588,12 @@
 		(uuid "d9d4abb6-34c8-4aea-b436-0e34946e7975")
 	)
 	(junction
+		(at 88.9 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da6e60f7-e22e-443a-8578-112a14c2935c")
+	)
+	(junction
 		(at 149.86 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11678,7 +11684,7 @@
 		(uuid "f2a2a703-fa86-430f-9934-c2e1dd81dfe3")
 	)
 	(junction
-		(at 88.9 236.22)
+		(at 92.71 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f56659f9-679c-4f6e-ab75-72c485d784af")
@@ -11789,7 +11795,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 229.87) (xy 88.9 228.6)
+			(xy 92.71 229.87) (xy 92.71 228.6)
 		)
 		(stroke
 			(width 0)
@@ -11836,6 +11842,16 @@
 			(type default)
 		)
 		(uuid "031c6881-c38a-44a3-bc7e-edbff65f23c3")
+	)
+	(wire
+		(pts
+			(xy 95.25 246.38) (xy 113.03 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03389ac6-5d7d-4f10-a88b-589e1650ce62")
 	)
 	(wire
 		(pts
@@ -12379,6 +12395,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 246.38) (xy 88.9 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28912cc7-ae14-49ee-bcb4-061eb4134cd7")
+	)
+	(wire
+		(pts
 			(xy 292.1 276.86) (xy 276.86 276.86)
 		)
 		(stroke
@@ -12599,7 +12625,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 237.49) (xy 88.9 236.22)
+			(xy 92.71 237.49) (xy 92.71 236.22)
 		)
 		(stroke
 			(width 0)
@@ -12686,6 +12712,16 @@
 			(type default)
 		)
 		(uuid "3dc60c00-0e66-47b8-8b7a-4caae426b6a2")
+	)
+	(wire
+		(pts
+			(xy 88.9 246.38) (xy 90.17 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de810e0-150f-4723-9027-6cd743c8670c")
 	)
 	(wire
 		(pts
@@ -13789,16 +13825,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 254) (xy 88.9 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73197a7a-06eb-4e0d-a744-bcc5ab12ae0e")
-	)
-	(wire
-		(pts
 			(xy 116.84 50.8) (xy 125.73 50.8)
 		)
 		(stroke
@@ -14039,7 +14065,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 234.95) (xy 88.9 236.22)
+			(xy 92.71 234.95) (xy 92.71 236.22)
 		)
 		(stroke
 			(width 0)
@@ -14189,16 +14215,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 254) (xy 111.76 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d4f8361-c555-40f1-9394-bad5c9319ad1")
-	)
-	(wire
-		(pts
 			(xy 100.33 261.62) (xy 113.03 261.62)
 		)
 		(stroke
@@ -14226,6 +14242,16 @@
 			(type default)
 		)
 		(uuid "924c3635-1230-43ea-a977-17c93c283071")
+	)
+	(wire
+		(pts
+			(xy 88.9 254) (xy 111.76 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92978d74-9be8-4eee-8f3b-2ed44a444adf")
 	)
 	(wire
 		(pts
@@ -14529,7 +14555,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 228.6) (xy 113.03 228.6)
+			(xy 92.71 228.6) (xy 113.03 228.6)
 		)
 		(stroke
 			(width 0)
@@ -15639,6 +15665,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 246.38) (xy 88.9 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ac6845-b356-49a7-a12b-cb921f1f6d89")
+	)
+	(wire
+		(pts
 			(xy 149.86 63.5) (xy 162.56 63.5)
 		)
 		(stroke
@@ -16289,16 +16325,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 246.38) (xy 113.03 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed5e49aa-8e19-424a-8b7d-c12bfcfe894a")
-	)
-	(wire
-		(pts
 			(xy 44.45 157.48) (xy 44.45 153.67)
 		)
 		(stroke
@@ -16579,7 +16605,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 236.22) (xy 113.03 236.22)
+			(xy 92.71 236.22) (xy 113.03 236.22)
 		)
 		(stroke
 			(width 0)
@@ -25226,7 +25252,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 88.9 252.73 0)
+		(at 86.36 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25234,7 +25260,7 @@
 		(dnp no)
 		(uuid "648ce07c-bc36-4bf6-b0d8-0fea8cd44c3b")
 		(property "Reference" "#PWR071"
-			(at 88.9 256.54 0)
+			(at 86.36 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25243,7 +25269,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 88.9 248.666 0)
+			(at 86.36 242.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25251,7 +25277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 252.73 0)
+			(at 86.36 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25260,7 +25286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 252.73 0)
+			(at 86.36 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25269,7 +25295,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 88.9 252.73 0)
+			(at 86.36 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30748,7 +30774,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 88.9 232.41 180)
+		(at 92.71 232.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30756,7 +30782,7 @@
 		(dnp no)
 		(uuid "b59c3fb0-ccf8-42ab-8012-0bd3dbde37b9")
 		(property "Reference" "C38"
-			(at 91.44 231.14 0)
+			(at 95.25 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30765,7 +30791,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 91.44 233.426 0)
+			(at 95.25 233.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30774,7 +30800,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 88.9 232.41 0)
+			(at 92.71 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30783,7 +30809,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 232.41 0)
+			(at 92.71 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30792,7 +30818,7 @@
 			)
 		)
 		(property "Description" "1uF 50V X5R ±10% 0603 Multilayer Ceramic Capacitor"
-			(at 88.9 232.41 0)
+			(at 92.71 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30801,7 +30827,7 @@
 			)
 		)
 		(property "MPN" "CL10A105KB8NNNC"
-			(at 88.9 232.41 0)
+			(at 92.71 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30810,7 +30836,7 @@
 			)
 		)
 		(property "JLCPCB PN" "C15849"
-			(at 88.9 232.41 0)
+			(at 92.71 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32074,7 +32100,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 237.49 0)
+		(at 92.71 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32082,7 +32108,7 @@
 		(dnp no)
 		(uuid "c4e2f947-f6bf-4225-9d79-fd436450e600")
 		(property "Reference" "#PWR070"
-			(at 88.9 243.84 0)
+			(at 92.71 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32091,7 +32117,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 242.062 0)
+			(at 92.71 241.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32099,7 +32125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 237.49 0)
+			(at 92.71 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32108,7 +32134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 237.49 0)
+			(at 92.71 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32117,7 +32143,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 237.49 0)
+			(at 92.71 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33071,6 +33097,84 @@
 			(project "cdc-badge"
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 92.71 246.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce9a0a21-a1e3-4892-9d51-a1e8885e8e2a")
+		(property "Reference" "R38"
+			(at 94.234 248.412 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 94.742 250.444 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 92.71 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW 75V Thick Film Resistor ±1%"
+			(at 92.71 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C25819"
+			(at 92.71 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9639a9d3-5d8e-4485-8301-e1b6c395162a")
+		)
+		(pin "2"
+			(uuid "67dfbfa2-f94c-49f5-b8e8-94a8e78a37f9")
+		)
+		(instances
+			(project "cdc-badge"
+				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
+					(reference "R38")
 					(unit 1)
 				)
 			)
