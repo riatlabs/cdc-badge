@@ -10896,13 +10896,13 @@
 	)
 	(text "INPUT"
 		(exclude_from_sim no)
-		(at 107.442 175.768 0)
+		(at 107.442 178.308 0)
 		(effects
 			(font
 				(size 0.762 0.762)
 			)
 		)
-		(uuid "35ba1fc7-ac81-45d3-bb71-9fa547db54ba")
+		(uuid "50226093-dcd5-4991-9e61-2a99540f2f3d")
 	)
 	(text "Charging temp\n[0,45] °C"
 		(exclude_from_sim no)
@@ -16773,6 +16773,16 @@
 		)
 		(uuid "10e99fc4-4ddd-4c8a-8895-709f43261c5c")
 	)
+	(label "SPI_CS_EPD"
+		(at 105.41 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "134fcdbf-96e9-4f6a-834f-cfff451e52d0")
+	)
 	(label "USB_D-"
 		(at 99.06 153.67 180)
 		(effects
@@ -16792,6 +16802,16 @@
 			(justify left bottom)
 		)
 		(uuid "190b2eaf-558c-4889-9d1b-7795e34e18a6")
+	)
+	(label "SPI_RST_EPD"
+		(at 105.41 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "198d7421-de5f-4a08-ade3-a7011f5660c4")
 	)
 	(label "EXP_P14"
 		(at 265.43 144.78 180)
@@ -17123,16 +17143,6 @@
 		)
 		(uuid "671ff884-108e-4d96-bf0e-173b528a6785")
 	)
-	(label "SPI_CS_EPD"
-		(at 105.41 168.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "681fe149-b4da-4374-b118-2a0678099cb7")
-	)
 	(label "BTN_YES"
 		(at 287.02 182.88 0)
 		(effects
@@ -17152,16 +17162,6 @@
 			(justify right bottom)
 		)
 		(uuid "6f377a96-6ae4-46d9-87e8-23fb7ce248af")
-	)
-	(label "SPI_BUSY_EPD"
-		(at 105.41 176.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "70b8f317-c21a-473f-af13-a4ec8b15517a")
 	)
 	(label "SPI_CS0"
 		(at 45.72 171.45 0)
@@ -17353,6 +17353,16 @@
 		)
 		(uuid "83745ba4-6884-4ca6-af95-44ab81ccdbdf")
 	)
+	(label "CHG_IRQ"
+		(at 105.41 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "84da5b73-dfa7-49d7-9f01-74f052534d3f")
+	)
 	(label "RESE"
 		(at 63.5 259.08 180)
 		(effects
@@ -17422,6 +17432,16 @@
 			(justify left bottom)
 		)
 		(uuid "9a15a8a8-5a20-4f5d-beb3-fe05ef174210")
+	)
+	(label "EXP_IRQ"
+		(at 105.41 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ab80462-3511-4dda-b2c2-324404be3578")
 	)
 	(label "SPI_CS_TR01"
 		(at 248.92 269.24 0)
@@ -17523,6 +17543,16 @@
 		)
 		(uuid "b584226d-efbe-4e34-b23c-c55b819dfb7f")
 	)
+	(label "SPI_BUSY_EPD"
+		(at 105.41 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd78b09e-e15e-4254-bc83-6ffb5a198780")
+	)
 	(label "I2C1_SDA"
 		(at 105.41 186.69 180)
 		(effects
@@ -17583,16 +17613,6 @@
 		)
 		(uuid "c9784737-0f81-44e4-9dac-1cfcd2bde1df")
 	)
-	(label "TR01_IRQ"
-		(at 105.41 181.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cac96390-9514-44d0-bf41-53e460283f3e")
-	)
 	(label "SPI_CS1"
 		(at 208.28 163.83 180)
 		(effects
@@ -17612,16 +17632,6 @@
 			(justify right bottom)
 		)
 		(uuid "cef8cc6e-4062-4405-b248-5274f4e7286c")
-	)
-	(label "SPI_RST_EPD"
-		(at 105.41 173.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cf3079ee-2629-4ac8-9f1c-8dec258399e5")
 	)
 	(label "EPD_LED"
 		(at 144.78 261.62 0)
@@ -17663,6 +17673,16 @@
 		)
 		(uuid "d6097876-0000-4b06-9097-3038993d2190")
 	)
+	(label "TR01_IRQ"
+		(at 105.41 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6fabdf0-1ccd-41dc-a234-5eee063fc81a")
+	)
 	(label "BTN_6"
 		(at 265.43 127 180)
 		(effects
@@ -17682,16 +17702,6 @@
 			(justify left bottom)
 		)
 		(uuid "d7e57475-74a9-4711-a11b-87eeaa28ab3a")
-	)
-	(label "SPI_DC_EPD"
-		(at 105.41 171.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dac328f6-a82b-4893-a388-79ff3ccd4d03")
 	)
 	(label "TR01_IRQ"
 		(at 139.7 177.8 0)
@@ -17873,26 +17883,6 @@
 		)
 		(uuid "ee0de0eb-c11e-4f7d-9907-dea8411fcc69")
 	)
-	(label "EXP_IRQ"
-		(at 105.41 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eeefa660-3b92-4dcc-bfdb-a20bbb4562d4")
-	)
-	(label "CHG_IRQ"
-		(at 105.41 184.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f23eaedb-6c22-4be0-9dbe-00297453e1b4")
-	)
 	(label "PREVGL"
 		(at 77.47 224.79 180)
 		(effects
@@ -17912,6 +17902,16 @@
 			(justify left bottom)
 		)
 		(uuid "f4a66296-9534-407d-b8d8-191f5ce75623")
+	)
+	(label "SPI_DC_EPD"
+		(at 105.41 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f7831a4d-36f8-467f-a9ac-3c3a2bf8f742")
 	)
 	(label "EXP_P16"
 		(at 265.43 149.86 180)
