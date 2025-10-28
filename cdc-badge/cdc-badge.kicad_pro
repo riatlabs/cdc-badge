@@ -357,7 +357,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|2222500|2400300|c6853d72-9317-4eee-8ee2-c0cb4a6fc300|00000000-0000-0000-0000-000000000000|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|",
+        "Coming from an inductor."
+      ],
+      [
+        "power_pin_not_driven|241300|1536700|93beeefb-5255-49a4-a4ee-53f5c0aa0796|00000000-0000-0000-0000-000000000000|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|",
+        "GND is driven through a ferrite bead."
+      ],
+      [
+        "power_pin_not_driven|2768600|2514600|507fd9d4-2d8e-48b0-8fd0-d845f45a6daa|00000000-0000-0000-0000-000000000000|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|",
+        "Power going through a 0 ohm resistor."
+      ],
+      [
+        "power_pin_not_driven|3238500|609600|72eda0f5-699a-4210-88d1-29d0715bc912|00000000-0000-0000-0000-000000000000|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|",
+        "Going through inductor."
+      ],
+      [
+        "power_pin_not_driven|812800|368300|1e7685e4-0b13-4ebf-8ca0-c35881f37b7f|00000000-0000-0000-0000-000000000000|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|",
+        "Going through  a ferrite bead."
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -578,9 +599,7 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "CDC_Badge"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {

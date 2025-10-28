@@ -10794,7 +10794,7 @@
 	)
 	(text "SAO port"
 		(exclude_from_sim no)
-		(at 157.226 194.056 0)
+		(at 157.226 192.532 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -10955,10 +10955,22 @@
 		(uuid "3639b982-443d-4da9-80f9-8df804dbedb6")
 	)
 	(junction
+		(at 135.89 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "371f4908-2d45-4cdf-8085-afc54e078b0c")
+	)
+	(junction
 		(at 374.65 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39e25366-9f07-4435-a8f3-0a4c136fd5f2")
+	)
+	(junction
+		(at 149.86 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bc47de6-a2fa-42d0-9a7f-c4b0be4ce5a5")
 	)
 	(junction
 		(at 365.76 60.96)
@@ -11003,6 +11015,12 @@
 		(uuid "4973f7f7-9158-4967-9a0d-b95f3800fa49")
 	)
 	(junction
+		(at 167.64 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b50d7c6-50d4-4c65-b3f1-8429c7028083")
+	)
+	(junction
 		(at 44.45 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11043,6 +11061,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59df011d-ecd1-40a1-856b-c91bc3ab63d6")
+	)
+	(junction
+		(at 236.22 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bd7b4e9-d629-4b86-a782-14772010c0db")
 	)
 	(junction
 		(at 149.86 81.28)
@@ -11285,6 +11309,12 @@
 		(uuid "b373f59b-8802-4ffe-b57f-d6290ee1dc6d")
 	)
 	(junction
+		(at 240.03 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3abb70c-5563-45b1-aba6-c0683560193a")
+	)
+	(junction
 		(at 130.81 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11303,6 +11333,12 @@
 		(uuid "bd6770d0-c024-4292-a245-1e7e33b7d0a8")
 	)
 	(junction
+		(at 167.64 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf087220-0ee9-4431-9449-a4bc68f720f9")
+	)
+	(junction
 		(at 220.98 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11319,6 +11355,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1765aa2-0c48-4926-abdd-a2b7cb4cdd50")
+	)
+	(junction
+		(at 135.89 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3e3d240-430d-4cc7-8612-ff12b9f265f1")
 	)
 	(junction
 		(at 335.28 106.68)
@@ -11343,6 +11385,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd7face5-972d-4698-96db-99952207ec19")
+	)
+	(junction
+		(at 165.1 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cee171eb-31e5-42a8-aa19-51357301d5d1")
 	)
 	(junction
 		(at 238.76 160.02)
@@ -11611,6 +11659,26 @@
 			(type default)
 		)
 		(uuid "015b44f2-552c-4242-90ad-9901ea0c24f4")
+	)
+	(wire
+		(pts
+			(xy 135.89 142.24) (xy 149.86 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0180ac13-4253-4c9a-a5c1-f8b8bfae8b1a")
+	)
+	(wire
+		(pts
+			(xy 236.22 200.66) (xy 236.22 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02126eb2-fb4e-4032-94f7-8118a16e55a6")
 	)
 	(wire
 		(pts
@@ -12084,7 +12152,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 205.74) (xy 177.8 205.74)
+			(xy 163.83 205.74) (xy 165.1 205.74)
 		)
 		(stroke
 			(width 0)
@@ -12104,7 +12172,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 132.08) (xy 170.18 132.08)
+			(xy 165.1 132.08) (xy 167.64 132.08)
 		)
 		(stroke
 			(width 0)
@@ -12334,7 +12402,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 142.24) (xy 149.86 142.24)
+			(xy 134.62 142.24) (xy 135.89 142.24)
 		)
 		(stroke
 			(width 0)
@@ -12351,6 +12419,16 @@
 			(type default)
 		)
 		(uuid "30a2b506-c5b7-4ec9-85c0-f8a3e9616977")
+	)
+	(wire
+		(pts
+			(xy 154.94 200.66) (xy 149.86 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31739639-0366-45e9-a5a9-a4769d877898")
 	)
 	(wire
 		(pts
@@ -12914,7 +12992,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 137.16) (xy 180.34 137.16)
+			(xy 162.56 137.16) (xy 167.64 137.16)
 		)
 		(stroke
 			(width 0)
@@ -13011,6 +13089,16 @@
 			(type default)
 		)
 		(uuid "5220b278-ce78-4fe3-9362-2ac9f3f570e9")
+	)
+	(wire
+		(pts
+			(xy 236.22 208.28) (xy 236.22 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5308feb1-81e5-47c1-93cf-564be7ba0503")
 	)
 	(wire
 		(pts
@@ -13124,7 +13212,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 205.74) (xy 151.13 205.74)
+			(xy 139.7 205.74) (xy 149.86 205.74)
 		)
 		(stroke
 			(width 0)
@@ -13141,6 +13229,16 @@
 			(type default)
 		)
 		(uuid "5a1d697a-1f44-48db-8413-d10198fd5f65")
+	)
+	(wire
+		(pts
+			(xy 149.86 205.74) (xy 151.13 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a775ea9-8ec8-4c7c-be17-d34abcc8901f")
 	)
 	(wire
 		(pts
@@ -13544,6 +13642,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 200.66) (xy 165.1 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea67de8-fad3-4ed9-8de4-3ea9717141f6")
+	)
+	(wire
+		(pts
 			(xy 125.73 41.91) (xy 125.73 45.72)
 		)
 		(stroke
@@ -13634,7 +13742,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 132.08) (xy 149.86 132.08)
+			(xy 130.81 132.08) (xy 135.89 132.08)
 		)
 		(stroke
 			(width 0)
@@ -13771,6 +13879,16 @@
 			(type default)
 		)
 		(uuid "7b1bcef7-292b-4cb4-b905-0365009fdbab")
+	)
+	(wire
+		(pts
+			(xy 167.64 132.08) (xy 170.18 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b8546c6-3186-4676-9575-a6d1b853d420")
 	)
 	(wire
 		(pts
@@ -14094,6 +14212,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 200.66) (xy 149.86 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "933abdc2-07f6-4d58-ad63-1192396447d6")
+	)
+	(wire
+		(pts
 			(xy 107.95 80.01) (xy 114.3 80.01)
 		)
 		(stroke
@@ -14301,6 +14429,16 @@
 			(type default)
 		)
 		(uuid "9cfb519f-8364-4134-861e-0d5f7d3544a9")
+	)
+	(wire
+		(pts
+			(xy 167.64 137.16) (xy 180.34 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0332f4-9446-41d7-b106-d2dff299bd32")
 	)
 	(wire
 		(pts
@@ -14514,6 +14652,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 200.66) (xy 165.1 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6642275-8d9c-4e0e-b33e-b2520f10983a")
+	)
+	(wire
+		(pts
 			(xy 309.88 186.69) (xy 316.23 186.69)
 		)
 		(stroke
@@ -14531,16 +14679,6 @@
 			(type default)
 		)
 		(uuid "a8736876-3fcd-48e8-ae9a-dd6ec37433e8")
-	)
-	(wire
-		(pts
-			(xy 240.03 203.2) (xy 240.03 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8b1800a-95be-40ff-af45-5d3355aa0eeb")
 	)
 	(wire
 		(pts
@@ -14904,6 +15042,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 132.08) (xy 135.89 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1a01d8-d001-46cf-892d-a323d3a8aecf")
+	)
+	(wire
+		(pts
+			(xy 135.89 139.7) (xy 135.89 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1c55e6-349e-4fa0-b9f9-a9b97814f97a")
+	)
+	(wire
+		(pts
 			(xy 219.71 101.6) (xy 219.71 100.33)
 		)
 		(stroke
@@ -15164,6 +15322,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 205.74) (xy 177.8 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8dd3c0c-c04b-41f7-8b23-85b93fda5e30")
+	)
+	(wire
+		(pts
 			(xy 139.7 154.94) (xy 149.86 154.94)
 		)
 		(stroke
@@ -15191,6 +15359,16 @@
 			(type default)
 		)
 		(uuid "c9ad60cc-ecfb-408d-9626-acfd404981dd")
+	)
+	(wire
+		(pts
+			(xy 240.03 203.2) (xy 240.03 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b01775-9b8b-4b72-9ae1-1f88cf7d56a4")
 	)
 	(wire
 		(pts
@@ -16184,6 +16362,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 200.66) (xy 227.33 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee04b96b-5d98-4fdc-82ba-fe850a32a459")
+	)
+	(wire
+		(pts
 			(xy 374.65 105.41) (xy 374.65 106.68)
 		)
 		(stroke
@@ -16191,6 +16379,16 @@
 			(type default)
 		)
 		(uuid "ee8ab520-e24e-4980-8e55-f84b5228e5ee")
+	)
+	(wire
+		(pts
+			(xy 236.22 208.28) (xy 240.03 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2c471f-25cb-42f5-8525-43991a48ee4b")
 	)
 	(wire
 		(pts
@@ -16294,7 +16492,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 200.66) (xy 227.33 200.66)
+			(xy 240.03 200.66) (xy 236.22 200.66)
 		)
 		(stroke
 			(width 0)
@@ -16491,6 +16689,16 @@
 			(type default)
 		)
 		(uuid "fe5d25f2-6ecf-4224-a7f3-67d89db681fe")
+	)
+	(wire
+		(pts
+			(xy 135.89 132.08) (xy 149.86 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7b0802-88e2-428a-8d6f-e2ed8e7513c1")
 	)
 	(wire
 		(pts
@@ -20309,6 +20517,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 157.48 200.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2055706b-2d64-43c8-b2a4-770b8e798a98")
+		(property "Reference" "C45"
+			(at 160.782 199.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 160.528 202.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 157.48 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1uF 50V X5R ±10% 0603 Multilayer Ceramic Capacitor"
+			(at 157.48 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 157.48 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C15849"
+			(at 157.48 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "082e414e-2f0d-4185-bceb-68b05c11f0b2")
+		)
+		(pin "2"
+			(uuid "235fb9a9-f4ee-40bb-a6df-785f14c797bb")
+		)
+		(instances
+			(project "cdc-badge"
+				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 93.98 133.35 180)
 		(unit 1)
@@ -22003,6 +22296,91 @@
 			(project ""
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 204.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b2f1c18-b4d4-4719-b92b-3f2278ca48d5")
+		(property "Reference" "C46"
+			(at 232.41 202.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 232.156 205.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 236.22 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1uF 50V X5R ±10% 0603 Multilayer Ceramic Capacitor"
+			(at 236.22 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 236.22 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C15849"
+			(at 236.22 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21ef280a-eb00-47b1-bd6b-50d40f1ee0d5")
+		)
+		(pin "2"
+			(uuid "3c807e51-ec79-46bc-856b-654dbe5f6294")
+		)
+		(instances
+			(project "cdc-badge"
+				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -24645,6 +25023,91 @@
 			(project "cdc-badge"
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 135.89 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d14d020-12c0-4686-8d6c-daf1370bad97")
+		(property "Reference" "C47"
+			(at 133.096 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 133.604 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 135.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1uF 50V X5R ±10% 0603 Multilayer Ceramic Capacitor"
+			(at 135.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 135.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C15849"
+			(at 135.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ea0b42e-eccf-48b3-9fe5-059be73e0bea")
+		)
+		(pin "2"
+			(uuid "96840603-0870-42c3-936f-db9749649a37")
+		)
+		(instances
+			(project "cdc-badge"
+				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -28765,6 +29228,91 @@
 			(project "cdc-badge"
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 167.64 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90eb271a-4b27-4c0d-ac3e-47f299d9fb51")
+		(property "Reference" "C48"
+			(at 171.704 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 171.704 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 167.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1uF 50V X5R ±10% 0603 Multilayer Ceramic Capacitor"
+			(at 167.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 167.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C15849"
+			(at 167.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7070291-895b-4957-95b7-30c134788170")
+		)
+		(pin "2"
+			(uuid "429b7900-e205-4b54-a32c-5e6b839eccfb")
+		)
+		(instances
+			(project "cdc-badge"
+				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
+					(reference "C48")
 					(unit 1)
 				)
 			)
