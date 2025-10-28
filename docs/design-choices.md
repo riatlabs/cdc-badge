@@ -264,29 +264,29 @@ hacker's events). This display is readily available and has good documentation
 and driver libraries.
 
 ### Frontlight LED driver
-Using the ESP32-S3 LED PWM controller to adjust brightness. The maximum current
-output on the S3 pins cannot exceed 40 mA. As the 4 LEDs in the frontlight draw
-a total of 60 mA (I<sub>f</sub>) we opted to drive them through a BJT.
+Lab tests with no current limit:
 
-The chosen transistor, a [Hottech S8050](https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586188326566547456)
-has, in the worst case:
-- h<sub>FE</sub> = 50
-- V<sub>BE</sub> = 1.2 V
+Voltage | Current | Perceived brightness
+------: | ------: | --------------------
+  2.4 V | 0.000 A | no light
+  2.5 V | 0.000 A | dim light
+  2.6 V | 0.005 A | nice light
+  2.7 V | 0.017 A | getting too much
+  2.8 V | 0.033 A | no need for this all
+  2.9 V | 0.050 A | noticeable increase
+  3.0 V | 0.067 A | no need to go over this
+  3.1 V | 0.086 A | brightness increase is small
+  3.2 V | 0.109 A | increase barely perceivable
+  3.3 V | 0.133 A | practically the same as previous
 
-Plugging these values along with our V<sub>CC</sub> (3.3 V) into the [base bias
-resistor calculation for a common emitter configuration](https://www.allaboutcircuits.com/textbook/semiconductors/chpt-4/biasing-calculations/)
-we get a 1750 Ω resistance. We opted for the common **1.8 kΩ** resistor. In the
-typical case (h<sub>FE</sub> = 120, V<sub>BE</sub> = 0.7 V), it will draw just
-1.4 mA from the S3 while allowing 173 mA to go through the transistor.
+Opting for **3.0 V** as maximum allowed voltage. Enforced with a current
+limiting resistor (5.1 Ω). This keeps the forward current close to the typical
+value (60 mA) listed in the datasheet.
 
-The Hottech S8050 has a minimum transition frequency of 150 MHz, which is well
-above the typical PWM frequencies used on the S3 (1-10 kHz) and thus fit for the
-purpose.
-
-Although the frontlight LEDs are rated for a maximum forward voltage of 3.3 V we
-still opted to place a current limiting resistor (5.1 Ω). This limits voltage to
-3 V, getting it closer to the typical V<sub>f</sub> (2.8 V) listed in the
-datasheet.
+Using the ESP32-S3 LED PWM controller to adjust brightness. Amplification is
+needed as the maximum current output on the S3 pins cannot exceed 40 mA. Opted
+to drive the frontlight through a Si1308EDL MOSFET as we already had one in our
+BOM.
 
 ## USB On-The-Go
 Currently unsupported.
