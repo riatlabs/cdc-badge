@@ -16820,6 +16820,16 @@
 		)
 		(uuid "10e99fc4-4ddd-4c8a-8895-709f43261c5c")
 	)
+	(label "GPCLK0"
+		(at 105.41 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1250b850-a86f-40eb-809e-9a731dac6863")
+	)
 	(label "SPI_CS_EPD"
 		(at 105.41 176.53 180)
 		(effects
@@ -17109,6 +17119,16 @@
 			(justify right bottom)
 		)
 		(uuid "50b55225-bae3-4f2e-80ae-151fbf771cf6")
+	)
+	(label "EXP_IRQ"
+		(at 48.26 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52ab6751-3585-4211-b6ab-cf056cb6dd17")
 	)
 	(label "USB_D-"
 		(at 55.88 82.55 0)
@@ -17450,7 +17470,7 @@
 		)
 		(uuid "944de1ca-b1a5-456a-9523-10bf2c7d3b56")
 	)
-	(label "SPI_MOSI"
+	(label "SPI_MISO"
 		(at 45.72 176.53 0)
 		(effects
 			(font
@@ -17459,16 +17479,6 @@
 			(justify left bottom)
 		)
 		(uuid "9840ad69-aead-47db-b383-b0cdcdf88a10")
-	)
-	(label "EXP_IRQ"
-		(at 105.41 173.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9ab80462-3511-4dda-b2c2-324404be3578")
 	)
 	(label "SPI_CS_TR01"
 		(at 248.92 269.24 0)
@@ -17540,7 +17550,7 @@
 		)
 		(uuid "ae6ae0af-9693-49bb-a961-2d6cf635e203")
 	)
-	(label "SPI_MISO"
+	(label "SPI_MOSI"
 		(at 45.72 181.61 0)
 		(effects
 			(font
@@ -17569,16 +17579,6 @@
 			(justify right bottom)
 		)
 		(uuid "b584226d-efbe-4e34-b23c-c55b819dfb7f")
-	)
-	(label "GPCLK0"
-		(at 48.26 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b5925d65-a9f9-4bc8-bbbb-5cfb5bb28f75")
 	)
 	(label "SPI_BUSY_EPD"
 		(at 105.41 179.07 180)
