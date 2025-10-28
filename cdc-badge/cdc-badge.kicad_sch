@@ -11017,7 +11017,7 @@
 		)
 		(uuid "f58bd44a-48a2-4b6a-a0a7-f9e9fb5e1e20")
 	)
-	(text "E-Paper Backlight"
+	(text "E-Paper Frontlight"
 		(exclude_from_sim no)
 		(at 171.958 228.346 0)
 		(effects
@@ -11082,12 +11082,6 @@
 		(uuid "202bae68-0b0f-4933-945d-87e8898222da")
 	)
 	(junction
-		(at 176.53 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "216cfbad-4c2d-466f-9f68-6bd2dfe54c23")
-	)
-	(junction
 		(at 60.96 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11140,6 +11134,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30272cee-b877-4017-bbb2-b6d7c1d3fd3e")
+	)
+	(junction
+		(at 175.26 252.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3102b903-cca0-436a-83a0-2d92e523c968")
 	)
 	(junction
 		(at 276.86 276.86)
@@ -11418,6 +11418,12 @@
 		(uuid "a4d78883-a415-4b83-b075-86ba341637b6")
 	)
 	(junction
+		(at 175.26 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a709d2a5-2353-46ab-8b9b-7a983cef3da8")
+	)
+	(junction
 		(at 347.98 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11518,12 +11524,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c83c916b-481e-40f8-a9c4-90443352550e")
-	)
-	(junction
-		(at 176.53 238.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cbf662b9-2881-4516-9e8c-33b36fbf1c44")
 	)
 	(junction
 		(at 165.1 132.08)
@@ -11730,7 +11730,7 @@
 		(uuid "ff295702-27a8-4861-9a3f-5f6647fb7e4d")
 	)
 	(no_connect
-		(at 176.53 243.84)
+		(at 175.26 245.11)
 		(uuid "056238a4-8901-4067-8d66-f6aa04abc8f1")
 	)
 	(no_connect
@@ -11750,7 +11750,7 @@
 		(uuid "373c7662-58ee-4c0b-93df-c2f0c7edafe5")
 	)
 	(no_connect
-		(at 176.53 246.38)
+		(at 175.26 247.65)
 		(uuid "4d5d9514-88cd-44b9-83a0-5d3347a7252a")
 	)
 	(no_connect
@@ -13887,16 +13887,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 248.92) (xy 176.53 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75e6c348-3e38-42c4-be3a-6f531dcbe566")
-	)
-	(wire
-		(pts
 			(xy 149.86 92.71) (xy 152.4 92.71)
 		)
 		(stroke
@@ -13924,16 +13914,6 @@
 			(type default)
 		)
 		(uuid "7b1bcef7-292b-4cb4-b905-0365009fdbab")
-	)
-	(wire
-		(pts
-			(xy 168.91 251.46) (xy 176.53 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b5c64c6-91c8-4f68-87d7-10a055e642e7")
 	)
 	(wire
 		(pts
@@ -14127,6 +14107,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 252.73) (xy 175.26 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88896273-c9da-4280-9ab9-7cf21a5615bb")
+	)
+	(wire
+		(pts
 			(xy 176.53 54.61) (xy 185.42 54.61)
 		)
 		(stroke
@@ -14287,7 +14277,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 261.62) (xy 156.21 261.62)
+			(xy 151.13 265.43) (xy 162.56 265.43)
 		)
 		(stroke
 			(width 0)
@@ -14907,7 +14897,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 238.76) (xy 176.53 238.76)
+			(xy 175.26 240.03) (xy 177.8 240.03)
 		)
 		(stroke
 			(width 0)
@@ -16147,6 +16137,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 250.19) (xy 175.26 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7be53a0-c0e7-49b5-82c6-1b55b35705cf")
+	)
+	(wire
+		(pts
 			(xy 113.03 185.42) (xy 113.03 186.69)
 		)
 		(stroke
@@ -16167,7 +16167,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 238.76) (xy 176.53 241.3)
+			(xy 175.26 240.03) (xy 175.26 242.57)
 		)
 		(stroke
 			(width 0)
@@ -16665,7 +16665,7 @@
 		)
 		(uuid "ff43ecbc-f1c9-475b-abd1-0e6647d97c66")
 	)
-	(label "PWM1"
+	(label "GROVE1"
 		(at 139.7 172.72 0)
 		(effects
 			(font
@@ -16734,16 +16734,6 @@
 			(justify left bottom)
 		)
 		(uuid "0e261ab5-e3a6-4b15-a3c2-81817b4c0ef8")
-	)
-	(label "PWM0"
-		(at 48.26 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ee5ed49-80f4-47a4-bd10-3a0a11e1c9a8")
 	)
 	(label "PCM_FS"
 		(at 48.26 161.29 0)
@@ -17225,7 +17215,7 @@
 		)
 		(uuid "77856c2e-f71f-47a7-9a5a-b4b06e889737")
 	)
-	(label "PWM1"
+	(label "GROVE1"
 		(at 232.41 198.12 0)
 		(effects
 			(font
@@ -17335,16 +17325,6 @@
 		)
 		(uuid "80242a87-2f0c-49ce-845e-32a750a063e1")
 	)
-	(label "PWM1"
-		(at 48.26 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83745ba4-6884-4ca6-af95-44ab81ccdbdf")
-	)
 	(label "CHG_IRQ"
 		(at 105.41 171.45 180)
 		(effects
@@ -17414,16 +17394,6 @@
 			(justify left bottom)
 		)
 		(uuid "9840ad69-aead-47db-b383-b0cdcdf88a10")
-	)
-	(label "GPCLK0"
-		(at 48.26 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a15a8a8-5a20-4f5d-beb3-fe05ef174210")
 	)
 	(label "EXP_IRQ"
 		(at 105.41 173.99 180)
@@ -17535,6 +17505,16 @@
 		)
 		(uuid "b584226d-efbe-4e34-b23c-c55b819dfb7f")
 	)
+	(label "GPCLK0"
+		(at 48.26 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5925d65-a9f9-4bc8-bbbb-5cfb5bb28f75")
+	)
 	(label "SPI_BUSY_EPD"
 		(at 105.41 179.07 180)
 		(effects
@@ -17605,6 +17585,16 @@
 		)
 		(uuid "c9784737-0f81-44e4-9dac-1cfcd2bde1df")
 	)
+	(label "GROVE1"
+		(at 48.26 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdc7cbb2-bbe9-4940-833f-46d1701e3b67")
+	)
 	(label "SPI_CS1"
 		(at 208.28 163.83 180)
 		(effects
@@ -17626,7 +17616,7 @@
 		(uuid "cef8cc6e-4062-4405-b248-5274f4e7286c")
 	)
 	(label "EPD_LED"
-		(at 144.78 261.62 0)
+		(at 151.13 265.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17705,7 +17695,7 @@
 		)
 		(uuid "db015916-5166-4a19-bc04-e47a0512946e")
 	)
-	(label "PWM0"
+	(label "GROVE0"
 		(at 232.41 195.58 0)
 		(effects
 			(font
@@ -17724,6 +17714,16 @@
 			(justify left bottom)
 		)
 		(uuid "db8f8e08-8ef2-4b4a-aa42-d6015005ace7")
+	)
+	(label "GROVE0"
+		(at 48.26 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc8d228e-8a6b-4f05-beee-8ba79d510eaf")
 	)
 	(label "BTN_3"
 		(at 265.43 119.38 180)
@@ -17775,7 +17775,7 @@
 		)
 		(uuid "e4535115-8d8b-4115-9f06-88e5aa98bf74")
 	)
-	(label "PWM0"
+	(label "GROVE0"
 		(at 175.26 170.18 180)
 		(effects
 			(font
@@ -21116,7 +21116,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 266.7 0)
+		(at 175.26 270.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21125,7 +21125,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d52fc8b-ce88-4136-8ba1-c243d9a4bd96")
 		(property "Reference" "#PWR065"
-			(at 168.91 273.05 0)
+			(at 175.26 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21134,7 +21134,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 271.78 0)
+			(at 175.26 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21142,7 +21142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 266.7 0)
+			(at 175.26 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21151,7 +21151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 266.7 0)
+			(at 175.26 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21160,7 +21160,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 266.7 0)
+			(at 175.26 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23854,7 +23854,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:SS8050")
-		(at 166.37 261.62 0)
+		(at 172.72 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23863,7 +23863,7 @@
 		(fields_autoplaced yes)
 		(uuid "4db6add0-e6d1-4881-8197-8bb96e6c8f48")
 		(property "Reference" "Q2"
-			(at 171.45 260.3499 0)
+			(at 177.8 264.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23872,7 +23872,7 @@
 			)
 		)
 		(property "Value" "SS8050"
-			(at 171.45 262.8899 0)
+			(at 177.8 266.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23881,7 +23881,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 171.45 268.986 0)
+			(at 177.8 272.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23892,7 +23892,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586188326566547456"
-			(at 171.45 266.446 0)
+			(at 177.8 270.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23902,7 +23902,7 @@
 			)
 		)
 		(property "Description" "General Purpose NPN Transistor, 0.5A Ic, 25V Vce, SOT-23"
-			(at 200.406 263.906 0)
+			(at 206.756 267.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23911,7 +23911,7 @@
 			)
 		)
 		(property "JLCPCB PN" "C181158"
-			(at 166.37 261.62 0)
+			(at 172.72 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24279,7 +24279,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 158.75 261.62 90)
+		(at 165.1 265.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24288,7 +24288,7 @@
 		(fields_autoplaced yes)
 		(uuid "571536af-f8fb-4e22-98ed-3e77980a8cf5")
 		(property "Reference" "R34"
-			(at 158.75 256.54 90)
+			(at 165.1 260.35 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -24296,7 +24296,7 @@
 			)
 		)
 		(property "Value" "1.8k"
-			(at 158.75 259.08 90)
+			(at 165.1 262.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24304,7 +24304,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 158.75 261.62 0)
+			(at 165.1 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24313,7 +24313,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 261.62 0)
+			(at 165.1 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24322,7 +24322,7 @@
 			)
 		)
 		(property "Description" "1.8kΩ 100mW 75V Thick Film Resistor ±1%"
-			(at 158.75 261.62 0)
+			(at 165.1 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24331,7 +24331,7 @@
 			)
 		)
 		(property "JLCPCB PN" "C4177"
-			(at 158.75 261.62 90)
+			(at 165.1 265.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33118,7 +33118,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 168.91 254 0)
+		(at 175.26 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33126,7 +33126,7 @@
 		(dnp no)
 		(uuid "cb6cee3c-2017-4213-b840-eeca59469e8a")
 		(property "Reference" "R32"
-			(at 171.196 252.73 0)
+			(at 177.546 256.54 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -33135,7 +33135,7 @@
 			)
 		)
 		(property "Value" "5.1"
-			(at 170.942 255.016 0)
+			(at 177.292 258.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33144,7 +33144,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 168.91 254 0)
+			(at 175.26 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33153,7 +33153,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 254 0)
+			(at 175.26 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33162,7 +33162,7 @@
 			)
 		)
 		(property "Description" "100mW 5.1Ω 75V Thick Film Resistor ±1%"
-			(at 168.91 254 0)
+			(at 175.26 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33171,7 +33171,7 @@
 			)
 		)
 		(property "JLCPCB PN" "C25197"
-			(at 168.91 254 0)
+			(at 175.26 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34722,7 +34722,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 173.99 238.76 0)
+		(at 177.8 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34730,7 +34730,7 @@
 		(dnp no)
 		(uuid "eb26ded3-9ba7-441b-a1fc-e41d322a5429")
 		(property "Reference" "#PWR066"
-			(at 173.99 242.57 0)
+			(at 177.8 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34739,7 +34739,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 173.99 234.442 0)
+			(at 177.8 235.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34747,7 +34747,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 238.76 0)
+			(at 177.8 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34756,7 +34756,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 238.76 0)
+			(at 177.8 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34765,7 +34765,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 173.99 238.76 0)
+			(at 177.8 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34865,34 +34865,31 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 181.61 243.84 0)
+		(at 170.18 247.65 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eed48cf9-4076-46b0-946e-4f1d93c1caa0")
 		(property "Reference" "J6"
-			(at 184.15 243.8399 0)
+			(at 166.116 245.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 184.15 246.3799 0)
+			(at 161.798 248.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_FFC-FPC:Jushuo_AFC07-S06FCA-00_1x6-1MP_P0.50_Horizontal"
-			(at 181.61 243.84 0)
+			(at 170.18 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34901,7 +34898,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 243.84 0)
+			(at 170.18 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34910,7 +34907,7 @@
 			)
 		)
 		(property "Description" "FFC / FPC 6P Bottom Contact Slide Lock Surface Mount 0.5 mm pitch"
-			(at 181.61 243.84 0)
+			(at 170.18 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34919,7 +34916,7 @@
 			)
 		)
 		(property "MPN" "AFC07-S06FCA-00"
-			(at 181.61 243.84 0)
+			(at 170.18 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34928,7 +34925,7 @@
 			)
 		)
 		(property "JLCPCB PN" "C262553"
-			(at 181.61 243.84 0)
+			(at 170.18 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)

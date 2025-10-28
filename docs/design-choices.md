@@ -41,7 +41,7 @@ the batteries.
 - [ESP32-S3](https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/schematic-checklist.html#power-supply) 0.5 A × 3.3 V = 1.65 W
 - [Sipeed M1](https://wiki.sipeed.com/hardware/maixface/en/core_modules/k210_core_modules.html) 1.5 W
 - [TROPIC01](https://github.com/tropicsquare/tropic01/blob/main/doc/TR01-C2P-T101/ODD_TR01_datasheet_vA_10.pdf) 0.025 A × 3.3 V = 0.0825 W
-- [GDEY029T94-FL03](https://www.good-display.com/product/346.html) 0.003 A (display) + 0.06 A (backlight) × 3.3 V = 0.2079 W
+- [GDEY029T94-FL03](https://www.good-display.com/product/346.html) 0.003 A (display) + 0.06 A (frontlight) × 3.3 V = 0.2079 W
 
 Total: 3.4404 W @ 5 V ≃ 0.69 A
 
@@ -259,13 +259,13 @@ replacement.
 
 ## E-Paper Display
 Opted for the Good Display [GDEY029T94-FL03](https://www.good-display.com/product/346.html)
-which comes bonded with a backlight (nice for the low light environments at
+which comes bonded with a frontlight (nice for the low light environments at
 hacker's events). This display is readily available and has good documentation
 and driver libraries.
 
-### Backlight LED driver
+### Frontlight LED driver
 Using the ESP32-S3 LED PWM controller to adjust brightness. The maximum current
-output on the S3 pins cannot exceed 40 mA. As the 4 LEDs in the backlight draw
+output on the S3 pins cannot exceed 40 mA. As the 4 LEDs in the frontlight draw
 a total of 60 mA (I<sub>f</sub>) we opted to drive them through a BJT.
 
 The chosen transistor, a [Hottech S8050](https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586188326566547456)
@@ -283,7 +283,7 @@ The Hottech S8050 has a minimum transition frequency of 150 MHz, which is well
 above the typical PWM frequencies used on the S3 (1-10 kHz) and thus fit for the
 purpose.
 
-Although the backlight LEDs are rated for a maximum forward voltage of 3.3 V we
+Although the frontlight LEDs are rated for a maximum forward voltage of 3.3 V we
 still opted to place a current limiting resistor (5.1 Ω). This limits voltage to
 3 V, getting it closer to the typical V<sub>f</sub> (2.8 V) listed in the
 datasheet.

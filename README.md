@@ -5,7 +5,7 @@ featuring the [TROPIC01](https://github.com/tropicsquare/tropic01) secure
 element with an [ESP32-S3](https://www.espressif.com/en/products/socs/esp32-s3/) microcontroller.
 
 Meant to be used for workshops and prototyping. It can also be worn as a mobile
-badge. Features an e-paper display with backlight, a JST connector for
+badge. Features an e-paper display with frontlight, a JST connector for
 single-cell LiPo batteries and a 12-button keypad.
 
 The [cdc-badge](/cdc-badge) directory contains the KiCAD project with schematics
