@@ -1739,7 +1739,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -12.192 11.684 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1747,7 @@
 			)
 		)
 		(property "Value" "TROPIC01"
-			(at 11.684 11.43 0)
+			(at 0.762 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1812,7 +1812,7 @@
 				)
 			)
 			(pin output line
-				(at -15.24 7.62 0)
+				(at -15.24 3.81 0)
 				(length 2.54)
 				(name "GPO/IRQ"
 					(effects
@@ -1830,7 +1830,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 2.54 0)
+				(at -15.24 0 0)
 				(length 2.54)
 				(name "SDI"
 					(effects
@@ -1848,7 +1848,7 @@
 				)
 			)
 			(pin output line
-				(at -15.24 0 0)
+				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "SDO"
 					(effects
@@ -1866,7 +1866,7 @@
 				)
 			)
 			(pin input clock
-				(at -15.24 -2.54 0)
+				(at -15.24 -5.08 0)
 				(length 2.54)
 				(name "SCK"
 					(effects
@@ -1884,7 +1884,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -5.08 0)
+				(at -15.24 -7.62 0)
 				(length 2.54)
 				(name "~{CSN}"
 					(effects
@@ -1902,7 +1902,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -10.16 12.7 270)
+				(at -12.7 6.35 0)
 				(length 2.54)
 				(hide yes)
 				(name "NU"
@@ -1920,18 +1920,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -7.62 12.7 270)
+			(pin power_in line
+				(at -10.16 12.7 270)
 				(length 2.54)
-				(hide yes)
-				(name "NU"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "27"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1940,26 +1939,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -5.08 12.7 270)
-				(length 2.54)
-				(hide yes)
-				(name "NU"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -5.08 -12.7 90)
+				(at -7.62 -10.16 90)
 				(length 2.54)
 				(hide yes)
 				(name "NU"
@@ -1978,7 +1958,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -2.54 12.7 270)
+				(at -5.08 10.16 270)
 				(length 2.54)
 				(hide yes)
 				(name "NU"
@@ -1988,7 +1968,7 @@
 						)
 					)
 				)
-				(number "29"
+				(number "27"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1997,7 +1977,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -2.54 -12.7 90)
+				(at -5.08 -10.16 90)
 				(length 2.54)
 				(hide yes)
 				(name "NU"
@@ -2015,6 +1995,25 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at -2.54 -10.16 90)
+				(length 2.54)
+				(hide yes)
+				(name "NU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 0 12.7 270)
 				(length 2.54)
@@ -2025,45 +2024,7 @@
 						)
 					)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 12.7 270)
-				(length 2.54)
-				(hide yes)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 12.7 270)
-				(length 2.54)
-				(hide yes)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2128,17 +2089,35 @@
 				)
 			)
 			(pin no_connect line
+				(at 2.54 10.16 270)
+				(length 2.54)
+				(hide yes)
+				(name "NU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 2.54 -12.7 90)
 				(length 2.54)
-				(hide yes)
-				(name "NU"
+				(name "TP"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "32"
+				(number "33"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2147,7 +2126,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 5.08 -12.7 90)
+				(at 5.08 10.16 270)
 				(length 2.54)
 				(hide yes)
 				(name "NU"
@@ -2157,7 +2136,7 @@
 						)
 					)
 				)
-				(number "25"
+				(number "29"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2166,7 +2145,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 7.62 -12.7 90)
+				(at 5.08 -10.16 90)
 				(length 2.54)
 				(hide yes)
 				(name "NU"
@@ -2185,7 +2164,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -12.7 90)
+				(at 7.62 -10.16 90)
 				(length 2.54)
 				(hide yes)
 				(name "NU"
@@ -2203,17 +2182,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 15.24 7.62 180)
+			(pin power_in line
+				(at 10.16 12.7 270)
 				(length 2.54)
-				(name "PULLUP"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "22"
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2222,7 +2201,26 @@
 				)
 			)
 			(pin no_connect line
-				(at 15.24 5.08 180)
+				(at 10.16 -10.16 90)
+				(length 2.54)
+				(hide yes)
+				(name "NU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 12.7 8.89 180)
 				(length 2.54)
 				(hide yes)
 				(name "NU"
@@ -2241,7 +2239,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 15.24 2.54 180)
+				(at 12.7 6.35 180)
 				(length 2.54)
 				(hide yes)
 				(name "NU"
@@ -2260,7 +2258,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 15.24 0 180)
+				(at 12.7 1.27 180)
 				(length 2.54)
 				(hide yes)
 				(name "NU"
@@ -2279,7 +2277,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 15.24 -2.54 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(hide yes)
 				(name "NU"
@@ -2298,7 +2296,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 15.24 -5.08 180)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "NU"
@@ -2309,6 +2307,24 @@
 					)
 				)
 				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 3.81 180)
+				(length 2.54)
+				(name "PULLUP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
 					(effects
 						(font
 							(size 1.27 1.27)
