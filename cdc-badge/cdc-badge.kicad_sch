@@ -24102,7 +24102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
+		(property "Footprint" "CDC_Badge:ESP32-S3-WROOM-1"
 			(at 73.66 163.83 0)
 			(effects
 				(font
