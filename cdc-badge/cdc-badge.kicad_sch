@@ -10961,6 +10961,12 @@
 		(uuid "371f4908-2d45-4cdf-8085-afc54e078b0c")
 	)
 	(junction
+		(at 200.66 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37d427f9-0609-4e35-9379-74a4cb31027c")
+	)
+	(junction
 		(at 374.65 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11049,6 +11055,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "520a41aa-9b80-4da2-9d09-a316ca43670c")
+	)
+	(junction
+		(at 200.66 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54e29288-83f0-406e-86b1-0b44901bc1ee")
 	)
 	(junction
 		(at 55.88 259.08)
@@ -11337,6 +11349,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf087220-0ee9-4431-9449-a4bc68f720f9")
+	)
+	(junction
+		(at 196.85 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c00e310a-659c-4bfe-84a3-7a83732c331c")
 	)
 	(junction
 		(at 220.98 149.86)
@@ -11762,6 +11780,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 139.7) (xy 203.2 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06494407-7b14-4f6c-927a-ee5cb6ea655d")
+	)
+	(wire
+		(pts
 			(xy 227.33 200.66) (xy 227.33 199.39)
 		)
 		(stroke
@@ -11952,7 +11980,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 153.67) (xy 208.28 153.67)
+			(xy 195.58 153.67) (xy 196.85 153.67)
 		)
 		(stroke
 			(width 0)
@@ -12022,6 +12050,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 139.7) (xy 203.2 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ecf025-9648-417e-8abb-b4e2690490ce")
+	)
+	(wire
+		(pts
 			(xy 347.98 66.04) (xy 347.98 68.58)
 		)
 		(stroke
@@ -12062,7 +12100,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 163.83) (xy 195.58 163.83)
+			(xy 209.55 163.83) (xy 200.66 163.83)
 		)
 		(stroke
 			(width 0)
@@ -12432,6 +12470,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 144.78) (xy 200.66 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325c0932-efed-496f-a53b-e29ff74ed29f")
+	)
+	(wire
+		(pts
 			(xy 88.9 279.4) (xy 96.52 279.4)
 		)
 		(stroke
@@ -12502,6 +12550,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 139.7) (xy 200.66 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ca2ca1-888d-4047-a8e9-45d28b73d248")
+	)
+	(wire
+		(pts
 			(xy 209.55 114.3) (xy 220.98 114.3)
 		)
 		(stroke
@@ -12559,6 +12617,26 @@
 			(type default)
 		)
 		(uuid "3a617901-0714-4e1f-bcb5-ed27d23842c4")
+	)
+	(wire
+		(pts
+			(xy 196.85 153.67) (xy 209.55 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9be236-b02b-4a66-b47a-0543c2a1c7d1")
+	)
+	(wire
+		(pts
+			(xy 196.85 144.78) (xy 196.85 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b298939-0bec-4125-90ff-e4bccdb98790")
 	)
 	(wire
 		(pts
@@ -12862,7 +12940,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 168.91) (xy 195.58 168.91)
+			(xy 209.55 168.91) (xy 195.58 168.91)
 		)
 		(stroke
 			(width 0)
@@ -13352,7 +13430,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 158.75) (xy 208.28 158.75)
+			(xy 195.58 158.75) (xy 209.55 158.75)
 		)
 		(stroke
 			(width 0)
@@ -14709,6 +14787,16 @@
 			(type default)
 		)
 		(uuid "aa16b66a-412a-41f0-b3ac-b17521d53788")
+	)
+	(wire
+		(pts
+			(xy 200.66 163.83) (xy 195.58 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa304809-87b5-4218-a023-f6587b29794a")
 	)
 	(wire
 		(pts
@@ -16901,7 +16989,7 @@
 		(uuid "215714a5-9dc2-42df-ac94-0d4b4e901223")
 	)
 	(label "SPI_CS_EPD"
-		(at 208.28 158.75 180)
+		(at 209.55 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17241,7 +17329,7 @@
 		(uuid "71cb4e07-f15f-415e-ae8e-b41919ba70ff")
 	)
 	(label "SPI_CS0"
-		(at 208.28 153.67 180)
+		(at 209.55 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17541,7 +17629,7 @@
 		(uuid "ae41d719-cc66-4f0a-a150-d4d988ef2091")
 	)
 	(label "SPI_CS_TR01"
-		(at 208.28 168.91 180)
+		(at 209.55 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17661,7 +17749,7 @@
 		(uuid "cdc7cbb2-bbe9-4940-833f-46d1701e3b67")
 	)
 	(label "SPI_CS1"
-		(at 208.28 163.83 180)
+		(at 209.55 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18031,6 +18119,84 @@
 		(uuid "ffbdf089-58bb-48e7-a8d9-ea0cea3ce5c9")
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 200.66 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05b9d3a7-32dd-4f03-8390-7916846338cc")
+		(property "Reference" "R40"
+			(at 202.184 141.224 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 202.184 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 200.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 200.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C25819"
+			(at 200.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d467df48-8e15-43a4-a0ef-f272cd884a25")
+		)
+		(pin "1"
+			(uuid "74eb98bd-2447-43a2-93d8-ba48dafc8ac0")
+		)
+		(instances
+			(project "cdc-badge"
+				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 44.45 125.73 0)
 		(unit 1)
@@ -18388,7 +18554,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "08db26a1-92cc-4019-8ada-103fced28bf9")
 		(property "Reference" "R37"
 			(at 244.094 250.444 0)
@@ -22218,6 +22384,84 @@
 			(project "cdc-badge"
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 196.85 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37450000-89f2-4e0d-af50-175f6c3722e0")
+		(property "Reference" "R39"
+			(at 191.516 140.97 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 191.516 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 196.85 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 196.85 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C25819"
+			(at 196.85 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7fc8cb4e-c8c9-4860-af7b-ed90e2cbbaf6")
+		)
+		(pin "1"
+			(uuid "ce1790e0-6885-49b5-9033-dffd4d2a5f6d")
+		)
+		(instances
+			(project "cdc-badge"
+				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -35272,6 +35516,71 @@
 			(project "cdc-badge"
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 203.2 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec8092c7-ab06-47ac-9cc3-9145bcc0cb70")
+		(property "Reference" "#PWR075"
+			(at 203.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 203.2 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 203.2 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d25d2c28-7255-471d-9aee-42c6baa3b766")
+		)
+		(instances
+			(project "cdc-badge"
+				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
