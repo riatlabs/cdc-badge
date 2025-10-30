@@ -17,7 +17,8 @@ The badge has 3 expansion ports:
 - [SAO](https://badge.team/docs/standards/sao/) ~~Shitty~~ Standardized Add-On
   port to connect small PCBs with blinky LEDs, speakers, and other bling.
 - [Grove](https://wiki.seeedstudio.com/Grove_System) compatible connector to
-  interface with any Grove sensor or network module.
+  interface with any Grove sensor or network module. Has selectable output
+  voltage (3.3 V or 5 V).
 
 We already designed an [HAT with the Sipeed M1](https://github.com/riatlabs/sipeed-m1-hat)
 for more demanding applications. It is based on the [Kendryte K210 SoC](https://www.kendryte.com/en/proDetail/210)
