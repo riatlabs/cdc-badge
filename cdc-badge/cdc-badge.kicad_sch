@@ -10781,7 +10781,7 @@
 	)
 	(text_box "1mA 90% efficiency\n1A 92% efficiency\n2A 87% efficiency\nmax current: 2.5A\nfeedback: 0.5V\n20uA quiescent"
 		(exclude_from_sim no)
-		(at 354.33 35.56 0)
+		(at 354.33 31.75 0)
 		(size 21.59 13.97)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -10853,6 +10853,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02ce044e-5741-4b76-a99d-d8ced278b4df")
+	)
+	(junction
+		(at 364.49 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03fcf1a0-7bd5-4774-8fe7-8c477999ec8e")
 	)
 	(junction
 		(at 66.04 134.62)
@@ -11435,6 +11441,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b455d6cb-e7f7-441b-94f0-9df196f1ffd2")
+	)
+	(junction
+		(at 266.7 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8e00881-8d5c-437b-b495-7a4a9434a666")
 	)
 	(junction
 		(at 130.81 132.08)
@@ -13326,6 +13338,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 53.34) (xy 369.57 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e9ae8a-7836-456e-b7d9-569732c3e312")
+	)
+	(wire
+		(pts
 			(xy 374.65 106.68) (xy 377.19 106.68)
 		)
 		(stroke
@@ -14766,7 +14788,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 50.8) (xy 274.32 50.8)
+			(xy 264.16 50.8) (xy 266.7 50.8)
 		)
 		(stroke
 			(width 0)
@@ -16196,6 +16218,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 50.8) (xy 274.32 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6bc6f8f-8484-4987-8f0b-2403900f25db")
+	)
+	(wire
+		(pts
 			(xy 163.83 91.44) (xy 163.83 92.71)
 		)
 		(stroke
@@ -17076,7 +17108,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 53.34) (xy 369.57 53.34)
+			(xy 360.68 53.34) (xy 364.49 53.34)
 		)
 		(stroke
 			(width 0)
@@ -20675,7 +20707,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bc0663d-5224-4cb9-ada2-2a59128c0a3e")
-		(property "Reference" "TP9"
+		(property "Reference" "TP2"
 			(at 196.85 60.452 0)
 			(effects
 				(font
@@ -20726,7 +20758,7 @@
 		(instances
 			(project "cdc-badge"
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
-					(reference "TP9")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -22003,7 +22035,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2feeb6cc-fca0-4829-953f-602bbb187a25")
-		(property "Reference" "TP2"
+		(property "Reference" "TP9"
 			(at 77.216 70.104 0)
 			(effects
 				(font
@@ -22054,7 +22086,7 @@
 		(instances
 			(project "cdc-badge"
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
-					(reference "TP2")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -22959,6 +22991,72 @@
 			(project ""
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 266.7 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39f8cd07-58b5-47a5-8ae4-867119dc89ca")
+		(property "Reference" "TP3"
+			(at 265.43 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_3.3V"
+			(at 276.098 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 271.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 266.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21ae4272-3711-4a84-b187-11d1b95ffc06")
+		)
+		(instances
+			(project "cdc-badge"
+				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -27831,7 +27929,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "720b0a9d-1fa7-47fb-80ec-30f18f107571")
-		(property "Reference" "TP10"
+		(property "Reference" "TP1"
 			(at 52.578 36.068 0)
 			(effects
 				(font
@@ -27882,7 +27980,7 @@
 		(instances
 			(project "cdc-badge"
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
-					(reference "TP10")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -30100,7 +30198,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91777c8d-37e0-4161-98b2-12cb7f3dd6c1")
-		(property "Reference" "TP8"
+		(property "Reference" "TP6"
 			(at 195.834 67.056 90)
 			(effects
 				(font
@@ -30151,7 +30249,7 @@
 		(instances
 			(project "cdc-badge"
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
-					(reference "TP8")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -35566,7 +35664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d55b0990-3222-4635-9e75-2f8bd26e477a")
-		(property "Reference" "TP1"
+		(property "Reference" "TP7"
 			(at 197.866 79.756 90)
 			(effects
 				(font
@@ -35617,7 +35715,7 @@
 		(instances
 			(project "cdc-badge"
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
-					(reference "TP1")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -35872,7 +35970,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db2c6fa3-1537-48b5-84b7-fe6493154f0a")
-		(property "Reference" "TP3"
+		(property "Reference" "TP8"
 			(at 75.946 85.852 0)
 			(effects
 				(font
@@ -35923,7 +36021,73 @@
 		(instances
 			(project "cdc-badge"
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
-					(reference "TP3")
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 364.49 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbaf36fb-cd46-4efb-9e11-c5972440a71e")
+		(property "Reference" "TP5"
+			(at 363.22 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_5V"
+			(at 371.602 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 369.57 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 369.57 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 364.49 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac8a2d69-87ac-4cd1-b44c-63b8c503e4ed")
+		)
+		(instances
+			(project "cdc-badge"
+				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
