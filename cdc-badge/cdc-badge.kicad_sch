@@ -11119,12 +11119,6 @@
 		(uuid "520a41aa-9b80-4da2-9d09-a316ca43670c")
 	)
 	(junction
-		(at 53.34 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54bcf193-b9d4-409a-81e4-8b034bbd19f7")
-	)
-	(junction
 		(at 200.66 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13536,7 +13530,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 44.45) (xy 63.5 44.45)
+			(xy 50.8 44.45) (xy 55.88 44.45)
 		)
 		(stroke
 			(width 0)
@@ -15856,16 +15850,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 44.45) (xy 53.34 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca956ec2-2845-4e13-a58c-951fcf84e311")
-	)
-	(wire
-		(pts
 			(xy 223.52 242.57) (xy 228.6 242.57)
 		)
 		(stroke
@@ -15906,7 +15890,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 44.45) (xy 74.93 44.45)
+			(xy 60.96 44.45) (xy 74.93 44.45)
 		)
 		(stroke
 			(width 0)
@@ -22004,7 +21988,7 @@
 		(dnp no)
 		(uuid "2feeb6cc-fca0-4829-953f-602bbb187a25")
 		(property "Reference" "TP9"
-			(at 77.216 70.104 0)
+			(at 79.502 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22013,7 +21997,7 @@
 			)
 		)
 		(property "Value" "TP_USB_D-"
-			(at 84.582 72.136 0)
+			(at 86.868 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27109,7 +27093,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 66.04 44.45 270)
+		(at 58.42 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27117,7 +27101,7 @@
 		(dnp no)
 		(uuid "6980256e-7809-4ac5-9aee-136ba92f9eaf")
 		(property "Reference" "FB2"
-			(at 60.706 39.116 90)
+			(at 53.086 39.116 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27126,7 +27110,7 @@
 			)
 		)
 		(property "Value" "120Ω@100MHz"
-			(at 71.374 41.148 90)
+			(at 63.754 41.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27135,7 +27119,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 66.04 42.672 90)
+			(at 58.42 42.672 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27144,7 +27128,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 44.45 0)
+			(at 58.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27153,7 +27137,7 @@
 			)
 		)
 		(property "Description" "120Ω@100MHz 20mΩ 5A ±25% Ferrite bead"
-			(at 66.04 44.45 0)
+			(at 58.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27162,7 +27146,7 @@
 			)
 		)
 		(property "MPN" "HCB2012KF-121T50"
-			(at 66.04 44.45 0)
+			(at 58.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27171,7 +27155,7 @@
 			)
 		)
 		(property "JLCPCB PN" "C304323"
-			(at 66.04 44.45 0)
+			(at 58.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27823,7 +27807,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 53.34 44.45 0)
+		(at 74.93 44.45 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27832,7 +27816,7 @@
 		(dnp no)
 		(uuid "720b0a9d-1fa7-47fb-80ec-30f18f107571")
 		(property "Reference" "TP1"
-			(at 52.578 36.068 0)
+			(at 72.644 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27841,7 +27825,7 @@
 			)
 		)
 		(property "Value" "TP_VBUS"
-			(at 55.88 38.608 0)
+			(at 77.47 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27850,7 +27834,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 48.26 44.45 0)
+			(at 69.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27859,7 +27843,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 44.45 0)
+			(at 69.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27868,7 +27852,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 53.34 44.45 0)
+			(at 74.93 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
