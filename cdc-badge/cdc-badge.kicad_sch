@@ -13530,7 +13530,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 44.45) (xy 55.88 44.45)
+			(xy 50.8 44.45) (xy 62.23 44.45)
 		)
 		(stroke
 			(width 0)
@@ -15890,7 +15890,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 44.45) (xy 74.93 44.45)
+			(xy 67.31 44.45) (xy 74.93 44.45)
 		)
 		(stroke
 			(width 0)
@@ -17317,6 +17317,16 @@
 			(justify right bottom)
 		)
 		(uuid "2397e790-21c1-4f1c-9b2d-1323d41ed9c8")
+	)
+	(label "PRE_VBUS"
+		(at 50.8 44.45 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "23e459d9-a129-4155-bddb-00507ba90e29")
 	)
 	(label "I2C0_SDA"
 		(at 104.14 148.59 180)
@@ -27093,7 +27103,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 58.42 44.45 270)
+		(at 64.77 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27101,7 +27111,7 @@
 		(dnp no)
 		(uuid "6980256e-7809-4ac5-9aee-136ba92f9eaf")
 		(property "Reference" "FB2"
-			(at 53.086 39.116 90)
+			(at 59.436 39.116 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27110,7 +27120,7 @@
 			)
 		)
 		(property "Value" "120Ω@100MHz"
-			(at 63.754 41.148 90)
+			(at 70.104 41.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27119,7 +27129,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 58.42 42.672 90)
+			(at 64.77 42.672 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27128,7 +27138,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 44.45 0)
+			(at 64.77 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27137,7 +27147,7 @@
 			)
 		)
 		(property "Description" "120Ω@100MHz 20mΩ 5A ±25% Ferrite bead"
-			(at 58.42 44.45 0)
+			(at 64.77 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27146,7 +27156,7 @@
 			)
 		)
 		(property "MPN" "HCB2012KF-121T50"
-			(at 58.42 44.45 0)
+			(at 64.77 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27155,7 +27165,7 @@
 			)
 		)
 		(property "JLCPCB PN" "C304323"
-			(at 58.42 44.45 0)
+			(at 64.77 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
