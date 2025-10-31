@@ -357,7 +357,36 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|2222500|2400300|c6853d72-9317-4eee-8ee2-c0cb4a6fc300|00000000-0000-0000-0000-000000000000|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|",
+        "Coming from an inductor."
+      ],
+      [
+        "power_pin_not_driven|2235200|2400300|c6853d72-9317-4eee-8ee2-c0cb4a6fc300|00000000-0000-0000-0000-000000000000|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|",
+        "Driven by inductor."
+      ],
+      [
+        "power_pin_not_driven|241300|1536700|93beeefb-5255-49a4-a4ee-53f5c0aa0796|00000000-0000-0000-0000-000000000000|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|",
+        "GND is driven through a ferrite bead."
+      ],
+      [
+        "power_pin_not_driven|2489200|2082800|c75c02b7-5653-45bb-8eb9-b5fbce666da5|00000000-0000-0000-0000-000000000000|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|",
+        "VCC coming from a sliding switch selector."
+      ],
+      [
+        "power_pin_not_driven|2667000|2514600|507fd9d4-2d8e-48b0-8fd0-d845f45a6daa|00000000-0000-0000-0000-000000000000|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|",
+        "Power going through a 0 ohm resistor."
+      ],
+      [
+        "power_pin_not_driven|2768600|2514600|507fd9d4-2d8e-48b0-8fd0-d845f45a6daa|00000000-0000-0000-0000-000000000000|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|",
+        "Power going through a 0 ohm resistor."
+      ],
+      [
+        "power_pin_not_driven|812800|368300|1e7685e4-0b13-4ebf-8ca0-c35881f37b7f|00000000-0000-0000-0000-000000000000|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|/2cec4f7a-7b92-4a21-be0b-2bac184578cb|",
+        "Going through  a ferrite bead."
+      ]
+    ],
     "meta": {
       "version": 0
     },
