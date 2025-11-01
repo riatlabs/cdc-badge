@@ -1503,7 +1503,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1521,7 +1521,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1539,7 +1539,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1557,7 +1557,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -22908,7 +22908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CDC_Badge:BOOMELE_HY-4P_1x04-1MP_P2mm_Vertical"
+		(property "Footprint" "CDC_Badge:BOOMELE_HY-4P_1x04-1MP_P2mm_Horizontal"
 			(at 254 205.74 0)
 			(effects
 				(font
@@ -22926,7 +22926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Seed Studio Grove connector"
+		(property "Description" "Seed Studio Grove connector. Pin numbering reversed as Seed Studio numbers footprint RTL while KiCad libs do it LTR."
 			(at 254 205.74 0)
 			(effects
 				(font
@@ -22935,7 +22935,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C161188"
+		(property "JLCPCB PN" "C146060"
 			(at 254 205.74 0)
 			(effects
 				(font
