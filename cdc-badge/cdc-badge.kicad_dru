@@ -132,7 +132,7 @@
 # additional rules
 (rule "Copper to Board Edge Clearance"
 	(condition "A.Type == 'track' || A.Type == 'zone'")
-	(constraint edge_clearance (min 0.2mm))
+	(constraint edge_clearance (min 0.3mm))
 )
 
 (rule "Copper Pour to Copper Pour Clearance"
