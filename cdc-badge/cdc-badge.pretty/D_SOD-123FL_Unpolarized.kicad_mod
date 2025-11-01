@@ -240,7 +240,7 @@
 		(uuid "5cfffee5-d4b4-40a3-a0fc-37582ca8bfb2")
 	)
 	(embedded_fonts no)
-	(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123FL.wrl"
+	(model "${KIPRJMOD}/cdc-badge.3dshapes/D_SOD-123FL.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -248,7 +248,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

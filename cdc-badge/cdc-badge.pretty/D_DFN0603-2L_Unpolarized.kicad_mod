@@ -103,4 +103,15 @@
 		(uuid "f8743265-afb5-4b7f-98fc-2d5eedb3a6e5")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/cdc-badge.3dshapes/D_DFN0603-2L.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
