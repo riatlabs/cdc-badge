@@ -19241,7 +19241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Jushuo_AFC07-S24FCA-00_1x24-1MP_P0.50_Horizontal"
+		(property "Footprint" "CDC_Badge:Jushuo_AFC07-S24ECA-00_1x24-1MP_P0.50_Horizontal"
 			(at 118.11 246.38 0)
 			(effects
 				(font
@@ -19259,7 +19259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FFC / FPC 24P Bottom Contact Slide Lock Surface Mount 0.5 mm pitch"
+		(property "Description" "FFC / FPC 24P Top Contact Slide Lock Surface Mount 0.5 mm pitch"
 			(at 118.11 246.38 0)
 			(effects
 				(font
@@ -19268,7 +19268,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AFC07-S24FCA-00"
+		(property "MPN" "AFC07-S24ECA-00"
 			(at 118.11 246.38 0)
 			(effects
 				(font
@@ -19277,7 +19277,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C262567"
+		(property "JLCPCB PN" "C262643"
 			(at 118.11 246.38 0)
 			(effects
 				(font
