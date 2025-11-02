@@ -11407,7 +11407,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 87.63) (xy 44.45 88.9)
+			(xy 41.91 82.55) (xy 41.91 86.36)
 		)
 		(stroke
 			(width 0)
@@ -12177,7 +12177,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 82.55) (xy 35.56 82.55)
+			(xy 41.91 82.55) (xy 35.56 82.55)
 		)
 		(stroke
 			(width 0)
@@ -24428,7 +24428,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 88.9 0)
+		(at 41.91 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24436,7 +24436,7 @@
 		(dnp no)
 		(uuid "50b0edf0-7af9-4293-a2f2-1bd86520141b")
 		(property "Reference" "#PWR021"
-			(at 44.45 95.25 0)
+			(at 41.91 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24445,7 +24445,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 93.218 0)
+			(at 41.91 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24453,7 +24453,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 88.9 0)
+			(at 41.91 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24462,7 +24462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 88.9 0)
+			(at 41.91 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24471,7 +24471,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 88.9 0)
+			(at 41.91 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33820,93 +33820,6 @@
 			(project "cdc-badge"
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 44.45 85.09 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c672c8c7-1a8e-4c27-b7ce-60a379b7d427")
-		(property "Reference" "FB1"
-			(at 38.354 84.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "30Ω@100MHz"
-			(at 29.972 86.868 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 46.228 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "14mΩ 30Ω@100MHz 4A ±25% Ferrite bead"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BLM21PG300SN1D"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB PN" "C16903"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83428910-5c7a-4209-8f43-d2cfd92079cf")
-		)
-		(pin "2"
-			(uuid "499333f7-3c05-47c8-a56c-5f591f9e49bd")
-		)
-		(instances
-			(project ""
-				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
-					(reference "FB1")
 					(unit 1)
 				)
 			)
