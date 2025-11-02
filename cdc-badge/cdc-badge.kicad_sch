@@ -18573,23 +18573,22 @@
 		(dnp no)
 		(uuid "095b2ab3-4474-4b3d-b4f4-ad112ea9a2e6")
 		(property "Reference" "J5"
-			(at 157.226 203.2 0)
+			(at 152.654 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Conn_02x03_Odd_Even"
-			(at 156.972 214.122 0)
+			(at 165.608 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_Wuerth:Wuerth_WR-PHD_610006243021_SMD_2x03_P2.54mm_Vertical"
 			(at 156.21 208.28 0)
 			(effects
 				(font
@@ -18607,7 +18606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "2.54mm 2x3P 3A 6P with bottom entry"
 			(at 156.21 208.28 0)
 			(effects
 				(font
@@ -18616,7 +18615,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C3294461"
+		(property "JLCPCB PN" "C22373944"
 			(at 156.21 208.28 0)
 			(effects
 				(font
@@ -18625,7 +18624,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PZ254-2-03-S"
+		(property "MPN" "HC-PM254-8.5H-2x3PS"
 			(at 156.21 208.28 0)
 			(effects
 				(font
