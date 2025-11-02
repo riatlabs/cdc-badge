@@ -10600,12 +10600,6 @@
 		(uuid "41bf6b20-7542-44ba-af9a-76e6737e44df")
 	)
 	(junction
-		(at 71.12 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42afc705-5075-451c-b2ee-57f3cd616bc8")
-	)
-	(junction
 		(at 309.88 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11096,12 +11090,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7cf265f-ce69-44a5-a618-c523c847a9c5")
-	)
-	(junction
-		(at 71.12 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d817d5e3-4ad1-4bd5-86ba-bfeef1ff2d87")
 	)
 	(junction
 		(at 335.28 156.21)
@@ -12817,7 +12805,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 74.93) (xy 71.12 74.93)
+			(xy 66.04 74.93) (xy 77.47 74.93)
 		)
 		(stroke
 			(width 0)
@@ -13167,7 +13155,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 71.12) (xy 82.55 71.12)
+			(xy 58.42 71.12) (xy 77.47 71.12)
 		)
 		(stroke
 			(width 0)
@@ -14587,16 +14575,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 71.12) (xy 71.12 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1498a79-1f9e-4310-b1c8-ace9f0a181c8")
-	)
-	(wire
-		(pts
 			(xy 347.98 137.16) (xy 354.33 137.16)
 		)
 		(stroke
@@ -14664,16 +14642,6 @@
 			(type default)
 		)
 		(uuid "a30666ea-4450-4d49-bd6e-87d0870b115c")
-	)
-	(wire
-		(pts
-			(xy 71.12 74.93) (xy 82.55 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3529377-af52-4bc9-a767-ed27f0ff0e1c")
 	)
 	(wire
 		(pts
@@ -16986,7 +16954,7 @@
 		(uuid "2cfecb43-5f9d-4f59-84ed-aca70ed30def")
 	)
 	(label "USB_D-"
-		(at 82.55 71.12 180)
+		(at 77.47 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17266,7 +17234,7 @@
 		(uuid "6cfe11a8-f04b-462d-9e4a-a7ff5fbe1787")
 	)
 	(label "USB_D+"
-		(at 82.55 74.93 180)
+		(at 77.47 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21589,73 +21557,6 @@
 			(project ""
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 71.12 71.12 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2feeb6cc-fca0-4829-953f-602bbb187a25")
-		(property "Reference" "TP9"
-			(at 73.152 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_USB_D-"
-			(at 80.518 65.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 66.04 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point, route in fly-by configuration"
-			(at 71.12 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4978a971-9bfa-4b68-b579-5e8d99289a60")
-		)
-		(instances
-			(project "cdc-badge"
-				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -35356,73 +35257,6 @@
 			(project ""
 				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 71.12 74.93 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "db2c6fa3-1537-48b5-84b7-fe6493154f0a")
-		(property "Reference" "TP8"
-			(at 69.596 80.772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_USB_D+"
-			(at 69.85 83.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 76.2 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point, route in fly-by configuration"
-			(at 71.12 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e215f499-0c66-4695-9f11-6658a3181cc7")
-		)
-		(instances
-			(project "cdc-badge"
-				(path "/2cec4f7a-7b92-4a21-be0b-2bac184578cb"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
