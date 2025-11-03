@@ -6,18 +6,18 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.0381,
-        "copper_line_width": 0.254,
+        "board_outline_line_width": 0.05,
+        "copper_line_width": 0.15,
         "copper_text_italic": false,
-        "copper_text_size_h": 1.524,
-        "copper_text_size_v": 1.524,
-        "copper_text_thickness": 0.3048,
+        "copper_text_size_h": 1.0,
+        "copper_text_size_v": 1.0,
+        "copper_text_thickness": 0.15,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
-        "dimension_precision": 4,
+        "dimension_precision": 3,
         "dimension_units": 3,
         "dimensions": {
-          "arrow_length": 1270000,
+          "arrow_length": 1000000,
           "extension_offset": 500000,
           "keep_text_aligned": true,
           "suppress_zeroes": true,
@@ -26,26 +26,26 @@
         },
         "fab_line_width": 0.1,
         "fab_text_italic": false,
-        "fab_text_size_h": 0.8128,
-        "fab_text_size_v": 0.8128,
-        "fab_text_thickness": 0.1524,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
         "fab_text_upright": false,
         "other_line_width": 0.1,
         "other_text_italic": false,
-        "other_text_size_h": 0.8128,
-        "other_text_size_v": 0.8128,
-        "other_text_thickness": 0.1524,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
           "height": 1.5,
           "width": 1.5
         },
-        "silk_line_width": 0.1524,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.8128,
-        "silk_text_size_v": 0.8128,
-        "silk_text_thickness": 0.1524,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.5
@@ -478,27 +478,27 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.127,
-        "diff_pair_gap": 0.254,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1524,
+        "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.6858,
-        "microvia_drill": 0.3302,
+        "microvia_diameter": 0.25,
+        "microvia_drill": 0.15,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
-        "via_diameter": 0.6858,
-        "via_drill": 0.3302,
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "clearance": 0.2,
-        "name": "Power",
+        "name": "Power Big",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0
       },
@@ -506,31 +506,9 @@
         "clearance": 0.2,
         "name": "Power Small",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.6
-      },
-      {
-        "clearance": 0.1,
-        "diff_pair_gap": 0.8,
-        "diff_pair_width": 0.2,
-        "name": "Signal",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.4,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.1,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
-        "name": "USBD",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2
+        "track_width": 0.6
       }
     ],
     "meta": {
@@ -540,16 +518,12 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "USBD",
-        "pattern": "/USB_D+"
+        "netclass": "Power Big",
+        "pattern": "*VBUS"
       },
       {
-        "netclass": "USBD",
-        "pattern": "/USB_D-"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "*/VBUS"
+        "netclass": "Power Big",
+        "pattern": "VSYS"
       }
     ]
   },
