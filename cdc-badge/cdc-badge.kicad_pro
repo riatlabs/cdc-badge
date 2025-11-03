@@ -188,32 +188,8 @@
       ],
       "track_widths": [
         0.0,
-        0.127,
-        0.254,
-        0.381,
-        0.508,
-        0.508,
-        0.635,
-        0.762,
-        0.762,
-        0.889,
-        1.016,
-        1.143,
-        1.27,
-        1.397,
-        1.524,
-        1.651,
-        1.778,
-        1.905,
-        2.032,
-        2.159,
-        2.286,
-        2.413,
-        2.54,
-        2.667,
-        2.794,
-        2.921,
-        3.048
+        0.2,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -247,96 +223,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.6858,
-          "drill": 0.3302
-        },
-        {
-          "diameter": 0.889,
-          "drill": 0.381
-        },
-        {
-          "diameter": 1.1938,
-          "drill": 0.508
-        },
-        {
-          "diameter": 1.4732,
-          "drill": 0.635
-        },
-        {
-          "diameter": 1.778,
-          "drill": 0.762
-        },
-        {
-          "diameter": 2.0828,
-          "drill": 0.889
-        },
-        {
-          "diameter": 2.3622,
-          "drill": 1.016
-        },
-        {
-          "diameter": 2.667,
-          "drill": 1.143
-        },
-        {
-          "diameter": 2.9718,
-          "drill": 1.27
-        },
-        {
-          "diameter": 3.2512,
-          "drill": 1.397
-        },
-        {
-          "diameter": 3.556,
-          "drill": 1.524
-        },
-        {
-          "diameter": 3.8608,
-          "drill": 1.651
-        },
-        {
-          "diameter": 4.1402,
-          "drill": 1.778
-        },
-        {
-          "diameter": 4.445,
-          "drill": 1.905
-        },
-        {
-          "diameter": 4.7498,
-          "drill": 2.032
-        },
-        {
-          "diameter": 5.0292,
-          "drill": 2.159
-        },
-        {
-          "diameter": 5.334,
-          "drill": 2.286
-        },
-        {
-          "diameter": 5.6388,
-          "drill": 2.413
-        },
-        {
-          "diameter": 5.9182,
-          "drill": 2.54
-        },
-        {
-          "diameter": 6.223,
-          "drill": 2.667
-        },
-        {
-          "diameter": 6.5278,
-          "drill": 2.794
-        },
-        {
-          "diameter": 6.8072,
-          "drill": 2.921
-        },
-        {
-          "diameter": 7.112,
-          "drill": 3.048
+          "diameter": 0.4,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
