@@ -1,0 +1,192 @@
+(footprint "PKCELL_LP503562_invert"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3.7V 1200 mAh LiPo battery")
+	(property "Reference" "REF**"
+		(at 0 -17.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d99d83eb-2f97-4977-bf19-e8c6ac4bc4d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PKCELL_LP503562_invert"
+		(at -0.2 21.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e8d1cf35-ddde-4dd1-ba3b-5d714b561784")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a2762a2-bc49-447b-8985-e022a634fe2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcf0b12d-6bb6-4dc7-9363-843ec0d3d8be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -31.3 5.8)
+		(end -31.3 15.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3f8d772-1a3d-4556-805e-4adfee03241b")
+	)
+	(fp_line
+		(start -21.3 15.8)
+		(end -31.3 15.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b1384a5-948b-47d8-8bed-bed0f33c1f1b")
+	)
+	(fp_line
+		(start 21.3 -19.8)
+		(end 31.3 -19.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4458bfdd-8848-43bf-915c-f3c10fbe4524")
+	)
+	(fp_line
+		(start 31.3 -9.8)
+		(end 31.3 -19.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "074c8d74-6864-4a0b-9a16-e984939f0ba1")
+	)
+	(fp_rect
+		(start -31 15.5)
+		(end 31 -19.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d7f757cb-b257-48d9-9b6c-3a3434a634c7")
+	)
+	(fp_line
+		(start -35.5 -9.75)
+		(end -31.5 -9.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d376ca20-9c0e-4288-81b6-88fbdd72ac5b")
+	)
+	(fp_line
+		(start -35.5 19.5)
+		(end -35.5 -9.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5e2f9176-e5e7-408c-ae28-fed98b1f5655")
+	)
+	(fp_line
+		(start -31.5 -9.75)
+		(end -31 -9.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9ac9c689-970a-4314-8303-a46bf17550e7")
+	)
+	(fp_line
+		(start 31 -5.25)
+		(end 35 -5.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f15a8146-9e87-48b2-b7f2-f85f914136c6")
+	)
+	(fp_line
+		(start 35 -5.25)
+		(end 35 19.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "056121a9-66f3-4f75-9707-7ac208078b84")
+	)
+	(fp_line
+		(start 35 19.5)
+		(end -35.5 19.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "71b29e14-4c2e-40d8-bb20-15a46e935c0d")
+	)
+	(fp_rect
+		(start -31 15.5)
+		(end 31 -19.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a0c52008-cfd5-4916-afb5-4b0da5a56740")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f302650f-75f7-4de2-b91f-042cbb1a0ea0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
