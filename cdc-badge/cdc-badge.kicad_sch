@@ -10164,6 +10164,17 @@
 		)
 		(uuid "26ab7bc8-c689-4923-ac53-00fe24af73e2")
 	)
+	(text "take out for\npower glitching"
+		(exclude_from_sim no)
+		(at 247.396 237.744 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "497ca1f7-72b8-49cd-a1ab-f87825dc1176")
+	)
 	(text "INPUT"
 		(exclude_from_sim no)
 		(at 111.252 178.308 0)
@@ -10275,17 +10286,6 @@
 			(justify left)
 		)
 		(uuid "c34f1dc6-5529-41d1-92ff-7101316214d4")
-	)
-	(text "take out for\npower glitching"
-		(exclude_from_sim no)
-		(at 228.346 237.744 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "c403ca4f-8a2c-4a97-90bd-61209153fceb")
 	)
 	(text "5V Boost Converter"
 		(exclude_from_sim no)
@@ -11430,7 +11430,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 240.03) (xy 223.52 242.57)
+			(xy 236.22 240.03) (xy 236.22 242.57)
 		)
 		(stroke
 			(width 0)
@@ -11730,7 +11730,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 242.57) (xy 261.62 242.57)
+			(xy 243.84 242.57) (xy 247.65 242.57)
 		)
 		(stroke
 			(width 0)
@@ -15460,16 +15460,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 242.57) (xy 228.6 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca9deca3-d99d-4982-9012-0ebcf092e657")
-	)
-	(wire
-		(pts
 			(xy 326.39 182.88) (xy 335.28 182.88)
 		)
 		(stroke
@@ -15777,16 +15767,6 @@
 			(type default)
 		)
 		(uuid "d67a291b-13e5-401d-b096-831b5430d666")
-	)
-	(wire
-		(pts
-			(xy 233.68 242.57) (xy 236.22 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d685ac23-4462-4ada-86db-d62119e36fd5")
 	)
 	(wire
 		(pts
@@ -16407,6 +16387,16 @@
 			(type default)
 		)
 		(uuid "ef2c471f-25cb-42f5-8525-43991a48ee4b")
+	)
+	(wire
+		(pts
+			(xy 252.73 242.57) (xy 261.62 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efbf528b-83e8-4e90-a24b-da11b2a1ec90")
 	)
 	(wire
 		(pts
@@ -20860,7 +20850,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 223.52 240.03 0)
+		(at 236.22 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20868,7 +20858,7 @@
 		(dnp no)
 		(uuid "24ef19bd-3e64-46ed-841a-9751e415b364")
 		(property "Reference" "#PWR04"
-			(at 223.52 243.84 0)
+			(at 236.22 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20877,7 +20867,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 223.52 235.966 0)
+			(at 236.22 235.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20885,7 +20875,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 240.03 0)
+			(at 236.22 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20894,7 +20884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 240.03 0)
+			(at 236.22 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20903,7 +20893,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 223.52 240.03 0)
+			(at 236.22 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32225,7 +32215,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 231.14 242.57 270)
+		(at 250.19 242.57 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32233,7 +32223,7 @@
 		(dnp no)
 		(uuid "b51dd985-98c3-4864-86aa-c1d9a40068d6")
 		(property "Reference" "R41"
-			(at 231.648 240.284 90)
+			(at 250.698 240.284 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -32242,7 +32232,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 233.934 240.284 90)
+			(at 252.984 240.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32251,7 +32241,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 231.14 242.57 0)
+			(at 250.19 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32260,7 +32250,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 242.57 0)
+			(at 250.19 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32269,7 +32259,7 @@
 			)
 		)
 		(property "Description" "0Ω 100mW 75V Thick Film Resistor ±1%"
-			(at 231.14 242.57 0)
+			(at 250.19 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32278,7 +32268,7 @@
 			)
 		)
 		(property "JLCPCB PN" "C21189"
-			(at 231.14 242.57 90)
+			(at 250.19 242.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32287,7 +32277,7 @@
 			)
 		)
 		(property "MPN" "0603WAF0000T5E"
-			(at 231.14 242.57 90)
+			(at 250.19 242.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
