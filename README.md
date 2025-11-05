@@ -45,6 +45,13 @@ graphics on the screen and use the secure element.
 - Pager and short message chatting
 - Local AI with the Sipeed M1 HAT: e.g. voice activated control
 
+## Acknowledgments
+We would like to thank:
+
+* **ceetee**, for all the in-depth reviews, and for making us aware that we are
+guiding electromagnetic waves through the dielectric and not moving water
+through pipes.
+
 ## License and authorship
 Copyright © 2025 RIAT Institute
 
