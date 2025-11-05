@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "SHOUHAN_TYPE-C_16PIN_2MD_073"
-		(at 14.025 -5.74 0)
+		(at 0 -5.74 0)
 		(layer "F.Fab")
 		(uuid "ba1f0d24-5bcb-46e6-931a-88ddf3db4fc9")
 		(effects
@@ -49,7 +49,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(fp_poly
 		(pts
 			(xy -3.55 -4.295) (xy -2.85 -4.295) (xy -2.85 -3.055) (xy -3.55 -3.055)
@@ -205,26 +205,6 @@
 		(uuid "b0b7ad18-9cde-4bf3-99c4-51815d02b70c")
 	)
 	(fp_line
-		(start -4.47 3.185)
-		(end -4.47 2.295)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "86a76c92-5277-455a-ba6e-49d496890486")
-	)
-	(fp_line
-		(start -4.47 3.185)
-		(end 4.47 3.185)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4df78771-4277-4f7d-9b07-e91ba0b5f082")
-	)
-	(fp_line
 		(start 4.47 -1.775)
 		(end 4.47 -0.145)
 		(stroke
@@ -233,16 +213,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "a84e87d3-5df2-4218-9d01-6ec8ace5c4cf")
-	)
-	(fp_line
-		(start 4.47 3.185)
-		(end 4.47 2.295)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "524af8b0-af6f-4362-bec8-842a64a29fc7")
 	)
 	(fp_circle
 		(center -3.2 -4.925)
@@ -392,8 +362,8 @@
 		(uuid "bc831c1c-eb5e-4a17-a648-119f488fe5d6")
 	)
 	(pad "A1" smd rect
-		(at -3.2 -3.675)
-		(size 0.6 1.14)
+		(at -3.2 -3.688)
+		(size 0.6 1.114)
 		(layers "F.Cu" "F.Paste")
 		(uuid "44a0b635-f319-4744-9b8b-7e63d170e817")
 	)
@@ -434,14 +404,14 @@
 		(uuid "e2f6b4ba-0494-4813-a832-c46229d97da9")
 	)
 	(pad "A12" smd rect
-		(at 3.2 -3.675)
-		(size 0.6 1.14)
+		(at 3.2 -3.688)
+		(size 0.6 1.114)
 		(layers "F.Cu" "F.Paste")
 		(uuid "a9941170-cdf3-46d4-9292-40e967d3cb90")
 	)
 	(pad "B1" smd rect
-		(at 3.2 -3.675)
-		(size 0.6 1.14)
+		(at 3.2 -3.688)
+		(size 0.6 1.114)
 		(layers "F.Cu" "F.Paste")
 		(uuid "531f380c-b9a2-4fe1-84d1-d7eed864cdd1")
 	)
@@ -482,14 +452,14 @@
 		(uuid "c0e35c4b-e9fb-4591-92f9-64987c5349a5")
 	)
 	(pad "B12" smd rect
-		(at -3.2 -3.675)
-		(size 0.6 1.14)
+		(at -3.2 -3.688)
+		(size 0.6 1.114)
 		(layers "F.Cu" "F.Paste")
 		(uuid "99fff43f-66ca-4b4e-9187-caab2f57ae53")
 	)
 	(pad "S1" thru_hole oval
 		(at -4.325 -3.125)
-		(size 0.95 2.05)
+		(size 0.95 2.08)
 		(drill oval 0.65 1.7755)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -498,7 +468,7 @@
 	)
 	(pad "S1" thru_hole oval
 		(at -4.325 1.075)
-		(size 0.95 1.75)
+		(size 0.95 1.78)
 		(drill oval 0.65 1.4755)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -507,7 +477,7 @@
 	)
 	(pad "S1" thru_hole oval
 		(at 4.325 -3.125)
-		(size 0.95 2.05)
+		(size 0.95 2.08)
 		(drill oval 0.65 1.7755)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -516,7 +486,7 @@
 	)
 	(pad "S1" thru_hole oval
 		(at 4.325 1.075)
-		(size 0.95 1.75)
+		(size 0.95 1.78)
 		(drill oval 0.65 1.4755)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
