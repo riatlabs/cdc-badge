@@ -69,10 +69,9 @@
 	(constraint hole_size (min 0.6mm))
 )
 
-(rule "Annular Ring Width (PTH)"
-	(layer outer)
-	(condition "A.isPlated()")
-	(constraint annular_width (min 0.15mm))
+(rule "Annular ring width (PTH pads only)"
+  (condition "A.Type == 'pad' && A.Pad_Type == 'Through-hole' && A.isPlated()")
+  (constraint annular_width (min 0.15mm))
 )
 
 (rule "Annular Ring Width (NPTH)"
