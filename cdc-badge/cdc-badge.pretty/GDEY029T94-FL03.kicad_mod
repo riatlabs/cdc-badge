@@ -6,7 +6,7 @@
 	(descr "2.9 inch e-paper with front light from Dalian Good Display")
 	(tags "e-paper e-ink electronic display")
 	(property "Reference" "REF**"
-		(at 0.7 0 0)
+		(at 0.7 -15 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "1f8e2e4b-3b44-4211-8588-7ebb973d68a9")
