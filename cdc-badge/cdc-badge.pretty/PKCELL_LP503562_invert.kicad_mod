@@ -5,14 +5,14 @@
 	(layer "F.Cu")
 	(descr "3.7V 1200 mAh LiPo battery")
 	(property "Reference" "REF**"
-		(at 0 -17.2 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "d99d83eb-2f97-4977-bf19-e8c6ac4bc4d8")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.153)
 			)
 		)
 	)
