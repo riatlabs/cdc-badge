@@ -4,19 +4,19 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -9.2 0)
+		(at 0.04 -5.04 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a751f5d8-fa1c-4faf-9a4d-b9c9d1c5e5f9")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.12)
 			)
 		)
 	)
 	(property "Value" "SW_DPDT_G-Switch_MS-22D28-G020"
-		(at 0.1 9.8 0)
+		(at 0.73 5.51 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "c6bd0cfd-3ac5-4221-9a17-171b8e89f74f")
