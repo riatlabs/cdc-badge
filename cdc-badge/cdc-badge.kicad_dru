@@ -31,10 +31,16 @@
 	(constraint silk_clearance (min 0.15mm))
 )
 
-# edge clearance
+# Edge clearance
+
+(rule "Copper to Board Edge Clearance"
+	(condition "A.Type == 'track' || A.Type == 'zone'")
+	(constraint edge_clearance (min 0.3mm))
+)
+
 (rule "Track to Board Edge Clearance"
 	(condition "A.Type == 'track'")
-	(constraint edge_clearance (min 0.2mm))
+	(constraint edge_clearance (min 0.5mm))
 )
 
 # drill/hole size
@@ -129,10 +135,6 @@
 )
 
 # additional rules
-(rule "Copper to Board Edge Clearance"
-	(condition "A.Type == 'track' || A.Type == 'zone'")
-	(constraint edge_clearance (min 0.3mm))
-)
 
 (rule "Copper Pour to Copper Pour Clearance"
 	(condition "A.Type == 'zone'")

@@ -10673,6 +10673,12 @@
 		(uuid "56c14ab1-e750-487b-9a74-1ba284c56684")
 	)
 	(junction
+		(at 252.73 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a5c94e1-5721-4807-8270-c23b5efbb32e")
+	)
+	(junction
 		(at 243.84 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10935,6 +10941,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac93362f-e9a1-490c-9cc1-5403e4cfa48f")
+	)
+	(junction
+		(at 247.65 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acf58f72-61e0-4b8d-9d5b-f19444e47799")
 	)
 	(junction
 		(at 186.69 58.42)
@@ -11977,6 +11989,16 @@
 			(type default)
 		)
 		(uuid "245d5924-4076-4262-a095-93b07677e767")
+	)
+	(wire
+		(pts
+			(xy 247.65 242.57) (xy 252.73 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "252781c1-84fb-47fe-b634-2bf9dc2232e8")
 	)
 	(wire
 		(pts
@@ -32218,9 +32240,9 @@
 		(at 250.19 242.57 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b51dd985-98c3-4864-86aa-c1d9a40068d6")
 		(property "Reference" "R41"
 			(at 250.698 240.284 90)
@@ -32715,7 +32737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CDC_Badge:PKCELL_LP503562"
+		(property "Footprint" "CDC_Badge:PKCELL_LP503562_invert"
 			(at 186.69 49.276 90)
 			(effects
 				(font
