@@ -13,19 +13,9 @@ Alternatives like the ESP32-C6 and the ESP32-C3 lack USB OTG support, have fewer
 GPIOs and worse performance (single core RISC-V).
 
 ## Flashing
-### ESP32-S3
 Options:
 1. Via USB.
 2. Via UART. Pins are broken out and there are 2 buttons available: BOOT/FLASH and RESET.
-
-### Sipeed M1
-Options:
-1. USB to UART bridge via S3.
-   - S3 exposes a bridge COM port to the M1.
-   - PC flashtool targets that COM; S3 forwards bytes to M1 UART and toggles the BOOT/RESET GPIOs on the M1 to enter the bootloader.
-   - Keeps a single USB connection.
-   - If this proves cumbersome, we can add a USB hub or a dedicated USB-UART bridge for the M1.
-2. Direct UART (breakouts available). Possible to use an external USB-UART dongle.
 
 ## Power Sub-System Requirements
 - Lithium-ion polymer battery (LiPo)
