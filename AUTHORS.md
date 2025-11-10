@@ -24,10 +24,11 @@ Libraries](https://gitlab.com/kicad/libraries/kicad-footprints/-/merge_requests/
 and therefore licensed under [CC BY-SA 4.0
 International](https://gitlab.com/kicad/libraries/kicad-footprints/-/blob/master/LICENSE.md)
 
-BQ25895RTW, Conn_01x24_GDEY029T94 and USB_C_Receptacle_USB2.0_16P symbols and
-the [ESP32-S3-WROOM-1.kicad_mod](/cdc-badge/cdc-badge.pretty/ESP32-S3-WROOM-1.kicad_mod)
-footprint were derived from the corresponding symbols in [KiCad Libraries](https://gitlab.com/kicad/libraries)
-and thus licensed under [CC BY-SA 4.0 International](https://www.kicad.org/libraries/license).
+BQ25895RTW, Conn_01x24_GDEY029T94 and USB_C_Receptacle_USB2.0_16P symbols, as
+well as [ESP32-S3-WROOM-1.kicad_mod](/cdc-badge/cdc-badge.pretty/ESP32-S3-WROOM-1.kicad_mod)
+and [Wuerth_WR-PHD_610006243021_SMD_2x03_P2.54mm_Vertical.kicad_mod](/cdc-badge/cdc-badge.pretty/Wuerth_WR-PHD_610006243021_SMD_2x03_P2.54mm_Vertical.kicad_mod)
+footprints were derived from the corresponding ones in [KiCad Libraries](https://gitlab.com/kicad/libraries).
+These are therefore licensed under [CC BY-SA 4.0 International](https://www.kicad.org/libraries/license).
 
 All other symbols, footprints and 3D models in the CDC\_Badge libraries were
 authored from scratch by RIAT Institute and are licensed under the same license

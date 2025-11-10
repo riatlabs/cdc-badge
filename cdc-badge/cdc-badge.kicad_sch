@@ -18620,7 +18620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wuerth:Wuerth_WR-PHD_610006243021_SMD_2x03_P2.54mm_Vertical"
+		(property "Footprint" "CDC_Badge:Wuerth_WR-PHD_610006243021_SMD_2x03_P2.54mm_Vertical"
 			(at 156.21 208.28 0)
 			(effects
 				(font
