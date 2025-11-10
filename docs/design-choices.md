@@ -212,8 +212,18 @@ The [Grove connector is
 proprietary](https://arduino.stackexchange.com/questions/9030/what-type-of-connector-does-the-grove-system-use)
 and difficult to source anywhere outside of Seed Studio stores. We are
 therefore experimenting with the [Boom Precision Electronics
-HY-4P](https://jlcpcb.com/partdetail/172569-HY_4PVerticalwelding/C161188) as a
-replacement.
+HY-4P](https://jlcpcb.com/partdetail/C146060) as a replacement.
+
+## SAO port
+As per ["standard"](https://hackaday.io/project/52950-shitty-add-ons/log/159806-introducing-the-shitty-add-on-v169bis-standard)
+we use a 2x3 female header with 2.54 mm pitch. But opted for a header with
+bottom entry. This allows the header to be soldered on the badge side that faces
+the user's body, while the add-ons connect from the outer side and can show
+their bling to the world.\
+This keeps the badge as thin as possible, with all tall parts (SAO port,
+Raspberry Pi header, battery) on the same side. It also prevents the add-ons
+from acting as levers that could rip-off the SAO port from the PCB (note that we
+are using a surface mounted header).
 
 ## E-Paper Display
 Opted for the Good Display [GDEY029T94-FL03](https://www.good-display.com/product/346.html)
