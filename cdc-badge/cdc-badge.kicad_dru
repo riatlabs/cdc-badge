@@ -90,7 +90,7 @@
 (rule "Hole to Hole Clearance (diff. nets)"
 	(layer outer)
 	(condition "A.Net != B.Net")
-	(constraint hole_to_hole (min 0.45mm))
+	(constraint hole_to_hole (min 0.2mm))
 )
 
 (rule "Hole to Hole Clearance (same net)"
