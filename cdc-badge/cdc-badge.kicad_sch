@@ -10164,7 +10164,7 @@
 		)
 		(uuid "26ab7bc8-c689-4923-ac53-00fe24af73e2")
 	)
-	(text "take out for\npower glitching"
+	(text "scratch for\npower glitching"
 		(exclude_from_sim no)
 		(at 247.396 237.744 0)
 		(effects
@@ -10247,7 +10247,7 @@
 	)
 	(text "Secure Element"
 		(exclude_from_sim no)
-		(at 259.842 228.092 0)
+		(at 264.16 228.092 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -10289,7 +10289,7 @@
 	)
 	(text "5V Boost Converter"
 		(exclude_from_sim no)
-		(at 345.694 25.4 0)
+		(at 349.758 25.146 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -11989,16 +11989,6 @@
 			(type default)
 		)
 		(uuid "245d5924-4076-4262-a095-93b07677e767")
-	)
-	(wire
-		(pts
-			(xy 247.65 242.57) (xy 252.73 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "252781c1-84fb-47fe-b634-2bf9dc2232e8")
 	)
 	(wire
 		(pts
@@ -14142,6 +14132,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 242.57) (xy 247.65 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89375426-c348-47f3-8449-d4e1aae3c370")
+	)
+	(wire
+		(pts
 			(xy 186.69 58.42) (xy 195.58 58.42)
 		)
 		(stroke
@@ -15052,6 +15052,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 242.57) (xy 252.73 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac1cf9f-8357-4367-b7da-cb4cf8681c5a")
+	)
+	(wire
+		(pts
 			(xy 254 50.8) (xy 255.27 50.8)
 		)
 		(stroke
@@ -15059,6 +15069,16 @@
 			(type default)
 		)
 		(uuid "bad4277c-3f7d-4209-948b-067db635f050")
+	)
+	(wire
+		(pts
+			(xy 252.73 245.11) (xy 247.65 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baeb25df-3147-4b30-bbdd-d5cf9802d461")
 	)
 	(wire
 		(pts
