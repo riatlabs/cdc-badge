@@ -123,7 +123,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.09,
+        "min_clearance": 0.12,
         "min_connection": 0.09,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
