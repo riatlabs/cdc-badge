@@ -11,6 +11,29 @@ single-cell LiPo batteries and a 12-button keypad.
 The [cdc-badge](/cdc-badge) directory contains the KiCAD project with schematics
 and PCB layout.
 
+## Example applications
+- Interactive name tag
+- Social networking games
+- Monero hardware wallet
+- Reticulum node with secure key storage and ECC acceleration
+- FIDO2 keystore
+- Pager and short message chatting
+- Local AI with the Sipeed M1 HAT: e.g. voice activated control
+
+## Firmware
+An example can be found at [cdc-badge-qc-firmware](https://github.com/riatlabs/cdc-badge-qc-firmware).
+It should be used as basis for further firmware development.
+
+During the boot process all firmwares should **set the fast charge current limit
+to a value bellow 1200 mA**. The default fast charge current of the charging IC
+is 2000 mA, which would damage the 1200 mAh LiPo battery bundled with the badge.
+
+### Flashing
+Options:
+1. Via USB.
+2. Via UART. TX and RX are broken out to the Raspberry Pi header on pins 8 and 10.
+   The reset and flash buttons are physically placed near the ESP32.
+
 ## Expansions
 The badge has 3 expansion ports:
 - Raspberry Pi [40 pin GPIO header](https://pinout.xyz) ready to take any [HAT or pHAT](https://pinout.xyz/boards)
@@ -36,14 +59,36 @@ pins 29, 31 and 36. The interrupt signal from TROPIC01 is available on pin 37.
 This allows an external microcontroller, for instance the Sipeed M1, to display
 graphics on the screen and use the secure element.
 
-## Example applications
-- Interactive name tag
-- Social networking games
-- Monero hardware wallet
-- Reticulum node with secure key storage and ECC acceleration
-- FIDO2 keystore
-- Pager and short message chatting
-- Local AI with the Sipeed M1 HAT: e.g. voice activated control
+## Power characteristics
+
+### Maximum
+The maximum total current that can be drawn out of the power bus is:
+- 3.3 V: 2 A
+- 5 V: 2.5 A
+
+Take into account that all badge components (ESP32, TROPIC01, display, etc.)
+draw their power from the 3.3 V bus.
+
+### Minimum
+All onboard ICs have very low quiescent currents, under 40 μA. Even the ESP32-S3
+can go as low as 8 μA in it's deep sleep mode (240 μA in light sleep mode). The
+major exception is the TROPIC01 which draws 945 μA in sleep mode.
+
+If a use case requires the lowest power usage possible, the exposed copper trace
+connecting VCC to the TROPIC01 should be cut. It can later be reconnected with a
+0 Ω resistor or a wire (0603 pads available). This exposed trace can also be
+used to do power glitch testing on the TROPIC01.
+
+On most use cases the sleep mode power usage of the TROPIC01 will be
+insignificant though. For instance, while listening for WiFi transmissions, the
+ESP32-S3 draws 95 mA. The TROPIC01 sleep mode current is just 1% of this.
+
+## Further documentation
+Please check:
+- the [docs](/docs/) directory;
+- the [KiCad schematics](/cdc-badge/cdc-badge.kicad_sch) (available as PDF in
+  the [releases](https://github.com/riatlabs/cdc-badge/releases));
+- the example firmwares: [cdc-badge-qc-firmware](https://github.com/riatlabs/cdc-badge-qc-firmware)
 
 ## Acknowledgments
 We would like to thank:

@@ -12,11 +12,6 @@ Opted for the ESP32-S3 because of:
 Alternatives like the ESP32-C6 and the ESP32-C3 lack USB OTG support, have fewer
 GPIOs and worse performance (single core RISC-V).
 
-## Flashing
-Options:
-1. Via USB.
-2. Via UART. Pins are broken out and there are 2 buttons available: BOOT/FLASH and RESET.
-
 ## Power Sub-System Requirements
 - Lithium-ion polymer battery (LiPo)
 - LiPo charging controller (nice to have: power path management, D+/D- USB detection).
@@ -224,8 +219,8 @@ specification](https://wiki.seeedstudio.com/Grove_System/#interface-of-grove-mod
 these pins should work as either digital IOs, analog IOs, or even as UART or I²C
 communication pins.\
 For I²C usage the pull-up resistors must be provided by the peripheral
-connecting to the badge. We did not include them as that would hinder the other
-functions.
+connecting to the badge, or soldered into the 0603 pads left unpopulated for
+this purpose.
 
 The [Grove connector is
 proprietary](https://arduino.stackexchange.com/questions/9030/what-type-of-connector-does-the-grove-system-use)
