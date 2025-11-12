@@ -19232,7 +19232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+		(property "Footprint" "CDC_Badge:MountingHole_2.7mm_KeepOut"
 			(at 320.04 214.63 0)
 			(effects
 				(font
@@ -23196,7 +23196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+		(property "Footprint" "CDC_Badge:MountingHole_2.7mm_KeepOut"
 			(at 331.47 220.98 0)
 			(effects
 				(font
@@ -34679,7 +34679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+		(property "Footprint" "CDC_Badge:MountingHole_2.7mm_KeepOut"
 			(at 320.04 220.98 0)
 			(effects
 				(font
@@ -35793,7 +35793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+		(property "Footprint" "CDC_Badge:MountingHole_2.7mm_KeepOut"
 			(at 331.47 214.63 0)
 			(effects
 				(font
