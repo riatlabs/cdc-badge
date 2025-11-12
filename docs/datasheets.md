@@ -31,6 +31,8 @@ Links to the datasheets of the components used in the CDC Badge.
 
 - Battery (LiPo 1200 mAh): LP503562
   https://www.batterypkcell.com/uploads/LP503562-1200mAh-3.7V-AD306055-20230615.pdf
+- Battery Connector: S2B-PH-SM4-TB
+  https://www.jst-connector.com/datasheet/jst-connector/S2B-PH-SM4-TB(LF)(SN).pdf
 
 - IO Expander: TCA9535
   http://www.ti.com/lit/ds/symlink/tca9535.pdf

@@ -36529,7 +36529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-connector.com/datasheet/jst-connector/S2B-PH-SM4-TB(LF)(SN).pdf"
 			(at 195.58 73.66 0)
 			(effects
 				(font
