@@ -77,7 +77,7 @@ current needed for our design is **1.38 A**. This was calculated based on:
   but calculating with 3 V in case we start with a depleted battery)
 
 One of cheapest and most available 2.2 uH inductors within this specification
-turned out to be the [TECHFUSE SL0420-2R2M](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/C22463806.pdf).
+turned out to be the [TECHFUSE SL0420-2R2M](https://www.lcsc.com/datasheet/C22463806.pdf).
 It actually has a 5A saturation current. This affords us a big safety margin and
 allows testing higher capacity LiPos.
 

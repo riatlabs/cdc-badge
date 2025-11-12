@@ -18744,7 +18744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22373944.pdf"
 			(at 156.21 208.28 0)
 			(effects
 				(font
@@ -18911,7 +18911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8603060800236244992"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7603347.pdf"
 			(at 177.8 269.24 0)
 			(effects
 				(font
@@ -19484,7 +19484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C262643.pdf"
 			(at 118.11 246.38 0)
 			(effects
 				(font
@@ -19766,7 +19766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 304.8 101.6 0)
 			(effects
 				(font
@@ -19995,7 +19995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22463806.pdf"
 			(at 330.2 40.64 0)
 			(effects
 				(font
@@ -20161,7 +20161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409201747_hongjiacheng-SMF14CA_C41411783.pdf"
 			(at 74.93 48.26 0)
 			(effects
 				(font
@@ -22052,7 +22052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 30.48 148.59 0)
 			(effects
 				(font
@@ -22266,7 +22266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 342.9 177.8 0)
 			(effects
 				(font
@@ -23066,7 +23066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C146060.pdf"
 			(at 254 205.74 0)
 			(effects
 				(font
@@ -23085,6 +23085,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C146060"
+			(at 254 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HY-4P (A2006WF-04A)"
 			(at 254 205.74 0)
 			(effects
 				(font
@@ -24096,6 +24105,24 @@
 				(hide yes)
 			)
 		)
+		(property "Datasheet2" "https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf "
+			(at 77.47 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manual" "https://www.espressif.com/sites/default/files/documentation/esp32-s3_technical_reference_manual_en.pdf "
+			(at 77.47 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "30"
 			(uuid "0f2bb600-71e5-4b48-9b91-0a9ac7c9e4be")
 		)
@@ -24970,7 +24997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 382.27 177.8 0)
 			(effects
 				(font
@@ -27030,7 +27057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheet/2111231930_SHOU-HAN-TYPE-C-16PIN-2MD-073_C2765186.pdf"
 			(at 39.37 59.69 0)
 			(effects
 				(font
@@ -27436,7 +27463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/sensor/ntc/chip-ntc-thermistor/data_sheet/50/db/ntc/ntc_smd_automotive_series_0402-0805.pdf"
 			(at 163.83 86.36 0)
 			(effects
 				(font
@@ -27455,6 +27482,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C209893"
+			(at 163.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B57332V5103F360"
 			(at 163.83 87.63 0)
 			(effects
 				(font
@@ -28309,7 +28345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://v4.cecdn.yun300.cn/100001_1909185148/GDEY029T94-FL03.pdf"
 			(at 31.75 224.79 0)
 			(effects
 				(font
@@ -28567,7 +28603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 304.8 177.8 0)
 			(effects
 				(font
@@ -29007,7 +29043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C668586.pdf"
 			(at 190.5 173.99 0)
 			(effects
 				(font
@@ -29382,7 +29418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22463806.pdf"
 			(at 168.91 58.42 0)
 			(effects
 				(font
@@ -29547,7 +29583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C20617908.pdf"
 			(at 58.42 81.28 0)
 			(effects
 				(font
@@ -29623,7 +29659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 304.8 151.13 0)
 			(effects
 				(font
@@ -29871,7 +29907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/mbr0530t1-d.pdf"
 			(at 63.5 229.87 90)
 			(effects
 				(font
@@ -30934,7 +30970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588900847724482560"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C167888.pdf"
 			(at 49.53 238.76 0)
 			(effects
 				(font
@@ -31019,7 +31055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C668586.pdf"
 			(at 190.5 163.83 0)
 			(effects
 				(font
@@ -31573,7 +31609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 114.3 82.55 0)
 			(effects
 				(font
@@ -31954,7 +31990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22463806.pdf"
 			(at 251.46 50.8 0)
 			(effects
 				(font
@@ -32168,7 +32204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 342.9 128.27 0)
 			(effects
 				(font
@@ -32881,7 +32917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.batterypkcell.com/uploads/LP503562-1200mAh-3.7V-AD306055-20230615.pdf"
 			(at 186.69 49.276 90)
 			(effects
 				(font
@@ -33301,7 +33337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 30.48 138.43 0)
 			(effects
 				(font
@@ -33517,7 +33553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 342.9 101.6 0)
 			(effects
 				(font
@@ -33876,7 +33912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/mbr0530t1-d.pdf"
 			(at 63.5 224.79 90)
 			(effects
 				(font
@@ -34104,7 +34140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 304.8 128.27 0)
 			(effects
 				(font
@@ -34365,7 +34401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8603060800236244992"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7603347.pdf"
 			(at 58.42 256.54 0)
 			(effects
 				(font
@@ -34445,7 +34481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C42396895.pdf"
 			(at 154.94 154.94 0)
 			(effects
 				(font
@@ -35020,7 +35056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 342.9 151.13 0)
 			(effects
 				(font
@@ -35401,7 +35437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 382.27 151.13 0)
 			(effects
 				(font
@@ -36046,7 +36082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C20617908.pdf"
 			(at 66.04 81.28 0)
 			(effects
 				(font
@@ -36330,7 +36366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C262553.pdf"
 			(at 170.18 247.65 0)
 			(effects
 				(font
@@ -36569,7 +36605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 382.27 101.6 0)
 			(effects
 				(font
@@ -36654,7 +36690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 382.27 128.27 0)
 			(effects
 				(font
@@ -36968,7 +37004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/mbr0530t1-d.pdf"
 			(at 63.5 238.76 90)
 			(effects
 				(font
