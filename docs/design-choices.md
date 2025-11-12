@@ -136,6 +136,25 @@ ceramic capacitors (temperature, aging, high DC bias voltages, etc.).
 #### Battery Gauge
 Not needed. BQ25895 includes an ADC capable of measuring battery voltage.
 
+### Stand-by Power Usage
+All chosen ICs have very low quiescent currents, under 40 μA. Even the ESP32-S3
+can go as low as 8 μA in it's deep sleep mode (240 μA in light sleep mode). The
+major exception is the TROPIC01 which draws 945 μA in sleep mode. That's 90% of
+all sleep mode current.
+
+This could be addressed by connecting VCC to the TROPIC01 through a MOSFET
+controlled by the ESP32. Unfortunately we have no free IO pins to implement
+this.
+
+If a use case requires the lowest power usage possible, the exposed copper trace
+connecting VCC to the TROPIC01 should be cut. It can later be reconnected with a
+0 Ω resistor or a wire (0603 pads available). This exposed trace can also be
+used to do power glitch testing on the TROPIC01.
+
+On most use cases the sleep mode power usage of the TROPIC01 will be
+insignificant though. For instance, while just listening for WiFi transmissions,
+the ESP32-S3 draws 95 mA. The TROPIC01 sleep mode current is just 1% of this.
+
 ## Keypad and I/O Expander
 The badge needs a 12-button keypad (0-9, yes, no) for PIN input into the
 TROPIC01. In order to streamline production we opted for 12 SMD tactile push

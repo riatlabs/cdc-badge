@@ -10327,7 +10327,53 @@
 		)
 		(uuid "ff4269e0-4a4a-4653-9442-aef643029acf")
 	)
-	(text_box "1mA 90% efficiency\n1A 92% efficiency\n2A 87% efficiency\nmax current: 2.5A\nfeedback: 0.5V\n20uA quiescent"
+	(text_box "Quiescent currents:\n1.950mA idle mode\n0.945mA sleep mode"
+		(exclude_from_sim no)
+		(at 266.7 232.41 0)
+		(size 22.86 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 145 75 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "005d41ad-084c-44b4-96dd-44ec2777d3a7")
+	)
+	(text_box "Quiescent currents:\n95mA WiFi listening\n22mA single-core 40 MHz\n240μA light-sleep mode\n8μA deep sleep mode"
+		(exclude_from_sim no)
+		(at 17.78 163.83 0)
+		(size 27.94 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 221 255 106 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "12eafb8c-85da-425e-8c24-c6f1ecdce5be")
+	)
+	(text_box "1mA 90% efficiency\n1A 92% efficiency\n2A 87% efficiency\nmax current: 2.5A\nfeedback: 0.5V\n20μA quiescent"
 		(exclude_from_sim no)
 		(at 354.33 31.75 0)
 		(size 21.59 13.97)
@@ -10350,7 +10396,7 @@
 		)
 		(uuid "24761dcc-6085-41ef-b8cd-bb9ae20c9209")
 	)
-	(text_box "1mA 80% efficiency\n1A 95% efficiency\n2A 91% efficiency\nfeedback: 0.6V\n35uA quiescent"
+	(text_box "1mA 80% efficiency\n1A 95% efficiency\n2A 91% efficiency\nfeedback: 0.6V\n35μA quiescent"
 		(exclude_from_sim no)
 		(at 256.54 33.02 0)
 		(size 21.59 11.43)
@@ -10395,6 +10441,75 @@
 			(justify left top)
 		)
 		(uuid "3f881cd1-66b6-4e67-9d6e-0225f7ee257d")
+	)
+	(text_box "11μA quiescent"
+		(exclude_from_sim no)
+		(at 243.84 99.06 0)
+		(size 17.78 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 221 255 106 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "46d51cec-ad76-4fa3-9444-854914e6343e")
+	)
+	(text_box "Quiescent currents:\n12μA BATFET disabled\n32μA BATFET enabled"
+		(exclude_from_sim no)
+		(at 125.73 97.79 0)
+		(size 24.13 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 221 255 106 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b4037d06-17b4-4e82-bf5b-8b22b5bab698")
+	)
+	(text_box "Quiescent currents:\n20μA sleep mode\n1μA deep sleep mode"
+		(exclude_from_sim no)
+		(at 60.96 261.62 0)
+		(size 24.13 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 221 255 106 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "bd0b7288-2662-4de9-96e8-462c1801b590")
 	)
 	(junction
 		(at 69.85 134.62)
