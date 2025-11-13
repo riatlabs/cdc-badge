@@ -26,8 +26,9 @@ International](https://gitlab.com/kicad/libraries/kicad-footprints/-/blob/master
 
 BQ25895RTW, Conn_01x24_GDEY029T94 and USB_C_Receptacle_USB2.0_16P symbols, as
 well as [ESP32-S3-WROOM-1.kicad_mod](/cdc-badge/cdc-badge.pretty/ESP32-S3-WROOM-1.kicad_mod),
-[Wuerth_WR-PHD_610006243021_SMD_2x03_P2.54mm_Vertical.kicad_mod](/cdc-badge/cdc-badge.pretty/Wuerth_WR-PHD_610006243021_SMD_2x03_P2.54mm_Vertical.kicad_mod)
-and [MountingHole_2.7mm_KeepOut.kicad_mod](/cdc-badge/cdc-badge.pretty/MountingHole_2.7mm_KeepOut.kicad_mod)
+[Wuerth_WR-PHD_610006243021_SMD_2x03_P2.54mm_Vertical.kicad_mod](/cdc-badge/cdc-badge.pretty/Wuerth_WR-PHD_610006243021_SMD_2x03_P2.54mm_Vertical.kicad_mod),
+[MountingHole_2.7mm_KeepOut.kicad_mod](/cdc-badge/cdc-badge.pretty/MountingHole_2.7mm_KeepOut.kicad_mod),
+and [Texas_RTW_WQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_0.3mmThermalVias.kicad_mod](/cdc-badge/cdc-badge.pretty/Texas_RTW_WQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_0.3mmThermalVias.kicad_mod)
 footprints were derived from the corresponding ones in [KiCad Libraries](https://gitlab.com/kicad/libraries).
 These are therefore licensed under [CC BY-SA 4.0 International](https://www.kicad.org/libraries/license).
 
