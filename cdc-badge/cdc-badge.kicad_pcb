@@ -42328,16 +42328,6 @@
 			)
 		)
 	)
-	(gr_line
-		(start 98.4 67.2)
-		(end 98.4 73)
-		(stroke
-			(width 0.153)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "1d3cb4cf-e9f5-4b6e-965d-f373dda85d9c")
-	)
 	(gr_poly
 		(pts
 			(xy 86.071437 120.580198) (xy 86.111125 120.580574) (xy 86.133273 120.588628) (xy 86.155421 120.596683)
@@ -42455,46 +42445,6 @@
 		(layer "F.SilkS")
 		(uuid "3385e706-69d4-43aa-97e3-9b8418fb6322")
 	)
-	(gr_line
-		(start 99.4 71.9)
-		(end 101.1 71.9)
-		(stroke
-			(width 0.153)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "3b3d23bf-e0c5-4b75-90e5-6527ceb8283d")
-	)
-	(gr_line
-		(start 98.4 73)
-		(end 95.1 73)
-		(stroke
-			(width 0.153)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "3ee207ce-012c-4765-ad14-15cc1e54a808")
-	)
-	(gr_line
-		(start 95.1 73)
-		(end 95.1 67.2)
-		(stroke
-			(width 0.153)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "511df844-0eac-4985-8aab-a8744b49ecdf")
-	)
-	(gr_line
-		(start 99.4 67.2)
-		(end 99.4 71.9)
-		(stroke
-			(width 0.153)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "549be0c5-5f56-4cb4-abca-e71594e40509")
-	)
 	(gr_poly
 		(pts
 			(xy 120.679171 127.929527) (xy 119.620839 127.929527) (xy 119.343026 127.55911) (xy 117.808443 127.55911)
@@ -42533,16 +42483,6 @@
 		(fill yes)
 		(layer "F.SilkS")
 		(uuid "8d147856-1f13-4d4a-a711-e5d0ff5b7bae")
-	)
-	(gr_line
-		(start 101.1 71.9)
-		(end 101.1 67.2)
-		(stroke
-			(width 0.153)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "c92f1374-f399-4fd9-b1ac-67ed5da6cd9c")
 	)
 	(gr_poly
 		(pts
@@ -46326,13 +46266,13 @@
 		)
 	)
 	(gr_text "SAO"
-		(at 67.9 56.1 0)
+		(at 69.5 55.8 0)
 		(layer "F.SilkS")
 		(uuid "6663efa4-5867-4837-a765-e49700a1e4e2")
 		(effects
 			(font
-				(size 2 2)
-				(thickness 0.3)
+				(size 1.5 1.5)
+				(thickness 0.225)
 			)
 			(justify left bottom)
 		)
@@ -46482,13 +46422,13 @@
 		)
 	)
 	(gr_text "GROVE"
-		(at 77.8 158.1 90)
+		(at 77.2 156.9 90)
 		(layer "F.SilkS")
 		(uuid "dec8838b-fc4f-4630-90b8-9cf7c7b50a0c")
 		(effects
 			(font
-				(size 2 2)
-				(thickness 0.3)
+				(size 1.5 1.5)
+				(thickness 0.225)
 			)
 			(justify left bottom)
 		)
@@ -46525,6 +46465,18 @@
 			(font
 				(size 2 2)
 				(thickness 0.2)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SCL"
+		(at 80.1 58.6 -0)
+		(layer "B.SilkS")
+		(uuid "075e0057-9884-4903-8e74-66c1f8fec0d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
 			)
 			(justify left bottom mirror)
 		)
@@ -46589,6 +46541,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "3V3"
+		(at 83.6 52.4 -0)
+		(layer "B.SilkS")
+		(uuid "2ed5b190-0dd8-438a-8cdf-d07df77e160a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "CDC BADGE v0.1\ndecentral.community"
 		(at 132.900242 152.166506 0)
 		(layer "B.SilkS")
@@ -46596,6 +46560,30 @@
 		(effects
 			(font
 				(size 1.38 1.38)
+				(thickness 0.153)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SDA"
+		(at 80.4 52.4 -0)
+		(layer "B.SilkS")
+		(uuid "380a2007-186f-4f54-b064-8b78bf06a462")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 83.9 58.6 -0)
+		(layer "B.SilkS")
+		(uuid "38207d70-549f-4674-b836-9b3ebe8dfb70")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.153)
 			)
 			(justify left bottom mirror)
@@ -46653,6 +46641,30 @@
 		(at 79.8 118.9 0)
 		(layer "B.SilkS")
 		(uuid "70337fe3-66bf-4a53-a9c3-aab2b5ab208d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SAO"
+		(at 89.4 56 -0)
+		(layer "B.SilkS")
+		(uuid "707ff3a4-b497-491c-81b2-86d1c1b524fd")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.225)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "IO2"
+		(at 77.1 58.6 -0)
+		(layer "B.SilkS")
+		(uuid "712c7d4a-ba92-4f7a-86eb-958b84cc998a")
 		(effects
 			(font
 				(size 1 1)
@@ -46802,6 +46814,18 @@
 					(xy 62.892122 148.66986) (xy 62.843435 148.639988) (xy 62.73739 148.599181) (xy 62.676209 148.588917)
 				)
 			)
+		)
+	)
+	(gr_text "IO1"
+		(at 77.1 52.5 -0)
+		(layer "B.SilkS")
+		(uuid "cad90dc4-5d1f-4c35-ae71-ec45ac833ba6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "https://github.com/riatlabs/cdc-badge"
