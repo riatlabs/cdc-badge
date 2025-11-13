@@ -18258,6 +18258,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF4702T5E"
+			(at 200.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d467df48-8e15-43a4-a0ef-f272cd884a25")
 		)
@@ -18551,6 +18560,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 93.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30ebbd65-064a-4a84-9f5e-5af4327ed6b2")
 		)
@@ -18687,6 +18705,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C25819"
+			(at 243.84 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF4702T5E"
 			(at 243.84 251.46 0)
 			(effects
 				(font
@@ -18939,6 +18966,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SI1308EDL"
+			(at 172.72 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b610ea31-2e12-41be-bfdb-c27e83a6aaf8")
 		)
@@ -19013,6 +19049,15 @@
 		)
 		(property "JLCPCB PN" "C15850"
 			(at 156.21 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 156.21 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19946,6 +19991,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 48.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0efff66-804c-4c74-8f3e-8e01368f3960")
 		)
@@ -20109,6 +20163,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 261.62 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9532f682-200d-4b65-a0cc-90140b122fac")
 		)
@@ -20188,6 +20251,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SMF14CA"
+			(at 74.93 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ddfa8f0-7890-4a1a-8acf-d27705cc0005")
 		)
@@ -20258,6 +20330,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C15850"
+			(at 176.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
 			(at 176.53 60.96 0)
 			(effects
 				(font
@@ -20535,6 +20616,15 @@
 		)
 		(property "JLCPCB PN" "C25819"
 			(at 335.28 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF4702T5E"
+			(at 335.28 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20924,6 +21014,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 97.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94b15f48-2183-46bd-8c6d-3ebcc95a49f9")
 		)
@@ -21286,6 +21385,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF4702T5E"
+			(at 335.28 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42651719-21b1-4802-b1b2-b06159b8d5a9")
 		)
@@ -21423,6 +21531,15 @@
 		)
 		(property "JLCPCB PN" "C25819"
 			(at 297.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF4702T5E"
+			(at 297.18 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21795,6 +21912,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 163.83 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c11141d5-ebf7-468a-bec6-32d2a8fa55b0")
 		)
@@ -21931,6 +22057,15 @@
 		)
 		(property "JLCPCB PN" "C25819"
 			(at 335.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF4702T5E"
+			(at 335.28 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22465,6 +22600,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 304.8 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a6443a68-23b7-4ac3-bc41-d0fa743b4f68")
 		)
@@ -22536,6 +22680,15 @@
 		)
 		(property "JLCPCB PN" "C25804"
 			(at 40.64 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 40.64 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22621,6 +22774,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF4702T5E"
+			(at 196.85 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7fc8cb4e-c8c9-4860-af7b-ed90e2cbbaf6")
 		)
@@ -22691,6 +22853,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C25819"
+			(at 236.22 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF4702T5E"
 			(at 236.22 251.46 0)
 			(effects
 				(font
@@ -22920,6 +23091,15 @@
 		)
 		(property "JLCPCB PN" "C14663"
 			(at 342.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 342.9 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23277,6 +23457,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 369.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d26938f4-15fe-4037-90e4-4b580aaf373b")
 		)
@@ -23569,6 +23758,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 125.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f73762e1-01e9-4977-afb0-ff4845f91c7f")
 		)
@@ -23726,6 +23924,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C14663"
+			(at 232.41 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
 			(at 232.41 102.87 0)
 			(effects
 				(font
@@ -24123,6 +24330,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "ESP32-S3-WROOM-1-N16R8"
+			(at 77.47 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "30"
 			(uuid "0f2bb600-71e5-4b48-9b91-0a9ac7c9e4be")
 		)
@@ -24443,6 +24659,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C1622"
+			(at 156.21 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B473KB8NNNC"
 			(at 156.21 60.96 0)
 			(effects
 				(font
@@ -24810,6 +25035,15 @@
 		)
 		(property "JLCPCB PN" "C14663"
 			(at 30.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 30.48 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25309,6 +25543,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 186.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e95a2e2-a788-41c5-a3a3-32a54c80dceb")
 		)
@@ -25387,6 +25630,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF4702T5E"
+			(at 374.65 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b17c2d1a-5558-47c4-a17b-13eb97811fbf")
 		)
@@ -25457,6 +25709,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C15850"
+			(at 360.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
 			(at 360.68 55.88 0)
 			(effects
 				(font
@@ -25687,6 +25948,15 @@
 		)
 		(property "JLCPCB PN" "C14663"
 			(at 304.8 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 304.8 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25969,6 +26239,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 116.84 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59ed216e-b081-4fb9-9a1e-b760401df5e7")
 		)
@@ -26039,6 +26318,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C14663"
+			(at 74.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
 			(at 74.93 130.81 0)
 			(effects
 				(font
@@ -26398,6 +26686,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C15849"
+			(at 130.81 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 130.81 45.72 90)
 			(effects
 				(font
@@ -26776,6 +27073,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 378.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5cbbe011-facb-41c5-acf0-679759452aa2")
 		)
@@ -26941,6 +27247,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF4702T5E"
+			(at 335.28 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "138e9531-3b02-4020-9d9a-06a82bf8ec4b")
 		)
@@ -27076,6 +27391,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C2765186"
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TYPE-C 16PIN 2MD(073)"
 			(at 35.56 59.69 0)
 			(effects
 				(font
@@ -28055,6 +28379,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 304.8 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef3a29fb-c447-4dd9-89f2-973d45e3496d")
 		)
@@ -28126,6 +28459,15 @@
 		)
 		(property "JLCPCB PN" "C25804"
 			(at 116.84 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 116.84 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28782,6 +29124,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 182.88 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ddd0757a-7302-49e8-9966-a5e708e40914")
 		)
@@ -28815,7 +29166,7 @@
 				)
 			)
 		)
-		(property "Value" "BQ25895RTW"
+		(property "Value" "BQ25895RTWR"
 			(at 143.51 40.64 0)
 			(effects
 				(font
@@ -28851,6 +29202,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C80200"
+			(at 143.51 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BQ25895RTWR"
 			(at 143.51 63.5 0)
 			(effects
 				(font
@@ -29070,6 +29430,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MST-22D18G2 3J"
+			(at 190.5 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "abda1d76-af73-4632-8c0f-b3c7b51efe94")
 		)
@@ -29143,6 +29512,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C14663"
+			(at 284.48 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
 			(at 284.48 245.11 0)
 			(effects
 				(font
@@ -29532,6 +29910,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 304.8 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dfcba3ef-427d-479c-9ba5-0065f3d6d1a8")
 		)
@@ -29602,6 +29989,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C20617908"
+			(at 58.42 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "H3V3U06B"
 			(at 58.42 81.28 90)
 			(effects
 				(font
@@ -29766,6 +30162,15 @@
 		)
 		(property "JLCPCB PN" "C14663"
 			(at 382.27 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 382.27 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30087,6 +30492,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 342.9 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69140f07-3d68-4efb-ae96-0144104bd10f")
 		)
@@ -30158,6 +30572,15 @@
 		)
 		(property "JLCPCB PN" "C14663"
 			(at 342.9 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 342.9 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30395,6 +30818,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 64.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "777c5a45-3776-45e8-b83f-44ca16170210")
 		)
@@ -30465,6 +30897,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C15850"
+			(at 314.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
 			(at 314.96 48.26 0)
 			(effects
 				(font
@@ -30921,6 +31362,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 236.22 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1372cf13-9de2-440d-ba76-e9f3c4cab931")
 		)
@@ -31082,6 +31532,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MST-22D18G2 3J"
+			(at 190.5 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f23c8652-e160-4524-acb1-a2f7f83f20a9")
 		)
@@ -31156,6 +31615,15 @@
 		)
 		(property "JLCPCB PN" "C25819"
 			(at 297.18 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF4702T5E"
+			(at 297.18 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31391,6 +31859,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 119.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b21abe2-1d14-4a35-9714-5ca7e0a72207")
 		)
@@ -31469,6 +31946,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 242.57 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de4b8290-4856-4f2c-b1b0-098573dc2ce3")
 		)
@@ -31540,6 +32026,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C6881375"
+			(at 330.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLV61070ADBVR"
 			(at 330.2 55.88 0)
 			(effects
 				(font
@@ -31847,6 +32342,15 @@
 		)
 		(property "JLCPCB PN" "C25804"
 			(at 219.71 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 219.71 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32643,6 +33147,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 110.49 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc547aaf-6b8d-49a9-8eb3-23be1df456a5")
 		)
@@ -32721,6 +33234,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 382.27 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b2e032ee-f413-4c9f-bf77-b3ce10609a1d")
 		)
@@ -32792,6 +33314,15 @@
 		)
 		(property "JLCPCB PN" "C25819"
 			(at 297.18 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF4702T5E"
+			(at 297.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33013,6 +33544,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF4702T5E"
+			(at 374.65 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0fa284a-90c8-436d-b494-564e3bf8efb3")
 		)
@@ -33214,6 +33754,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C130204"
+			(at 238.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TCA9535PWR"
 			(at 238.76 132.08 0)
 			(effects
 				(font
@@ -33667,6 +34216,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF4702T5E"
+			(at 246.38 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ec448b08-75ab-47f3-a9c8-7a2d111922ef")
 		)
@@ -34091,6 +34649,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 342.9 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f853dc4-237d-4508-8d16-ba90c9f25112")
 		)
@@ -34429,6 +34996,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SI1308EDL"
+			(at 53.34 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "540bd855-dce1-490e-9e2a-802ebdb5e89e")
 		)
@@ -34709,6 +35285,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF510KT5E"
+			(at 175.26 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3b672896-b6aa-476a-9c2b-c1c364c5ca0a")
 		)
@@ -34779,6 +35364,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C14663"
+			(at 274.32 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
 			(at 274.32 245.11 0)
 			(effects
 				(font
@@ -34929,6 +35523,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 382.27 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2835310b-7ea4-470d-bf5d-ed62b5317f7a")
 		)
@@ -35000,6 +35603,15 @@
 		)
 		(property "JLCPCB PN" "C25819"
 			(at 92.71 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF4702T5E"
+			(at 92.71 246.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35163,6 +35775,15 @@
 		)
 		(property "JLCPCB PN" "C14663"
 			(at 30.48 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 30.48 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35506,7 +36127,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV62569DBV"
+		(property "Value" "TLV62569DBVR"
 			(at 241.3 45.72 0)
 			(effects
 				(font
@@ -35544,6 +36165,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C141836"
+			(at 241.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLV62569DBVR"
 			(at 241.3 53.34 0)
 			(effects
 				(font
@@ -35698,6 +36328,15 @@
 		)
 		(property "JLCPCB PN" "C25819"
 			(at 297.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF4702T5E"
+			(at 297.18 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36109,6 +36748,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "H3V3U06B"
+			(at 66.04 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "94a9e9fb-d36b-451d-b792-770ec84846cb")
 		)
@@ -36245,6 +36893,15 @@
 		)
 		(property "JLCPCB PN" "C25819"
 			(at 374.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF4702T5E"
+			(at 374.65 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36955,6 +37612,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 123.19 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f9bb2ba-e216-4d87-a1cb-d522c143aa5e")
 		)
@@ -37188,6 +37854,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF4702T5E"
+			(at 374.65 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59f25e0e-19a4-4486-a155-b8a5761394cd")
 		)
@@ -37396,6 +38071,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 382.27 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42ee5db9-17ed-4419-9c26-479e83f8559b")
 		)
@@ -37531,6 +38215,15 @@
 			)
 		)
 		(property "JLCPCB PN" "C15850"
+			(at 255.27 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
 			(at 255.27 53.34 0)
 			(effects
 				(font
