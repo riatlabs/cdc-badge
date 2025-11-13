@@ -617,12 +617,6 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Forward Voltage (Vf@If)",
-          "name": "Forward Voltage (Vf@If)",
-          "show": false
-        },
-        {
           "group_by": true,
           "label": "JLCPCB PN",
           "name": "JLCPCB PN",
@@ -636,32 +630,8 @@
         },
         {
           "group_by": false,
-          "label": "Rectified Current",
-          "name": "Rectified Current",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Reverse Leakage Current (Ir)",
-          "name": "Reverse Leakage Current (Ir)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Reverse Voltage (Vr)",
-          "name": "Reverse Voltage (Vr)",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Sim.Pin",
           "name": "Sim.Pin",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Diode Configuration",
-          "name": "Diode Configuration",
           "show": false
         },
         {
