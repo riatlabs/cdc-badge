@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Boom Precision Electronics (BOOMELE) HY-4P (A2006WF-04A) Horizontal right angle wire to board connector SMD P=2mm (https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588906361182957568)")
-	(tags "connector BOOMELE  vertical HY-4P A2006WF-04A")
+	(descr "Boom Precision Electronics (BOOMELE) HY-4P (A2006WF-04A) Horizontal right angle wire to board connector SMD P=2mm (https://www.lcsc.com/datasheet/C146060.pdf)")
+	(tags "connector BOOMELE  horizontal HY-4P A2006WF-04A")
 	(property "Reference" "REF**"
 		(at -0.01 -7.64 0)
 		(layer "F.SilkS")

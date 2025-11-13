@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Boom Precision Electronics (BOOMELE) HY-4P (A2006LF-04A) Vertical wire to board connector SMD P=2mm (https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588906361182957568)")
+	(descr "Boom Precision Electronics (BOOMELE) HY-4P (A2006LF-04A) Vertical wire to board connector SMD P=2mm (https://www.lcsc.com/datasheet/C161188.pdf)")
 	(tags "connector BOOMELE  vertical HY-4P A2006LF-04A")
 	(property "Reference" "REF**"
 		(at 0.3 -6.1 0)
