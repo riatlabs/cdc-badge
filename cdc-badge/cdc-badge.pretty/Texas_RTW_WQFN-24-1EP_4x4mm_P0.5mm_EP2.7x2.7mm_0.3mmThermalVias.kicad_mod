@@ -564,7 +564,7 @@
 		(uuid "2bd0e2a6-6b4d-47a9-b0d3-aeaefa1bd5fe")
 	)
 	(pad "25" thru_hole circle
-		(at -1.1 -1.1)
+		(at -1.05 -1.05)
 		(size 0.45 0.45)
 		(drill 0.3)
 		(property pad_prop_heatsink)
@@ -573,7 +573,7 @@
 		(uuid "b1204476-46e0-4e38-b364-aa1032c2761f")
 	)
 	(pad "25" thru_hole circle
-		(at -1.1 0)
+		(at -1.05 0)
 		(size 0.45 0.45)
 		(drill 0.3)
 		(property pad_prop_heatsink)
@@ -582,7 +582,7 @@
 		(uuid "8b742d0d-cb5d-4672-b93e-554609d17525")
 	)
 	(pad "25" thru_hole circle
-		(at -1.1 1.1)
+		(at -1.05 1.05)
 		(size 0.45 0.45)
 		(drill 0.3)
 		(property pad_prop_heatsink)
@@ -591,7 +591,7 @@
 		(uuid "0340e867-7d0f-480b-a659-7a5a35841c03")
 	)
 	(pad "25" thru_hole circle
-		(at 0 -1.1)
+		(at 0 -1.05)
 		(size 0.45 0.45)
 		(drill 0.3)
 		(property pad_prop_heatsink)
@@ -625,7 +625,7 @@
 		(uuid "30c04e44-2ff9-44a6-9ecd-6bad3a8924c6")
 	)
 	(pad "25" thru_hole circle
-		(at 0 1.1)
+		(at 0 1.05)
 		(size 0.45 0.45)
 		(drill 0.3)
 		(property pad_prop_heatsink)
@@ -634,7 +634,7 @@
 		(uuid "7b80774f-e429-435b-a36e-a1c0b553df1d")
 	)
 	(pad "25" thru_hole circle
-		(at 1.1 -1.1)
+		(at 1.05 -1.05)
 		(size 0.45 0.45)
 		(drill 0.3)
 		(property pad_prop_heatsink)
@@ -643,7 +643,7 @@
 		(uuid "86c5ebd6-e9d9-4618-8e49-e1b070747192")
 	)
 	(pad "25" thru_hole circle
-		(at 1.1 0)
+		(at 1.05 0)
 		(size 0.45 0.45)
 		(drill 0.3)
 		(property pad_prop_heatsink)
@@ -652,7 +652,7 @@
 		(uuid "7dcff4fa-82f2-4697-9079-dd07d6e12baa")
 	)
 	(pad "25" thru_hole circle
-		(at 1.1 1.1)
+		(at 1.05 1.05)
 		(size 0.45 0.45)
 		(drill 0.3)
 		(property pad_prop_heatsink)
