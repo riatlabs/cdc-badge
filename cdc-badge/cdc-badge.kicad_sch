@@ -37157,7 +37157,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f1c5b614-574b-499c-943d-e18cc8636764")

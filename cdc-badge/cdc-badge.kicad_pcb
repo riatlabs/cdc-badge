@@ -15114,7 +15114,7 @@
 			(net 1 "GND")
 			(pinfunction "MountPins")
 			(pintype "passive")
-			(uuid "ce88d928-5996-4a8b-97e2-73839168725b")
+			(uuid "646fa580-965f-41c6-92b4-3421265815f4")
 		)
 		(embedded_fonts no)
 	)
@@ -18234,7 +18234,7 @@
 		(path "/f1c5b614-574b-499c-943d-e18cc8636764")
 		(sheetname "/")
 		(sheetfile "cdc-badge.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -4.06 -3.31)
 			(end -3.04 -3.31)
