@@ -174,6 +174,18 @@
 		(layer "F.SilkS")
 		(uuid "da180274-cc6b-46c9-9d0a-44632e2ff5df")
 	)
+	(fp_poly
+		(pts
+			(xy -2.85 -3.1) (xy -3.18 -2.86) (xy -3.18 -3.34)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "4a7b6bdb-5dab-4512-bfe4-6e82641203b7")
+	)
 	(fp_rect
 		(start -4 -4.25)
 		(end 3.95 4.25)
@@ -216,19 +228,6 @@
 		(layer "F.Fab")
 		(uuid "9c8f7ab4-9061-45c0-a6b6-8ecdba6d8528")
 	)
-	(fp_text user "▶"
-		(at -3.6 -2.65 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "634d645b-0816-4b99-bab9-296f26654886")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
@@ -245,14 +244,14 @@
 		(at -2.25 0)
 		(size 0.9 0.9)
 		(drill 0.9)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "d3413e4a-08da-4f18-92d2-8a3dda3a2b6e")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.25 0)
 		(size 0.9 0.9)
 		(drill 0.9)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "eec7d904-7b12-4c63-8c45-fa9c9083944f")
 	)
 	(pad "1" smd roundrect

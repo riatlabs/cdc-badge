@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_overlap|107172500|92510000|28377783-b249-4eca-bbde-1aaaa0ccedf5|50dadb86-b611-4edc-85d5-c1aa1a84a33e",
+          "Pin 1 indicator. Still visible."
+        ]
+      ],
       "meta": {
         "version": 2
       },
