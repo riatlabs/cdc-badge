@@ -83,6 +83,23 @@ On most use cases the sleep mode power usage of the TROPIC01 will be
 insignificant though. For instance, while listening for WiFi transmissions, the
 ESP32-S3 draws 95 mA. The TROPIC01 sleep mode current is just 1% of this.
 
+## Manufacturing
+
+### Panelization
+Dependency: [KiKit](https://yaqwsx.github.io/KiKit/latest/installation/intro/),
+packaged [in Arch as python-kikit](https://archlinux.org/packages/extra/any/python-kikit/)
+and [in NixOs as kikit](https://search.nixos.org/packages?show=kikit).
+
+```bash
+cd cdc-badge
+./panelize.sh
+```
+Generates a 1x2 panel of the PCB into the file `panel.kicad_pcb`. This panel is
+the preferred way to send the badge for fabrication. Reduces costs while
+preserving a rigid structure.
+
+`./panelize.sh clean` cleans all panel files.
+
 ## Further documentation
 Please check:
 - the [docs](/docs/) directory;

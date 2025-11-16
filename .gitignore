@@ -42,3 +42,4 @@ fp-info-cache
 # Production files
 fabrication-toolkit-options.json
 production/
+panel.kicad_*
