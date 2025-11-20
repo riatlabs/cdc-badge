@@ -94,6 +94,7 @@
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
 			)
+			(copper_finish "None")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
@@ -3730,7 +3731,7 @@
 		(descr "Inductor, TechFuse, SL0420, 4.5x4.1x2.0mm, ( http://www.sealand-pptc.com/product_view.php?r=77), generated with kicad-footprint-generator gen_inductor.py")
 		(tags "high-current power shielded")
 		(property "Reference" "L1"
-			(at 1.325 -4.6 0)
+			(at -0.175 -5 0)
 			(layer "F.SilkS")
 			(uuid "6281243b-a01f-44a4-8ecd-8b630a5e426e")
 			(effects
@@ -16550,7 +16551,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
-			(at 0.95 -3.125 0)
+			(at -0.55 -3.125 0)
 			(layer "F.SilkS")
 			(uuid "14493b73-aeb3-4391-951f-c9fd64e93ce9")
 			(effects
@@ -28333,7 +28334,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0.75 1.55 90)
+			(at 0.05 1.7 90)
 			(layer "F.SilkS")
 			(uuid "e5a1b22d-1dcb-480f-b78a-e894f3074226")
 			(effects
@@ -29566,7 +29567,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C37"
-			(at -10.825 0.275 90)
+			(at 3.5 4.7 90)
 			(layer "F.SilkS")
 			(uuid "794fc6a8-9e13-4c22-87f9-45a803ca1a77")
 			(effects
@@ -46579,7 +46580,7 @@
 		)
 	)
 	(gr_text "CS0\n"
-		(at 63.66 134.63 90)
+		(at 63.56 134.63 90)
 		(layer "F.SilkS")
 		(uuid "602d6aff-f88d-4ba1-9c9c-8df3f96d6358")
 		(effects
