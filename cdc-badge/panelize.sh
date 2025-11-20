@@ -22,6 +22,6 @@ kikit panelize \
     --framing 'railstb; width: 8mm'\
     --tooling '4hole; size: 6mm; paste: true; hoffset: 11mm; voffset: 5mm' \
     --fiducials '4fid; paste: true; hoffset: 4mm; voffset: 4mm; coppersize: 1mm; opening: 2mm;' \
-    --copperfill 'solid; layers: all' \
+    --copperfill 'none' \
     --post 'millradius: 1mm' \
     cdc-badge.kicad_pcb panel.kicad_pcb
