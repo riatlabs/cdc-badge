@@ -1,21 +1,7 @@
 (version 1)
-# Custom Design Rules (DRC) for KiCAD 8.0 (Multilayers PCB) (Stored in '<project>.kicad_dru' file).
-#
-# Matching JLCPCB capabilities: https://jlcpcb.com/capabilities/pcb-capabilities
-#
+# Custom Design Rules (DRC) matching JLCPCB capabilities
+# https://jlcpcb.com/capabilities/pcb-capabilities
 # KiCad documentation: https://docs.kicad.org/master/id/pcbnew/pcbnew_advanced.html#custom_design_rules
-#
-# Last revision: 2025-01-04
-
-(rule "Minimum Track Width"
-	(condition "A.Type == 'track'")
-	(constraint track_width (min 0.09mm))
-)
-
-(rule "Minimum Track Clearance"
-	(condition "A.Type == 'track' && B.Type == A.Type")
-	(constraint clearance (min 0.09mm))
-)
 
 # silkscreen
 (rule "Minimum Silkscreen Text Size"
@@ -87,6 +73,11 @@
 )
 
 # clearance
+(rule "Track to Track Clearance"
+	(condition "A.Type == 'track' && B.Type == A.Type")
+	(constraint clearance (min 0.09mm))
+)
+
 (rule "Hole to Hole Clearance (diff. nets)"
 	(layer outer)
 	(condition "A.Net != B.Net")
