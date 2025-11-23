@@ -84,21 +84,28 @@ insignificant though. For instance, while listening for WiFi transmissions, the
 ESP32-S3 draws 95 mA. The TROPIC01 sleep mode current is just 1% of this.
 
 ## Manufacturing
+There's a [Makefile](/cdc-badge/Makefile) to generate the fabrication
+outputs.
+
+To run it you need the following dependencies installed in your system:
+- A Make implementation, e.g. [GNU Make](https://www.gnu.org/software/make/),
+  packaged in most distros as `make`.
+- [KiKit](https://yaqwsx.github.io/KiKit/latest/installation/intro/),
+  packaged [in Arch as python-kikit](https://archlinux.org/packages/extra/any/python-kikit/)
+  and [in NixOs as kikit](https://search.nixos.org/packages?show=kikit).
+
+Running `make` in the `cdc-badge` directory will output the fabrication files
+into the `production/` directory.
+
+So far outputs are created just for JLCPCB, but [other manufacturers can be
+easily supported](https://yaqwsx.github.io/KiKit/latest/fabrication/intro/#currently-supported).
 
 ### Panelization
-Dependency: [KiKit](https://yaqwsx.github.io/KiKit/latest/installation/intro/),
-packaged [in Arch as python-kikit](https://archlinux.org/packages/extra/any/python-kikit/)
-and [in NixOs as kikit](https://search.nixos.org/packages?show=kikit).
-
-```bash
-cd cdc-badge
-./panelize.sh
-```
-Generates a 1x2 panel of the PCB into the file `panel.kicad_pcb`. This panel is
-the preferred way to send the badge for fabrication. Reduces costs while
-preserving a rigid structure.
-
-`./panelize.sh clean` cleans all panel files.
+Panelization is an intermediate step in the fabrication outputs generation
+detailed above, but it can be run independently. `make panel` generates a 1x2
+panel of the PCB into `production/panel.kicad_pcb`. This panel is the preferred
+way to send the badge for fabrication. It reduces costs while preserving a rigid
+structure.
 
 ## Further documentation
 Please check:
