@@ -43,10 +43,10 @@ The badge has 3 expansion ports:
   interface with any Grove sensor or network module. Has selectable output
   voltage (3.3 V or 5 V).
 
-We already designed an [HAT with the Sipeed M1](https://github.com/riatlabs/sipeed-m1-hat)
-for more demanding applications. It is based on the [Kendryte K210 SoC](https://www.kendryte.com/en/proDetail/210)
-which has 2 RISC-V 64 bit cores and many custom accelerators (AI/NPU/CNN,
-audio, FFT, AES, SHA256).
+The [Grove AI HAT for Edge Computing](https://wiki.seeedstudio.com/Grove_AI_HAT_for_Edge_Computing/)
+is a good pairing for more demanding applications. It is based on the [Kendryte
+K210 SoC](https://www.kendryte.com/en/proDetail/210) which has 2 RISC-V 64 bit
+cores and many custom accelerators (AI/NPU/CNN, audio, FFT, AES, SHA256).
 
 ### SPI to internal devices
 It is possible to interface via SPI from the Raspberry Pi header to the e-paper
