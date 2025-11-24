@@ -573,7 +573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Jushuo_AFC07-S24FCA-00_1x24-1MP_P0.50_Horizontal"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -591,7 +591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FFC / FPC 24P Bottom Contact Slide Lock Surface Mount 0.5 mm pitch"
+		(property "Description" "24 pin connector for GDEY029T94 e-paper display"
 			(at 0 0 0)
 			(effects
 				(font
@@ -600,25 +600,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AFC07-S24FCA-00"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB PN" "C262567"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "connector"
+		(property "ki_keywords" "connector e-paper display GDEY029T94"
 			(at 0 0 0)
 			(effects
 				(font
@@ -639,7 +621,7 @@
 		(symbol "Conn_01x24_GDEY029T94_1_1"
 			(rectangle
 				(start -1.27 29.21)
-				(end 7.62 -31.75)
+				(end 6.858 -32.004)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1559,7 +1541,7 @@
 			(pin passive line
 				(at 6.35 -10.16 90)
 				(length 3.048)
-				(name "MountPins"
+				(name "MP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2452,7 +2434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDC_Badge:SHOUHAN_TYPE-C_16PIN_2MD_073"
+		(property "Footprint" ""
 			(at 3.81 0 0)
 			(effects
 				(font
@@ -2461,7 +2443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" ""
 			(at 3.81 0 0)
 			(effects
 				(font
@@ -2471,15 +2453,6 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB PN" "C2765186"
 			(at 0 0 0)
 			(effects
 				(font
