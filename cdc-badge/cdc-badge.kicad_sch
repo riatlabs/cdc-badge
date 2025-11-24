@@ -26723,9 +26723,9 @@
 		(at 276.86 264.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "665e680f-824a-4745-acc6-e0efef603400")
 		(property "Reference" "U3"
 			(at 275.336 261.874 0)
@@ -26765,6 +26765,15 @@
 		)
 		(property "Description" "Tropicsquare secure cryptographic coprocessor with SPI interface"
 			(at 277.622 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C9900235223"
+			(at 276.86 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
