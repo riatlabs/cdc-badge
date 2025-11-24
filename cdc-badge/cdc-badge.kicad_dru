@@ -75,7 +75,7 @@
 # clearance
 (rule "Track to Track Clearance"
 	(condition "A.Type == 'track' && B.Type == A.Type")
-	(constraint clearance (min 0.09mm))
+	(constraint clearance (min 0.127mm))
 )
 
 (rule "Hole to Hole Clearance (diff. nets)"
@@ -122,7 +122,7 @@
 
 (rule "Pad to Track Clearance"
 	(condition "A.isPlated() && B.Type == 'track'")
-	(constraint clearance (min 0.1mm))
+	(constraint clearance (min 0.127mm))
 )
 
 # additional rules
