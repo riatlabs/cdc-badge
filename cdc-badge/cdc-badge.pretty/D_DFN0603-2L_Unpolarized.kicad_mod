@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "Unpolarized DFN0603-2L diode (https://www.lcsc.com/datasheet/C20617908.pdf)")
+	(tags "DFN0603-2L unpolarized diode")
 	(property "Reference" "REF**"
 		(at 0 -1.09 0)
 		(unlocked yes)

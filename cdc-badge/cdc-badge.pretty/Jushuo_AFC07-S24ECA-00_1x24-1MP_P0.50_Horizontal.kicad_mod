@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Jushuo AFC07, FFC/FPC connector, AFC07-S24ECA-00, 24 Pins per row (https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588894185264570368)")
+	(descr "Jushuo AFC07, FFC/FPC connector, AFC07-S24ECA-00, 24 Pins per row (https://www.lcsc.com/datasheet/C262643.pdf)")
 	(tags "connector jushuo horizontal top contact")
 	(property "Reference" "REF**"
 		(at 0.02 -4.19 0)

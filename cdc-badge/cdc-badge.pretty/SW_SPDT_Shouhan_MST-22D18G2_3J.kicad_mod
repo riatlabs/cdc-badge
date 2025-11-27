@@ -3,7 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Single Pole Double Throw (SPDT) SMD 9.1x3.5mm slide switch")
+	(descr "Single Pole Double Throw (SPDT) SMD 9.1x3.5mm slide switch (https://www.lcsc.com/datasheet/C668586.pdf)")
+	(tags "switch single pole double throw SPDT SMD slide Shouhan MST-22D18G2")
 	(property "Reference" "REF**"
 		(at 0.34 -4.85 0)
 		(unlocked yes)
@@ -28,7 +29,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588941174559657984"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

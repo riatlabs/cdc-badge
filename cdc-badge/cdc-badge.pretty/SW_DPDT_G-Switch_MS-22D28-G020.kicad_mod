@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "Double Pole Double Throw (DPDT) SMD 7.1x4mm slide switch (https://www.lcsc.com/datasheet/C963205.pdf)")
+	(tags "double pole throw DPDT SMD slide switch G-Switch MS-22D28-G020")
 	(property "Reference" "REF**"
 		(at 0.04 -5.04 0)
 		(unlocked yes)

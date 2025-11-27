@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "D_SOD-123FL")
-	(tags "D_SOD-123FL")
+	(descr "Unpolarized SOD-123FL diode (https://www.onsemi.com/pdf/datasheet/mbr2h100sf-d.pdf which replaces old https://www.onsemi.com/site/cdroms/micropackages/pdf-docs/onsemi/SOD123FL%20Package%20Outline.pdf)")
+	(tags "SOD-123FL unpolarized diode")
 	(property "Reference" "REF**"
 		(at 0.25 -2.12 0)
 		(layer "F.SilkS")
@@ -53,19 +53,19 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -2.41 -1)
-		(end 2.41 1)
+		(start -2.36 -0.87)
+		(end 2.36 0.87)
 		(stroke
 			(width 0.12)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "275883c8-6f4c-4929-996f-e83d96641d9c")
 	)
 	(fp_rect
-		(start -2.45 -1.15)
-		(end 2.45 1.15)
+		(start -2.35 -0.86)
+		(end 2.35 0.86)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -75,27 +75,7 @@
 		(uuid "bcdb5f5c-0e66-4536-901c-cec22569a086")
 	)
 	(fp_line
-		(start -1.4 -0.9)
-		(end 1.4 -0.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "abfe51fa-45e2-411b-b7c8-4da355740ff2")
-	)
-	(fp_line
-		(start -1.4 0.9)
-		(end -1.4 -0.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "35e34175-9be5-4f43-9d96-91f031efd56f")
-	)
-	(fp_line
-		(start -0.65 -0.4)
+		(start -0.45 -0.25)
 		(end -0.05 0)
 		(stroke
 			(width 0.1)
@@ -105,8 +85,8 @@
 		(uuid "7e3652e5-28ee-4bae-9f04-854f7ca74b14")
 	)
 	(fp_line
-		(start -0.65 0)
-		(end -0.9 0)
+		(start -0.45 0)
+		(end -0.7 0)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -115,8 +95,8 @@
 		(uuid "6e3efc2f-2fff-40fd-a657-2f9b41974c79")
 	)
 	(fp_line
-		(start -0.65 0.4)
-		(end -0.65 -0.4)
+		(start -0.45 0.25)
+		(end -0.45 -0.25)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -126,7 +106,7 @@
 	)
 	(fp_line
 		(start -0.05 0)
-		(end -0.65 0.4)
+		(end -0.45 0.25)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -155,64 +135,55 @@
 		(uuid "63daf04c-1a3d-4319-b961-429f499c3fb5")
 	)
 	(fp_line
-		(start 0 0)
-		(end 0.6 -0.4)
+		(start 0.05 0)
+		(end 0.45 -0.25)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "20c8f039-6e4f-4774-9501-2bfce4c41576")
+		(uuid "ae03b44d-bd20-4ec7-acdd-4b8995ea214a")
 	)
 	(fp_line
-		(start 0.6 -0.4)
-		(end 0.6 0.4)
+		(start 0.45 -0.25)
+		(end 0.45 0.25)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "aef4026e-dbbb-4cff-a6da-37b4255538af")
+		(uuid "3b354ffd-555e-43a4-bc58-4deffc9fa3cf")
 	)
 	(fp_line
-		(start 0.6 0)
-		(end 0.85 0)
+		(start 0.45 0)
+		(end 0.7 0)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "82b42440-7d6f-41da-b640-ebdef0a603b6")
+		(uuid "cbc48a3e-e084-4673-bd36-2e70ba1ca2d4")
 	)
 	(fp_line
-		(start 0.6 0.4)
-		(end 0 0)
+		(start 0.45 0.25)
+		(end 0.05 0)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "86cd3b1f-058b-464a-9ecb-82004b913874")
+		(uuid "7f8e92b0-3406-46db-a8ca-c2e5d24badb9")
 	)
-	(fp_line
-		(start 1.4 -0.9)
-		(end 1.4 0.9)
+	(fp_rect
+		(start -1.35 -0.825)
+		(end 1.35 0.825)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "cbb99ab5-e44f-4361-b895-aaa86bd8a9aa")
-	)
-	(fp_line
-		(start 1.4 0.9)
-		(end -1.4 0.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "7769a7c3-6b85-40f0-813c-b5ed0e8e4d01")
+		(uuid "45cded38-6ce5-456e-a887-19fe9267dead")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.1 -2.13 0)
@@ -226,17 +197,17 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -1.55 0)
-		(size 1.2 1.4)
+		(at -1.475 0)
+		(size 1.25 1.22)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.2083333333)
+		(roundrect_rratio 0.2049180328)
 		(uuid "d88f4dfe-a1d3-4403-89e0-f515301145b5")
 	)
 	(pad "2" smd roundrect
-		(at 1.55 0)
-		(size 1.2 1.4)
+		(at 1.475 0)
+		(size 1.25 1.22)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.2083333333)
+		(roundrect_rratio 0.2049180328)
 		(uuid "5cfffee5-d4b4-40a3-a0fc-37582ca8bfb2")
 	)
 	(embedded_fonts no)
