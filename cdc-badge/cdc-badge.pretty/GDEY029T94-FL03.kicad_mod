@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "2.9 inch e-paper with front light from Dalian Good Display")
+	(descr "2.9 inch e-paper with front light from Dalian Good Display (https://v4.cecdn.yun300.cn/100001_1909185148/GDEY029T94-FL03.pdf)")
 	(tags "e-paper e-ink electronic display")
 	(property "Reference" "REF**"
 		(at 0.7 -15 0)
@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://v4.cecdn.yun300.cn/100001_1909185148/GDEY029T94-FL03.pdf"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
