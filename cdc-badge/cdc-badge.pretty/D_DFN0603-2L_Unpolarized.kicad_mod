@@ -13,7 +13,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -79,7 +79,7 @@
 		(uuid "b41f4255-c8ec-4fec-8e83-26a331710ddc")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.01 -1.08 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "30482a78-bf5f-44d7-872f-015ca6d607d4")
