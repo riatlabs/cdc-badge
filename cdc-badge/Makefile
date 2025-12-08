@@ -1,9 +1,9 @@
 BUILDDIR=production
-VERSION=0.1
+VERSION=1.0
 
 all: jlcpcb
 
-jlcpcb: $(BUILDDIR)/panel.kicad_pcb
+jlcpcb: $(BUILDDIR)/panel.kicad_pcb cdc-badge.kicad_sch
 	kikit fab jlcpcb --assembly --schematic cdc-badge.kicad_sch \
 		--field "JLCPCB PN" --nametemplate "cdc-badge_v$(VERSION)_{}" \
 		$(BUILDDIR)/panel.kicad_pcb $(BUILDDIR)
