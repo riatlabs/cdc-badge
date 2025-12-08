@@ -40962,7 +40962,7 @@
 		(at 119.9 130.8 180)
 		(descr "Open Source Hardware Logo")
 		(tags "Logo OSHW")
-		(property "Reference" "REF**"
+		(property "Reference" "LOGO1"
 			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
