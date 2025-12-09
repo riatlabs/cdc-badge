@@ -21705,7 +21705,7 @@
 		(uuid "be3e14fb-b3f6-46f6-8c56-8559c879a8bf")
 		(at 58.525 97)
 		(property "Reference" "SW12"
-			(at -0.125 -2.4 0)
+			(at -1.325 -5.6 0)
 			(layer "F.SilkS")
 			(uuid "92789eaf-2fc4-4e34-9e48-18816aaa5325")
 			(effects
@@ -26402,9 +26402,8 @@
 		(uuid "d312457c-2a45-42a7-a7d1-4808d04a7138")
 		(at 100.25 64.15 -90)
 		(property "Reference" "SW13"
-			(at -3.75 0.05 180)
+			(at 10.2 0 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "bb386b66-f010-42cb-87fa-d2f47730bc16")
 			(effects
 				(font
@@ -29766,9 +29765,8 @@
 		(uuid "f5696aa4-ca62-4079-ba13-595d6afbe60a")
 		(at 96.75 64.15 -90)
 		(property "Reference" "SW14"
-			(at 0.425 -2.635 90)
+			(at 11.05 0.2 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "b77d621d-7153-4d98-9c8d-40003c0c5e7f")
 			(effects
 				(font
@@ -43277,6 +43275,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.153)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PW ON\nRESET"
+		(at 56.2 95.3 0)
+		(layer "F.SilkS")
+		(uuid "77b1c31f-86bb-42ae-9647-67666a3c376c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
