@@ -43198,6 +43198,17 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 60.55 93.35)
+		(end 60.95 94.85)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "0bae00cc-ad53-4728-904d-625681dc44fb")
+	)
 	(gr_poly
 		(pts
 			(xy 86.792922 120.662625) (xy 86.83261 120.663001) (xy 86.854758 120.671055) (xy 86.876906 120.67911)
@@ -43326,6 +43337,16 @@
 		(layer "F.SilkS")
 		(uuid "3385e706-69d4-43aa-97e3-9b8418fb6322")
 	)
+	(gr_line
+		(start 55.85 93.35)
+		(end 61.05 93.35)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "38f2720b-4efb-4a78-b872-9bb32402376a")
+	)
 	(gr_rect
 		(start 55.85 91.725)
 		(end 61.05 94.975)
@@ -43376,6 +43397,16 @@
 		(layer "F.SilkS")
 		(uuid "8d147856-1f13-4d4a-a711-e5d0ff5b7bae")
 	)
+	(gr_line
+		(start 132.9 77.05)
+		(end 138.7 77.075)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cf790f03-41d4-4d01-b865-551e2355b859")
+	)
 	(gr_poly
 		(pts
 			(xy 110.7355 130.651153) (xy 112.270083 130.651153) (xy 111.740917 131.722715) (xy 108.010292 131.722715)
@@ -43390,8 +43421,19 @@
 		(uuid "e7f24f9b-8867-448a-9672-ef3b35066b4f")
 	)
 	(gr_rect
-		(start 132.75 75.6)
-		(end 138.65 78.8)
+		(start 137.35 75.65)
+		(end 138.5 76.95)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ec56772a-1dd4-448e-ba02-64447b751398")
+	)
+	(gr_rect
+		(start 132.75 75.5)
+		(end 138.7 78.65)
 		(stroke
 			(width 0.3)
 			(type default)
@@ -43908,14 +43950,15 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "FLASH\nPW OFF"
-		(at 132.75 78.6 0)
+	(gr_text "FLASH"
+		(at 132.7 76.95 0)
 		(layer "F.SilkS" knockout)
 		(uuid "5f32466a-0316-478e-a97f-34127801e3cf")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.153)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -43992,14 +44035,14 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "PW ON\nRESET"
-		(at 55.85 94.775 0)
+	(gr_text "PW ON"
+		(at 55.8 93.2 0)
 		(layer "F.SilkS" knockout)
 		(uuid "77b1c31f-86bb-42ae-9647-67666a3c376c")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.153)
+				(thickness 0.2)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -44401,6 +44444,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "RESET"
+		(at 55.8 94.75 0)
+		(layer "F.SilkS" knockout)
+		(uuid "f3145079-cf1e-4245-80e7-a971c8b8bdc7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "5V"
 		(at 58.6 155.5 90)
 		(layer "F.SilkS")
@@ -44413,6 +44469,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "PW OFF"
+		(at 132.7 78.45 0)
+		(layer "F.SilkS" knockout)
+		(uuid "f93d24a4-cefb-4754-a902-e1262f5b1cdc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "RESET"
 		(at 93.25 64.95 0)
 		(layer "F.SilkS" knockout)
@@ -44420,7 +44489,8 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.153)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
