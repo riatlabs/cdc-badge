@@ -20,20 +20,6 @@ and PCB layout.
 - Pager and short message chatting
 - Local AI with the Sipeed M1 HAT: e.g. voice activated control
 
-## Firmware
-An example can be found at [cdc-badge-qc-firmware](https://github.com/riatlabs/cdc-badge-qc-firmware).
-It should be used as basis for further firmware development.
-
-During the boot process all firmwares should **set the fast charge current limit
-to a value bellow 1200 mA**. The default fast charge current of the charging IC
-is 2000 mA, which would damage the 1200 mAh LiPo battery bundled with the badge.
-
-### Flashing
-Options:
-1. Via USB.
-2. Via UART. TX and RX are broken out to the Raspberry Pi header on pins 8 and 10.
-   The reset and flash buttons are physically placed near the ESP32.
-
 ## Expansions
 The badge has 3 expansion ports:
 - Raspberry Pi [40 pin GPIO header](https://pinout.xyz) ready to take any [HAT or pHAT](https://pinout.xyz/boards)
@@ -58,6 +44,36 @@ pins 29, 31 and 36. The interrupt signal from TROPIC01 is available on pin 37.
 
 This allows an external microcontroller, for instance the Sipeed M1, to display
 graphics on the screen and use the secure element.
+
+## Firmware
+An example can be found at [cdc-badge-nametag](https://github.com/riatlabs/cdc-badge-nametag).
+It can be used as basis for further firmware development.
+
+In order to safely operated the hardware, all the points in the [firmware
+checklist](/docs/firmware-checklist.md) must be taken into account.
+
+The [cdc-badge-qc-firmware](https://github.com/riatlabs/cdc-badge-qc-firmware)
+repo contains test batteries which make sure the hardware is working as
+expected.
+
+### Flashing
+Options:
+1. Via USB.
+2. Via UART. TX and RX are broken out to the Raspberry Pi header on pins 8 and 10.
+   The reset and flash buttons are physically placed near the ESP32.
+
+### Buttons
+Besides the reset and flash buttons (directly connected to the ESP32) there are
+12 buttons connected to the TCA9535 IO Expader. These can be access through I²C
+and used as keypad for user input.
+
+These is also a button (PW ON / RESET) directly connected to the BQ25895
+charging IC. It has fixed functionality:
+- If the BQ25895 is set to shipping mode (output power disabled), pressing the
+  PW ON / RESET button for 2s disables the shipping mode and allows power to flow to the
+  ESP32.
+- During battery-powered operation (i.e. no charger is plugged in), pressing the
+  PW ON / RESET for 12s forces a full power reset.
 
 ## Power characteristics
 
