@@ -8,8 +8,13 @@ Meant to be used for workshops and prototyping. It can also be worn as a mobile
 badge. Features an e-paper display with frontlight, a JST connector for
 single-cell LiPo batteries and a 12-button keypad.
 
-The [cdc-badge](/cdc-badge) directory contains the KiCAD project with schematics
-and PCB layout.
+Repository contents:
+- [cdc-badge](/cdc-badge) - KiCAD project with schematics and PCB
+  layout.
+- [cases](/cases) - 3D printable cases.
+- [docs](/docs) - Detailed documentation including datasheets and design
+  decisions.
+- [utils](/utils) - Miscellaneous scripts.
 
 ## Example applications
 - Interactive name tag
