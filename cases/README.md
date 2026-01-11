@@ -1,12 +1,11 @@
-<style>.case-thumb{width:45%;}</style>
 # CDC Badge Cases
 
 ## ari
 Two-part case secured by screws. Exposes screen, USB-C port, Rasp Pi header and
 Grove connector. Covers SAO port.
 
-[![front piece of ari's case](ari-front.jpg){: .case-thumb }](ari-front.jpg)
-[![back piece of ari's case](ari-back.jpg){: .case-thumb }](ari-back.jpg)
+[![front piece of ari's case](ari-front-thumb.jpg)](ari-front.jpg)
+[![back piece of ari's case](ari-back-thumb.jpg)](ari-back.jpg)
 
 Requires:
 - 2x M4 nuts
