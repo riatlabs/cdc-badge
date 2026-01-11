@@ -143,7 +143,7 @@ guiding electromagnetic waves through the dielectric and not moving water
 through pipes.
 
 ## License and authorship
-Copyright © 2025 RIAT Institute
+Copyright © 2025-2026 RIAT Institute
 
 Licensed under [CERN Open Hardware Licence Version 2 - Permissive](/LICENSE).
 
