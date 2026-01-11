@@ -4,8 +4,8 @@
 Two-part case secured by screws. Exposes screen, USB-C port, Rasp Pi header and
 Grove connector. Covers SAO port.
 
-[![front piece of ari's case](ari-front-thumb.jpg)](ari-front.jpg)
-[![back piece of ari's case](ari-back-thumb.jpg)](ari-back.jpg)
+[![front piece of ari's case](ari/front-thumb.jpg)](ari/front.jpg)
+[![back piece of ari's case](ari/back-thumb.jpg)](ari/back.jpg)
 
 Requires:
 - 2x M4 nuts
@@ -20,7 +20,7 @@ Links: [https://www.printables.com/model/1543553-cdc-badge-2-part-case](https://
 By [ari](https://is-a.cat/@ar).\
 Licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/).
 
-## ct-back
+## ct
 Back-only case secured by clips. Exposes USB-C and SAO ports. Covers battery,
 Rasp Pi header and Grove connector.
 
