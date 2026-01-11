@@ -43,8 +43,8 @@ https://www.jst-connector.com/datasheet/jst-connector/S2B-PH-SM4-TB(LF)(SN).pdf
 IO Expander: TCA9535\
 http://www.ti.com/lit/ds/symlink/tca9535.pdf
 
-Tactile push button: TS-1088-AR02016\
-https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf
+Tactile push button: TS114516025\
+https://www.lcsc.com/datasheet/C22375312.pdf
 
 Single pole double throw sliding switch: MST-22D18G2 3J\
 https://www.lcsc.com/datasheet/C668586.pdf

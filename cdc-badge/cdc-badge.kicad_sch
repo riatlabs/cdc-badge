@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "CDC Badge")
-		(date "2025")
-		(company "Copyright © 2025 RIAT Institute")
+		(date "2025-2026")
+		(company "Copyright © 2025-2026 RIAT Institute")
 		(comment 2 "This source describes Open Hardware and is licensed under the CERN-OHL-P v2")
 	)
 	(lib_symbols
@@ -19956,7 +19956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDC_Badge:TS-1088-AR02016"
+		(property "Footprint" "CDC_Badge:SW_Push_1P1T_NO_TS1145x"
 			(at 304.8 101.6 0)
 			(effects
 				(font
@@ -19965,7 +19965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22375312.pdf"
 			(at 304.8 101.6 0)
 			(effects
 				(font
@@ -19974,7 +19974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.6N 100,000 Cycles 12V 50mA black round tactile switch push button"
+		(property "Description" "1.6N 70,000 cycles 12V 50mA SMD-4P 4.2x3.2mm white oval tactile switch push button"
 			(at 304.8 106.68 0)
 			(effects
 				(font
@@ -19983,7 +19983,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "TS114516025"
 			(at 304.8 106.68 0)
 			(effects
 				(font
@@ -19992,7 +19992,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C720477"
+		(property "JLCPCB PN" "C22375312"
 			(at 304.8 106.68 0)
 			(effects
 				(font
@@ -22332,7 +22332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDC_Badge:TS-1088-AR02016"
+		(property "Footprint" "CDC_Badge:SW_Push_1P1T_NO_TS1145x"
 			(at 30.48 148.59 0)
 			(effects
 				(font
@@ -22341,7 +22341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22375312.pdf"
 			(at 30.48 148.59 0)
 			(effects
 				(font
@@ -22350,7 +22350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.6N 100,000 Cycles 12V 50mA black round tactile switch push button"
+		(property "Description" "1.6N 70,000 cycles 12V 50mA SMD-4P 4.2x3.2mm white oval tactile switch push button"
 			(at 30.48 153.67 0)
 			(effects
 				(font
@@ -22359,7 +22359,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "TS114516025"
 			(at 30.48 153.67 0)
 			(effects
 				(font
@@ -22368,7 +22368,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C720477"
+		(property "JLCPCB PN" "C22375312"
 			(at 30.48 153.67 0)
 			(effects
 				(font
@@ -22546,7 +22546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDC_Badge:TS-1088-AR02016"
+		(property "Footprint" "CDC_Badge:SW_Push_1P1T_NO_TS1145x"
 			(at 342.9 177.8 0)
 			(effects
 				(font
@@ -22555,7 +22555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22375312.pdf"
 			(at 342.9 177.8 0)
 			(effects
 				(font
@@ -22564,7 +22564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.6N 100,000 Cycles 12V 50mA black round tactile switch push button"
+		(property "Description" "1.6N 70,000 cycles 12V 50mA SMD-4P 4.2x3.2mm white oval tactile switch push button"
 			(at 342.9 182.88 0)
 			(effects
 				(font
@@ -22573,7 +22573,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "TS114516025"
 			(at 342.9 182.88 0)
 			(effects
 				(font
@@ -22582,7 +22582,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C720477"
+		(property "JLCPCB PN" "C22375312"
 			(at 342.9 182.88 0)
 			(effects
 				(font
@@ -25376,7 +25376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDC_Badge:TS-1088-AR02016"
+		(property "Footprint" "CDC_Badge:SW_Push_1P1T_NO_TS1145x"
 			(at 382.27 177.8 0)
 			(effects
 				(font
@@ -25385,7 +25385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22375312.pdf"
 			(at 382.27 177.8 0)
 			(effects
 				(font
@@ -25394,7 +25394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.6N 100,000 Cycles 12V 50mA black round tactile switch push button"
+		(property "Description" "1.6N 70,000 cycles 12V 50mA SMD-4P 4.2x3.2mm white oval tactile switch push button"
 			(at 382.27 182.88 0)
 			(effects
 				(font
@@ -25403,7 +25403,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "TS114516025"
 			(at 382.27 182.88 0)
 			(effects
 				(font
@@ -25412,7 +25412,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C720477"
+		(property "JLCPCB PN" "C22375312"
 			(at 382.27 182.88 0)
 			(effects
 				(font
@@ -29165,7 +29165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDC_Badge:TS-1088-AR02016"
+		(property "Footprint" "CDC_Badge:SW_Push_1P1T_NO_TS1145x"
 			(at 304.8 177.8 0)
 			(effects
 				(font
@@ -29174,7 +29174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22375312.pdf"
 			(at 304.8 177.8 0)
 			(effects
 				(font
@@ -29183,7 +29183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.6N 100,000 Cycles 12V 50mA black round tactile switch push button"
+		(property "Description" "1.6N 70,000 cycles 12V 50mA SMD-4P 4.2x3.2mm white oval tactile switch push button"
 			(at 304.8 182.88 0)
 			(effects
 				(font
@@ -29192,7 +29192,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "TS114516025"
 			(at 304.8 182.88 0)
 			(effects
 				(font
@@ -29201,7 +29201,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C720477"
+		(property "JLCPCB PN" "C22375312"
 			(at 304.8 182.88 0)
 			(effects
 				(font
@@ -30275,7 +30275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDC_Badge:TS-1088-AR02016"
+		(property "Footprint" "CDC_Badge:SW_Push_1P1T_NO_TS1145x"
 			(at 304.8 151.13 0)
 			(effects
 				(font
@@ -30284,7 +30284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22375312.pdf"
 			(at 304.8 151.13 0)
 			(effects
 				(font
@@ -30293,7 +30293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.6N 100,000 Cycles 12V 50mA black round tactile switch push button"
+		(property "Description" "1.6N 70,000 cycles 12V 50mA SMD-4P 4.2x3.2mm white oval tactile switch push button"
 			(at 304.8 156.21 0)
 			(effects
 				(font
@@ -30302,7 +30302,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "TS114516025"
 			(at 304.8 156.21 0)
 			(effects
 				(font
@@ -30311,7 +30311,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C720477"
+		(property "JLCPCB PN" "C22375312"
 			(at 304.8 156.21 0)
 			(effects
 				(font
@@ -32324,7 +32324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDC_Badge:TS-1088-AR02016"
+		(property "Footprint" "CDC_Badge:SW_Push_1P1T_NO_TS1145x"
 			(at 114.3 82.55 0)
 			(effects
 				(font
@@ -32333,7 +32333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22375312.pdf"
 			(at 114.3 82.55 0)
 			(effects
 				(font
@@ -32342,7 +32342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.6N 100,000 Cycles 12V 50mA black round tactile switch push button"
+		(property "Description" "1.6N 70,000 cycles 12V 50mA SMD-4P 4.2x3.2mm white oval tactile switch push button"
 			(at 119.38 82.55 0)
 			(effects
 				(font
@@ -32351,7 +32351,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "TS114516025"
 			(at 119.38 82.55 0)
 			(effects
 				(font
@@ -32360,7 +32360,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C720477"
+		(property "JLCPCB PN" "C22375312"
 			(at 119.38 82.55 0)
 			(effects
 				(font
@@ -32928,7 +32928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDC_Badge:TS-1088-AR02016"
+		(property "Footprint" "CDC_Badge:SW_Push_1P1T_NO_TS1145x"
 			(at 342.9 128.27 0)
 			(effects
 				(font
@@ -32937,7 +32937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22375312.pdf"
 			(at 342.9 128.27 0)
 			(effects
 				(font
@@ -32946,7 +32946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.6N 100,000 Cycles 12V 50mA black round tactile switch push button"
+		(property "Description" "1.6N 70,000 cycles 12V 50mA SMD-4P 4.2x3.2mm white oval tactile switch push button"
 			(at 342.9 133.35 0)
 			(effects
 				(font
@@ -32955,7 +32955,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "TS114516025"
 			(at 342.9 133.35 0)
 			(effects
 				(font
@@ -32964,7 +32964,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C720477"
+		(property "JLCPCB PN" "C22375312"
 			(at 342.9 133.35 0)
 			(effects
 				(font
@@ -34106,7 +34106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDC_Badge:TS-1088-AR02016"
+		(property "Footprint" "CDC_Badge:SW_Push_1P1T_NO_TS1145x"
 			(at 30.48 138.43 0)
 			(effects
 				(font
@@ -34115,7 +34115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22375312.pdf"
 			(at 30.48 138.43 0)
 			(effects
 				(font
@@ -34124,7 +34124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.6N 100,000 Cycles 12V 50mA black round tactile switch push button"
+		(property "Description" "1.6N 70,000 cycles 12V 50mA SMD-4P 4.2x3.2mm white oval tactile switch push button"
 			(at 30.48 143.51 0)
 			(effects
 				(font
@@ -34133,7 +34133,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "TS114516025"
 			(at 30.48 143.51 0)
 			(effects
 				(font
@@ -34142,7 +34142,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C720477"
+		(property "JLCPCB PN" "C22375312"
 			(at 30.48 143.51 0)
 			(effects
 				(font
@@ -34322,7 +34322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDC_Badge:TS-1088-AR02016"
+		(property "Footprint" "CDC_Badge:SW_Push_1P1T_NO_TS1145x"
 			(at 342.9 101.6 0)
 			(effects
 				(font
@@ -34331,7 +34331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22375312.pdf"
 			(at 342.9 101.6 0)
 			(effects
 				(font
@@ -34340,7 +34340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.6N 100,000 Cycles 12V 50mA black round tactile switch push button"
+		(property "Description" "1.6N 70,000 cycles 12V 50mA SMD-4P 4.2x3.2mm white oval tactile switch push button"
 			(at 342.9 106.68 0)
 			(effects
 				(font
@@ -34349,7 +34349,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "TS114516025"
 			(at 342.9 106.68 0)
 			(effects
 				(font
@@ -34358,7 +34358,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C720477"
+		(property "JLCPCB PN" "C22375312"
 			(at 342.9 106.68 0)
 			(effects
 				(font
@@ -34927,7 +34927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDC_Badge:TS-1088-AR02016"
+		(property "Footprint" "CDC_Badge:SW_Push_1P1T_NO_TS1145x"
 			(at 304.8 128.27 0)
 			(effects
 				(font
@@ -34936,7 +34936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22375312.pdf"
 			(at 304.8 128.27 0)
 			(effects
 				(font
@@ -34945,7 +34945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.6N 100,000 Cycles 12V 50mA black round tactile switch push button"
+		(property "Description" "1.6N 70,000 cycles 12V 50mA SMD-4P 4.2x3.2mm white oval tactile switch push button"
 			(at 304.8 133.35 0)
 			(effects
 				(font
@@ -34954,7 +34954,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "TS114516025"
 			(at 304.8 133.35 0)
 			(effects
 				(font
@@ -34963,7 +34963,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C720477"
+		(property "JLCPCB PN" "C22375312"
 			(at 304.8 133.35 0)
 			(effects
 				(font
@@ -35976,7 +35976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDC_Badge:TS-1088-AR02016"
+		(property "Footprint" "CDC_Badge:SW_Push_1P1T_NO_TS1145x"
 			(at 342.9 151.13 0)
 			(effects
 				(font
@@ -35985,7 +35985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22375312.pdf"
 			(at 342.9 151.13 0)
 			(effects
 				(font
@@ -35994,7 +35994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.6N 100,000 Cycles 12V 50mA black round tactile switch push button"
+		(property "Description" "1.6N 70,000 cycles 12V 50mA SMD-4P 4.2x3.2mm white oval tactile switch push button"
 			(at 342.9 156.21 0)
 			(effects
 				(font
@@ -36003,7 +36003,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "TS114516025"
 			(at 342.9 156.21 0)
 			(effects
 				(font
@@ -36012,7 +36012,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C720477"
+		(property "JLCPCB PN" "C22375312"
 			(at 342.9 156.21 0)
 			(effects
 				(font
@@ -36366,7 +36366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDC_Badge:TS-1088-AR02016"
+		(property "Footprint" "CDC_Badge:SW_Push_1P1T_NO_TS1145x"
 			(at 382.27 151.13 0)
 			(effects
 				(font
@@ -36375,7 +36375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22375312.pdf"
 			(at 382.27 151.13 0)
 			(effects
 				(font
@@ -36384,7 +36384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.6N 100,000 Cycles 12V 50mA black round tactile switch push button"
+		(property "Description" "1.6N 70,000 cycles 12V 50mA SMD-4P 4.2x3.2mm white oval tactile switch push button"
 			(at 382.27 156.21 0)
 			(effects
 				(font
@@ -36393,7 +36393,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "TS114516025"
 			(at 382.27 156.21 0)
 			(effects
 				(font
@@ -36402,7 +36402,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C720477"
+		(property "JLCPCB PN" "C22375312"
 			(at 382.27 156.21 0)
 			(effects
 				(font
@@ -37572,7 +37572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDC_Badge:TS-1088-AR02016"
+		(property "Footprint" "CDC_Badge:SW_Push_1P1T_NO_TS1145x"
 			(at 382.27 101.6 0)
 			(effects
 				(font
@@ -37581,7 +37581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22375312.pdf"
 			(at 382.27 101.6 0)
 			(effects
 				(font
@@ -37590,7 +37590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.6N 100,000 Cycles 12V 50mA black round tactile switch push button"
+		(property "Description" "1.6N 70,000 cycles 12V 50mA SMD-4P 4.2x3.2mm white oval tactile switch push button"
 			(at 382.27 106.68 0)
 			(effects
 				(font
@@ -37599,7 +37599,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "TS114516025"
 			(at 382.27 106.68 0)
 			(effects
 				(font
@@ -37608,7 +37608,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C720477"
+		(property "JLCPCB PN" "C22375312"
 			(at 382.27 106.68 0)
 			(effects
 				(font
@@ -37657,7 +37657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDC_Badge:TS-1088-AR02016"
+		(property "Footprint" "CDC_Badge:SW_Push_1P1T_NO_TS1145x"
 			(at 382.27 128.27 0)
 			(effects
 				(font
@@ -37666,7 +37666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22375312.pdf"
 			(at 382.27 128.27 0)
 			(effects
 				(font
@@ -37675,7 +37675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.6N 100,000 Cycles 12V 50mA black round tactile switch push button"
+		(property "Description" "1.6N 70,000 cycles 12V 50mA SMD-4P 4.2x3.2mm white oval tactile switch push button"
 			(at 382.27 133.35 0)
 			(effects
 				(font
@@ -37684,7 +37684,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1088-AR02016"
+		(property "MPN" "TS114516025"
 			(at 382.27 133.35 0)
 			(effects
 				(font
@@ -37693,7 +37693,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "C720477"
+		(property "JLCPCB PN" "C22375312"
 			(at 382.27 133.35 0)
 			(effects
 				(font

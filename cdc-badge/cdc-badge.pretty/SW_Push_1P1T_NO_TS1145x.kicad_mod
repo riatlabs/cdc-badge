@@ -1,0 +1,255 @@
+(footprint "SW_Push_1P1T_NO_TS1145x"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Tactile switch, 4.2x3.2mm, flat terminals, https://www.lcsc.com/datasheet/C22375312.pdf")
+	(tags "tactile switch push button HanElectricity TS114516025 TS114526025")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "977b9cb0-5cc0-4f20-9f48-af39aa2b4008")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "SW_Push_1P1T_NO_TS1145x"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d6f2a214-ad14-44f7-a52a-387e9ad35478")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d98e416a-2d50-441b-8fcb-5df3a86ccddc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b5df4ed-14f6-4c11-92f1-2c86a326511b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.22 -1.72)
+		(end -2.22 -1.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5fad8e54-af4c-485d-9897-ee2c3ff23d71")
+	)
+	(fp_line
+		(start -2.22 -1.72)
+		(end 2.22 -1.72)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "131eba26-db2b-4703-91de-79b099384eff")
+	)
+	(fp_line
+		(start -2.22 -0.49)
+		(end -2.22 0.49)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9074e913-5685-4e93-883f-877881faf421")
+	)
+	(fp_line
+		(start -2.22 1.72)
+		(end -2.22 1.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fae08010-e0d9-43a7-8742-f887ba502d04")
+	)
+	(fp_line
+		(start 2.22 -1.72)
+		(end 2.22 -1.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6483d2fa-d6e2-4cb5-aa04-c9815faff3b7")
+	)
+	(fp_line
+		(start 2.22 -0.49)
+		(end 2.22 0.49)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c44b7db-cc7a-4949-a688-6a48a4e8acba")
+	)
+	(fp_line
+		(start 2.22 1.72)
+		(end -2.22 1.72)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "033efa12-ba4e-4495-bbdb-97b8220287e6")
+	)
+	(fp_line
+		(start 2.22 1.72)
+		(end 2.22 1.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71f0e2e3-3249-4332-af94-c9661f30e084")
+	)
+	(fp_rect
+		(start -3.15 -1.85)
+		(end 3.15 1.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "65642b74-c7c2-4fb4-9b51-0f75993e5a8e")
+	)
+	(fp_line
+		(start -0.4 -1.1)
+		(end 0.4 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1faf91cc-1166-483e-8981-6d33d59c86bc")
+	)
+	(fp_line
+		(start -0.4 1.1)
+		(end 0.4 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "16161b88-30e6-4ac5-8af1-900ad0d1748a")
+	)
+	(fp_rect
+		(start -2.1 -1.6)
+		(end 2.1 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "99cfb5e8-d3ec-451e-a48f-63ad4ce19fcc")
+	)
+	(fp_arc
+		(start -0.4 1.1)
+		(mid -1.5 0)
+		(end -0.4 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5e2b3f75-326f-450e-844f-4d659fac283e")
+	)
+	(fp_arc
+		(start 0.4 -1.1)
+		(mid 1.5 0)
+		(end 0.4 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b1113489-2335-49b2-b993-5374142c6380")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "036fcf7a-bf96-4cb3-80d6-4c112c930476")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.375 -1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "79d34770-366b-47c0-a964-1164fc78c001")
+	)
+	(pad "1" smd roundrect
+		(at 2.375 -1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "87a9c772-b052-46b5-9ab8-592000d5a092")
+	)
+	(pad "2" smd roundrect
+		(at -2.375 1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7ca30976-42a5-4f42-b668-e00a991a3d88")
+	)
+	(pad "2" smd roundrect
+		(at 2.375 1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ec8ef555-3ce4-4aac-8e1b-8c7a938716db")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/cdc-badge.3dshapes/SKRPABE010.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
