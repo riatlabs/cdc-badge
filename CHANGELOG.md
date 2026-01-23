@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.1
+Jan 23, 2026\
+Second mass produced version, sent to JLCPCB.
+
+- Push buttons with larger keycap and better tactile feedback.
+- New front side graphic design: OSHW logo inspired mesh network.
+
 ## v1.0
 Dec 11, 2025\
 Mass produced version, sent to JLCPCB.
