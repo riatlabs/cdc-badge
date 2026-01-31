@@ -16,6 +16,33 @@ Repository contents:
   decisions.
 - [utils](/utils) - Miscellaneous scripts.
 
+## Firmware
+- [cdc-badge-os](https://github.com/krim404/cdc-badge-os) - Fully featured,
+  modular and extensible firmware built with PlatformIO and ESP-IDF. Uses the
+  TROPIC01 to build an hardware-backed key vault with support for FIDO2,
+  TOTP, SSH/GPG keys and regular passwords. Also does badge functionally:
+  nametag and vCard sharing.
+- [cdc-badge-nametag](https://github.com/riatlabs/cdc-badge-nametag) - Simple
+  nametag with frontlight control. Built with PlatformIO.
+- [rugart](https://gitlab.com/roosemberth/rugart) - Standards-compliant PIV
+  smartcard over USB CCID developed in Rust.
+
+In order to safely operate the hardware, firmware developers should take into
+account all the points in the [firmware checklist](/docs/firmware-checklist.md).
+
+The [cdc-badge-qc-firmware](https://github.com/riatlabs/cdc-badge-qc-firmware)
+repo contains test batteries which make sure the hardware is working as
+expected.
+
+### Flashing
+Options:
+1. Via USB.
+2. Via UART. TX and RX are broken out to the Raspberry Pi header on pins 8 and 10.
+   The reset and flash buttons are physically placed near the ESP32.
+
+When flashing a badge for the first time over USB you may need to press the
+classic flash + reset button sequence in order to get it out of a boot loop.
+
 ## Example applications
 - Interactive name tag
 - Social networking games
@@ -49,23 +76,6 @@ pins 29, 31 and 36. The interrupt signal from TROPIC01 is available on pin 37.
 
 This allows an external microcontroller, for instance the Sipeed M1, to display
 graphics on the screen and use the secure element.
-
-## Firmware
-An example can be found at [cdc-badge-nametag](https://github.com/riatlabs/cdc-badge-nametag).
-It can be used as basis for further firmware development.
-
-In order to safely operated the hardware, all the points in the [firmware
-checklist](/docs/firmware-checklist.md) must be taken into account.
-
-The [cdc-badge-qc-firmware](https://github.com/riatlabs/cdc-badge-qc-firmware)
-repo contains test batteries which make sure the hardware is working as
-expected.
-
-### Flashing
-Options:
-1. Via USB.
-2. Via UART. TX and RX are broken out to the Raspberry Pi header on pins 8 and 10.
-   The reset and flash buttons are physically placed near the ESP32.
 
 ### Buttons
 Besides the reset and flash buttons (directly connected to the ESP32) there are
@@ -133,7 +143,6 @@ Please check:
 - the [docs](/docs/) directory;
 - the [KiCad schematics](/cdc-badge/cdc-badge.kicad_sch) (available as PDF in
   the [releases](https://github.com/riatlabs/cdc-badge/releases));
-- the example firmwares: [cdc-badge-qc-firmware](https://github.com/riatlabs/cdc-badge-qc-firmware)
 
 ## Acknowledgments
 We would like to thank:
@@ -141,6 +150,8 @@ We would like to thank:
 * **ceetee**, for all the in-depth reviews, and for making us aware that we are
 guiding electromagnetic waves through the dielectric and not moving water
 through pipes.
+
+* **krim**, for the tireless firmware development.
 
 ## License and authorship
 Copyright © 2025-2026 RIAT Institute
