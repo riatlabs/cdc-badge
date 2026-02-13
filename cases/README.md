@@ -44,7 +44,7 @@ Licensed under [CERN Open Hardware Licence Version 2 - Permissive](../LICENSE).
 ## Button height difference
 The CDC Badge v1.0, the first production version, used [TS-1088-AR02016](https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf)
 tactile push buttons, which were found to be a bit hard to press. v1.1 and later
-replaced them for [ALPS TS114516025 clones](https://www.lcsc.com/product-detail/C22375312.html).
+replaced them for [ALPS TS114516025 clones](https://www.lcsc.com/datasheet/C22375312.pdf).
 These are 0.5 mm taller and thus required adjustments to the cases.
 
 To cater for this height difference you will find the cases available in two
