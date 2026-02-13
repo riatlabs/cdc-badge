@@ -31,6 +31,16 @@ works, but clips can break if you are not careful.
 By [ceetee](https://github.com/its-me-ct).\
 Licensed under [CERN Open Hardware Licence Version 2 - Permissive](../LICENSE).
 
+## header-cap
+A simple protective cover that fits into the Rasp Pi header and keeps the pins
+from rubbing on your clothes when wearing the badge.
+
+Two versions are available: a simple one and a beveled one. Which one fits best
+depends on the particular filament that you print with. Try both versions.
+
+By [bobotronic](https://github.com/bobotronic).\
+Licensed under [CERN Open Hardware Licence Version 2 - Permissive](../LICENSE).
+
 ## Button height difference
 The CDC Badge v1.0, the first production version, used [TS-1088-AR02016](https://snapeda.s3.amazonaws.com/datasheets/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf)
 tactile push buttons, which were found to be a bit hard to press. v1.1 and later
