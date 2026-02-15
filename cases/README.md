@@ -24,6 +24,9 @@ Licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/).
 Back-only case secured by clips. Exposes USB-C and SAO ports. Covers battery,
 Rasp Pi header and Grove connector.
 
+[![front view of ct's case](ct/front-thumb.jpg)](ct/front.jpg)
+[![back view of ct's case](ct/back-thumb.jpg)](ct/back.jpg)
+
 Fit is close, make sure your printer can meet tolerances or add an outer wall
 offset. Printing in PETG is recommended for semi flexible retention clips. PLA
 works, but clips can break if you are not careful.
