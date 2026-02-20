@@ -22,10 +22,12 @@ Repository contents:
   TROPIC01 to build an hardware-backed key vault with support for FIDO2,
   TOTP, SSH/GPG keys and regular passwords. Also does badge functionally:
   nametag and vCard sharing.
-- [cdc-badge-nametag](https://github.com/riatlabs/cdc-badge-nametag) - Simple
-  nametag with frontlight control. Built with PlatformIO.
+- [xmr-cdc-badge](https://codeberg.org/telliandev/xmr-cdc-badge) - A Monero
+  hardware wallet running on the CDC Badge. Built with PlatformIO.
 - [rugart](https://gitlab.com/roosemberth/rugart) - Standards-compliant PIV
   smartcard over USB CCID developed in Rust.
+- [cdc-badge-nametag](https://github.com/riatlabs/cdc-badge-nametag) - Simple
+  nametag with frontlight control. Built with PlatformIO.
 
 In order to safely operate the hardware, firmware developers should take into
 account all the points in the [firmware checklist](/docs/firmware-checklist.md).
