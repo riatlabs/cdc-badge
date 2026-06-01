@@ -24,6 +24,9 @@ Repository contents:
   nametag and vCard sharing.
 - [xmr-cdc-badge](https://codeberg.org/telliandev/xmr-cdc-badge) - A Monero
   hardware wallet running on the CDC Badge. Built with PlatformIO.
+- [cdc-badge-esphome](https://github.com/gretel/cdc-badge-esphome) - Port of
+  [ESPHome](https://esphome.io). Turns the badge into a smart home device
+  connected to [Home Assistant](https://www.home-assistant.io).
 - [rugart](https://gitlab.com/roosemberth/rugart) - Standards-compliant PIV
   smartcard over USB CCID developed in Rust.
 - [cdc-badge-nametag](https://github.com/riatlabs/cdc-badge-nametag) - Simple
