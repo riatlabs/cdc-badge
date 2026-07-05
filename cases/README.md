@@ -17,7 +17,8 @@ Designed for printing with 2 walls with 0.6mm nozzle; 3 walls with 0.4mm nozzle
 should work fine as well.
 
 Links: [https://www.printables.com/model/1543553-cdc-badge-2-part-case](https://www.printables.com/model/1543553-cdc-badge-2-part-casel)\
-By [ari](https://is-a.cat/@ar).\
+Original (for CDC Badge v1.0) by [ari](https://is-a.cat/@ar).\
+Adapted to v1.1 by [bobotronic](https://github.com/bobotronic).\
 Licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/).
 
 ## ct
